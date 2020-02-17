@@ -1,0 +1,34 @@
+ 0  0  0  0  0  0                                : I_CTRL(1:6)
+ 5.00  15.00 2  6  6                             : GMAX GMAXP NTYP NATM NATM2
+ 1     0                                         : NUM_SPACE_GROUP TYPE
+ 12.00 12.00 12.00 90.0 90.0 90.0                : A B C ALPHA BETA GAMMA
+ 1     1     1     1    1    1                   : N1 N2 N3 M1 M2 M3          
+ 1     0                                         : NCORD, NINV
+  1.2627229833  0.0000000000  0.0000000000 1 1 1 : CPS(IT,1:3) IWEI IMDTYP ITYP
+  2.3483288468  1.7534586685  0.0000000000 1 1 2 : CPS(IT,1:3) IWEI IMDTYP ITYP
+  2.3483288468 -1.7534586685  0.0000000000 1 1 2 : CPS(IT,1:3) IWEI IMDTYP ITYP
+ -1.2627229833  0.0000000000  0.0000000000 1 1 1 : CPS(IT,1:3) IWEI IMDTYP ITYP
+ -2.3483288468  1.7534586685  0.0000000000 1 1 2 : CPS(IT,1:3) IWEI IMDTYP ITYP
+ -2.3483288468 -1.7534586685  0.0000000000 1 1 2 : CPS(IT,1:3) IWEI IMDTYP ITYP
+ 6  0.15  12.0107  3    1    0.d0                : IATOMN,ALFA,AMION,ILOC,IVAN ZETA1
+ 1  0.15   1.00794 3    1    0.d0                : IATOMN,ALFA,AMION,ILOC,IVAN ZETA1
+ 0  0  0  0  0                                   : ICOND INIPOS INIVEL ININOS INIACC
+ 0  1                                            : IPRE IPRI
+ 100   200   0     57200.00  0                   : NMD1, NMD2, iter_last, CPUMAX,ifstop
+ 3  1                                            : WAY_MIX MIX_WHAT
+ 0  8  0.8                                       : STARTING MIXING KBXMIX ALPHA 
+ 0.60  0.50  0.60  0.70  1.00                    : DTIM1 DTIM2 DTIM3 DTIM4 DTIM_LAST
+ 300.00      4     1     0.10D-08                : DTIO IMDALG IEXPL EDELTA
+ 0.0010      0.5D-03    0                        : WIDTH FORCCR ISTRESS
+ggapbe       1                                   : XCTYPE NSPIN
+ 1.00                                            : DESTM
+ 102                                             : NBZTYP
+ 0  0  0                                         : NKX, NKY, NKZ 
+ 0  0  0                                         : NKX2,NKY2,NKZ2
+ 10                                              : NEG
+ 1                                               : NEXTST
+ 0                                               : (DUMMY)
+ 2                                               : IMSD
+ 0                                               : EVALUATE_EKO_DIFF
+ 0                                               : NPDOSAO
+ 0  0.0                                          : SM_N DOPPING
