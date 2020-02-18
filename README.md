@@ -6,10 +6,33 @@ the electronic structure method based on density functional theory.
 
 To run STATE, make symbolic links to the STATE executable and pseudopotentials in the working directory, and execute
 
-    mpirun -np 4 ./STATE < input_file > output_file
+    $ mpirun -np 4 ./STATE < input_file > output_file
 
-Example 0. CO
--------------
+or with a queueing system, one may use a job script (say, qsub.sh) like
+
+    #$ -S /bin/sh
+    #$ -cwd
+    #$ -pe fillup 6
+    #$ -N CO
+    #
+    setenv OMP_NUM_THREADS 1
+    #
+    # Execuable of the STATE code
+    ln -fs ${HOME}/STATE/src/state-5.6.6_beta/src/STATE .
+    #
+    # Pseudopotential data
+    ln -fs ${HOME}/STATE/gncpp/pot.C_pbe1 fort.37
+    ln -fs ${HOME}/STATE/gncpp/pot.O_pbe1 fort.38
+    # 
+    # Run!
+    mpirun -np $NSLOTS ./STATE < nfinp_1 > nfout_1
+
+and submit
+
+    $ qsub qsub.sh
+
+0. CO
+-----
 This example shows how to get started with STATE.
 
 1. Si
