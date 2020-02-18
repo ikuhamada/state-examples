@@ -1,6 +1,4 @@
-==============
-STATE examples
-==============
+# STATE examples
 
 Input examples for STATE, a plane-wave pseudopotential implementation of
 the electronic structure method based on density functional theory.
@@ -32,30 +30,23 @@ and submit
 
     $ qsub qsub.sh
 
-Examples
-========
+## Examples
 
-0. CO
------
+### 0. CO
 This example shows how to get started with STATE.
 
-1. Si
------
+### 1. Si
 This example explains how to perform the self-consistent field (SCF) calculation and cell optimization of a crystalline solid.
 
-2. Al
------
+### 2. Al
 This example explains how to perform the SCF calculation of a metallic system using the smearing technique.
 
-3. Ni
------
+### 3. Ni
 This example explains how to perform the SCF calculation of a spin polarized system.
 
-4. C2H4
--------
+### 4. C2H4
 This example explains how to perform the structural optimization and vibrational mode analysis by using a molecular system.
 A finite molecular dynamics simulation is also performed.
 
-5. ClonAl100
-------------
+### 5. ClonAl100
 This example explains how to model an adsorbate on a surface by using a Cl atom on Al(100).
