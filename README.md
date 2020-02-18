@@ -27,7 +27,8 @@ This example explains how to perform the SCF calculation of a spin polarized sys
 4. C2H4
 -------
 This example explains how to perform the structural optimization and vibrational mode analysis by using a molecular system.
+A finite molecular dynamics simulation is also performed.
 
 5. ClonAl100
 ------------
-This example explains how to model an adsorbate on a surface by using Cl atom on Al(100).
+This example explains how to model an adsorbate on a surface by using a Cl atom on Al(100).
