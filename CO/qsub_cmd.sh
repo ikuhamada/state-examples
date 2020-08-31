@@ -6,7 +6,7 @@
 setenv OMP_NUM_THREADS 1
 #
 # Execuable of the STATE code
-ln -fs ${HOME}/STATE/src/state-5.6.6_beta/src/STATE .
+ln -fs ${HOME}/STATE/src/state/src/STATE .
 #
 # Pseudopotential data
 ln -fs ${HOME}/STATE/gncpp/pot.C_pbe1 fort.37
