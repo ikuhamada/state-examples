@@ -13,4 +13,4 @@ ln -fs ${HOME}/STATE/gncpp/pot.C_pbe1 fort.37
 ln -fs ${HOME}/STATE/gncpp/pot.O_pbe1 fort.38
 #
 # Run!
-mpirun -np $NSLOTS ./STATE < nfinp_1 > nfout_1
+mpirun -np $NSLOTS ./STATE < nfinp_scf > nfout_scf
