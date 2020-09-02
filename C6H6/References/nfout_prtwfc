@@ -1,0 +1,331 @@
+ 
+ ***********************************************************************
+ *                                                                     *
+ *                                                                     *
+ *                                                                     *
+ *              ******  ********    **    ******** ********            *
+ *             ******** ********   ****   ******** ********            *
+ *             **          **     **  **     **    **                  *
+ *              ***        **    ********    **    ******              *
+ *                ***      **   **********   **    ******              *
+ *                  **     **  **        **  **    **                  *
+ *             ********    ** **          ** **    ********            *
+ *              ******     ** VERSION 5.6.6  **    ********            *
+ *                               RICS-AIST                             *
+ *                           OSAKA UNIVERSITY                          *
+ *                                                                     *
+ ***********************************************************************
+ 
+ PROGRAM STATE STARTED AT: Sep  2 21:41:17 2020
+
+ THIS JOB RUNS ON           :r4i6n18                         
+ THE CURRENT DIRECTORY IS   :/home/ikutaro/STATE/work/C6H6           
+ THE PROCESS ID IS          :     31050
+ THE JOB WAS SUBMITTED BY   :ikutaro   
+ THE NUMBER OF PROCESSORS   :    48
+ THE NUMBER OF THREADS      :     1
+
+ GEOMETRY OPTIMIZATION BY QUENCHED MOLECULAR DYNAMICS 
+
+
+ CALCULATION OF THE WAVE FUNCTIONS IN REAL SPACE 
+
+ IONIC POSITIONS READ FROM STANDARD INPUT 
+ IONIC VELOCITIES INITIALIZED 
+ MAXIMUM SCF ITERATIONS :    200
+ MAXIMUM MD STEPS :    200
+ MAXIMUM ELAPSED CPU TIME :  86400.00 SEC
+ TIME INCREMENT IN MOLECULAR DYNAMICS :     50.00 A.U.
+ ENERGY CRITERION FOR SCF ITERATIONS :  0.100000E-08 HA/ATOM
+ FORCE CRITERION FOR GEOMETRY OPTIMIZATOIN :  0.100000E+03 HA/BOHR
+
+ EXCHANGE CORRELATION FUNCTIONALS : ggapbe
+ SPIN POLARIZATION NOT ALLOWED 
+ NUMBER OF BANDS CONSIDERED :       24
+ DAVIDSON METHOD WITH G-SPACE TECHNIQUE 
+ BLUGEL MIXING PARAMETERS 
+   MIXING OBJECT : CHARGE 
+   MIXING INFORMATION RESET AFTER   20 STEPS
+   MIXING PARAMETER :  0.800
+
+ ********************************** TYPE *******************************
+ TYPE  NAME  INITIAL CHARGE   MASS(AMU)     PP TYPE  ILOC   INITIAL SPIN
+    1     C          0.1500     12.0107   UltraSoft     3         0.0000
+    2     H          0.1500      1.0079   UltraSoft     3         0.0000
+ ***********************************************************************
+
+ ********************************* ATOMS *******************************
+   ATOM    X(BOHR)    Y(BOHR)    Z(BOHR)     TAUX    TAUY    TAUZ IW  IR
+   1  1    0.00000    2.65076    0.00000   0.0000  0.1767  0.0000  1   0
+   2  2    0.00000    4.70597    0.00000   0.0000  0.3137  0.0000  1   0
+   3  1   -2.29562    1.32538    0.00000  -0.1530  0.0884  0.0000  1   0
+   4  2   -4.07550    2.35299    0.00000  -0.2717  0.1569  0.0000  1   0
+   5  1   -2.29562   -1.32538    0.00000  -0.1530 -0.0884  0.0000  1   0
+   6  2   -4.07550   -2.35299    0.00000  -0.2717 -0.1569  0.0000  1   0
+   7  1    0.00000   -2.65076    0.00000   0.0000 -0.1767  0.0000  1   0
+   8  2    0.00000   -4.70597    0.00000   0.0000 -0.3137  0.0000  1   0
+   9  1    2.29562   -1.32538    0.00000   0.1530 -0.0884  0.0000  1   0
+  10  2    4.07550   -2.35299    0.00000   0.2717 -0.1569  0.0000  1   0
+  11  1    2.29562    1.32538    0.00000   0.1530  0.0884  0.0000  1   0
+  12  2    4.07550    2.35299    0.00000   0.2717  0.1569  0.0000  1   0
+ ***********************************************************************
+
+ ******************************** K-POINTS *****************************
+ BRAVIAS LATTICE         :        SIMPLE              
+ SPACE GROUP             :        P 1       
+ INVERSION SYMMETRY      :        NO 
+ CONV. LAT. VECTOR(BOHR) :       15.000000       0.000000       0.000000
+ CONV. LAT. VECTOR(BOHR) :        0.000000      15.000000       0.000000
+ CONV. LAT. VECTOR(BOHR) :        0.000000       0.000000      15.000000
+ PRIM. LAT. VECTOR(BOHR) :       15.000000       0.000000       0.000000
+ PRIM. LAT. VECTOR(BOHR) :        0.000000      15.000000       0.000000
+ PRIM. LAT. VECTOR(BOHR) :        0.000000       0.000000      15.000000
+ PRIM. CELL VOLUME       :    0.337500E+04
+ PRIM. REC. VECTOR(1/BOHR) :      0.418879       0.000000       0.000000
+ PRIM. REC. VECTOR(1/BOHR) :      0.000000       0.418879       0.000000
+ PRIM. REC. VECTOR(1/BOHR) :      0.000000       0.000000       0.418879
+ REC. PRIM. CELL VOLUME    :  0.734964E-01
+ ENERGY CUTOFF FOR SOFT MODE(RY) :  25.000
+ ENERGY CUTOFF FOR HARD MODE(RY) : 225.000
+ NUMBER OF K-POINT MESH  :               1              1              1
+ K-POINT SHIFT           :             OFF            OFF            OFF
+ NUMBER OF K-POINTS      :               1
+        NKP            WKP              KX             KY             KZ
+          1       1.000000        0.000000       0.000000       0.000000
+ ***********************************************************************
+ *I* TOTAL NUMBER OF DEGREES OF FREEDOM :    33
+     
+ NEIBRD =       1331
+ KNX  KNY  KNZ  =     24    24    24
+ KNXP KNYP KNZP =     36    36    36
+ KID  KNX  KNY  KNZ  KNL  KNM  KNN  =   49   24   24   24   48   48   48
+ KIDP KNXP KNYP KNZP KNLP KNMP KNNP =   73   36   36   36   72   72   72
+ NUMBER OF GENERATED VECTORS KNG,KNGP =     57051    192167
+ KFFT KFFTP =     225792    756864
+ IOPT IOPTP =          1         0
+
+ ************************* SYMMETRY OPERATION **************************
+                   Rc              tc               Rp             tp
+         1.0000  0.0000  0.0000  0.0000   1.0000  0.0000  0.0000  0.0000
+ nr.  1  0.0000  1.0000  0.0000  0.0000   0.0000  1.0000  0.0000  0.0000
+         0.0000  0.0000  1.0000  0.0000   0.0000  0.0000  1.0000  0.0000
+ ***********************************************************************
+  
+           ===================================================
+           ===       MPI PARALLELIZATION INFORMATION       ===
+           ===================================================
+           === TOTAL NUMBER OF K-POINTS          :       1 ===
+           === K-POINT DIVISOR                   :       1 ===
+           === TOTAL NUMBER OF BANDS             :      24 ===
+           === BAND DIVISOR                      :      24 ===
+           === TOTAL NUMBER OF G-VECTORS         :    7123 ===
+           === G-VECTOR DIVISOR                  :       2 ===
+           ===================================================
+
+ ***********************************************************************
+                               ALLOCATION 
+ ***********************************************************************
+  NCPU  KNGP_FFT      KNGP       KNG     KNG1      KEG     KATM    KATM2
+     0      4025      4003      1188      149        1        0        0
+     1      4017      4003      1188      149        1        0        0
+     2      4009      4003      1188      149        1        0        0
+     3      3993      4003      1188      149        1        0        0
+     4      3985      4003      1188      149        1        0        0
+     5      3953      4003      1188      149        1        0        0
+     6      3909      4003      1188      149        1        0        0
+     7      3877      4003      1188      149        1        0        0
+     8      3817      4003      1188      149        1        0        0
+     9      3769      4003      1188      149        1        0        0
+    10      3713      4003      1188      149        1        0        0
+    11      3657      4003      1188      149        1        0        0
+    12      3577      4003      1188      149        1        0        0
+    13      3505      4003      1188      149        1        0        0
+    14      3397      4003      1188      149        1        0        0
+    15      3313      4003      1188      149        1        0        0
+    16      3233      4003      1188      149        1        0        0
+    17      3125      4003      1188      149        1        0        0
+    18      2997      4003      1188      148        1        0        0
+    19      2885      4003      1188      149        1        0        0
+    20      2769      4003      1188      148        1        0        0
+    21      2629      4003      1189      148        1        0        0
+    22      2509      4003      1189      148        1        0        0
+    23      2361      4003      1189      148        1        0        0
+    24      4302      4003      1189      148        1        0        0
+    25      3642      4004      1189      148        1        0        0
+    26      2938      4004      1189      148        1        0        0
+    27      2206      4004      1189      148        1        0        0
+    28      1406      4004      1189      148        1        0        0
+    29       578      4004      1189      148        1        0        0
+    30       177      4004      1189      148        1        0        0
+    31      1002      4004      1189      148        1        0        0
+    32      1810      4004      1189      148        1        0        0
+    33      2574      4004      1189      148        1        0        0
+    34      3306      4004      1189      148        1        0        0
+    35      3978      4004      1189      148        1        0        0
+    36      4586      4004      1189      148        1        1        1
+    37      5138      4004      1189      148        1        1        1
+    38      5654      4004      1189      148        1        1        1
+    39      6122      4004      1189      148        1        1        1
+    40      6546      4004      1189      148        1        1        1
+    41      6902      4004      1189      148        1        1        1
+    42      7234      4004      1189      148        1        1        1
+    43      7482      4004      1189      148        1        1        1
+    44      7694      4004      1189      148        1        1        1
+    45      7862      4004      1189      148        1        1        1
+    46      7978      4004      1189      148        1        1        1
+    47      8026      4004      1189      148        1        1        1
+ -----------------------------------------------------------------------
+  NCPU    KFFTPM     KFFTP    KFFTP2     KFFT    KMESH     KNMP     KNNP
+     0     10512     15768      7884     4704       31        1        1
+     1     10512     15768      7884     4704       31        1        1
+     2     10512     15768      7884     4704       31        1        1
+     3     10512     15768      7884     4704       31        1        1
+     4     10512     15768      7884     4704       31        1        1
+     5     10512     15768      7884     4704       31        1        1
+     6     10512     15768      7884     4704       31        1        1
+     7     10512     15768      7884     4704       31        1        1
+     8     10512     15768      7884     4704       31        1        1
+     9     10512     15768      7884     4704       31        1        1
+    10     10512     15768      7884     4704       31        1        1
+    11     10512     15768      7884     4704       31        1        1
+    12     10512     15768      7884     4704       31        1        1
+    13     10512     15768      7884     4704       31        1        1
+    14     10512     15768      7884     4704       31        1        1
+    15     10512     15768      7884     4704       31        1        1
+    16     10512     15768      7884     4704       31        1        1
+    17     10512     15768      7884     4704       31        1        1
+    18     10512     15768      7884     4704       31        1        1
+    19     10512     15768      7884     4704       31        1        1
+    20     10512     15768      7884     4704       31        1        1
+    21     10512     15768      7884     4704       31        1        1
+    22     10512     15768      7884     4704       31        1        1
+    23     10512     15768      7884     4704       31        1        1
+    24     21024     15768      7884     4704       31        2        2
+    25     21024     15768      7884     4704       31        2        2
+    26     21024     15768      7884     4704       31        2        2
+    27     21024     15768      7884     4704       31        2        2
+    28     21024     15768      7884     4704       31        2        2
+    29     21024     15768      7884     4704       31        2        2
+    30     21024     15768      7884     4704       31        2        2
+    31     21024     15768      7884     4704       31        2        2
+    32     21024     15768      7884     4704       31        2        2
+    33     21024     15768      7884     4704       31        2        2
+    34     21024     15768      7884     4704       31        2        2
+    35     21024     15768      7884     4704       32        2        2
+    36     21024     15768      7884     4704       32        2        2
+    37     21024     15768      7884     4704       32        2        2
+    38     21024     15768      7884     4704       32        2        2
+    39     21024     15768      7884     4704       32        2        2
+    40     21024     15768      7884     4704       32        2        2
+    41     21024     15768      7884     4704       32        2        2
+    42     21024     15768      7884     4704       32        2        2
+    43     21024     15768      7884     4704       32        2        2
+    44     21024     15768      7884     4704       32        2        2
+    45     21024     15768      7884     4704       32        2        2
+    46     21024     15768      7884     4704       32        2        2
+    47     21024     15768      7884     4704       32        2        2
+ ***********************************************************************
+                            END OF ALLOCATION 
+ ***********************************************************************
+
+ ********   <<  Reading Potential >>  ******** 
+ F_POT(01) = pot.C_pbe3
+  6.0000  4.0000  3      1          : NATOMN IVAL ILOC ITPCC
+ ggapbe                             : XCTYPE
+  9.2800  3.6900  1.5222 -0.5222    : ALP CC
+ 1501    96.0000 60.0000            : NMESH XH RMAX
+ VALL is read from file 37
+    1   1   0                       : IL ITAU(IL1) IVAN(IL1)
+    2   2   1                       : IL ITAU(IL1) IVAN(IL1)
+    3   1   0                       : IL ITAU(IL1) IVAN(IL1)
+    1   1   1   2   1   2  1109   9 : MM L1 T1 L2 T2 L3 NRC MORD
+    2   1   1   2   2   2  1109   9 : MM L1 T1 L2 T2 L3 NRC MORD
+    3   2   1   2   1   1  1123   9 : MM L1 T1 L2 T2 L3 NRC MORD
+    4   2   1   2   1   3  1123   9 : MM L1 T1 L2 T2 L3 NRC MORD
+    5   2   1   2   2   1  1123   9 : MM L1 T1 L2 T2 L3 NRC MORD
+    6   2   1   2   2   3  1123   9 : MM L1 T1 L2 T2 L3 NRC MORD
+    7   2   2   2   2   1  1123   9 : MM L1 T1 L2 T2 L3 NRC MORD
+    8   2   2   2   2   3  1123   9 : MM L1 T1 L2 T2 L3 NRC MORD
+ CHGPC  =   0.17839232
+ F_POT(02) = pot.H_lda3
+  1.0000  1.0000  3      0          : NATOMN IVAL ILOC ITPCC
+ ldapw91                            : XCTYPE
+ 16.2200  5.5500  1.1924 -0.1924    : ALP CC
+ 1501    96.0000 60.0000            : NMESH XH RMAX
+ VALL is read from file 37
+    1   2   1                       : IL ITAU(IL1) IVAN(IL1)
+    2   1   0                       : IL ITAU(IL1) IVAN(IL1)
+    3   1   0                       : IL ITAU(IL1) IVAN(IL1)
+    1   1   1   1   1   1  1087   9 : MM L1 T1 L2 T2 L3 NRC MORD
+    2   1   1   1   2   1  1087   9 : MM L1 T1 L2 T2 L3 NRC MORD
+    3   1   1   2   1   2  1087   9 : MM L1 T1 L2 T2 L3 NRC MORD
+    4   1   2   1   2   1  1087   9 : MM L1 T1 L2 T2 L3 NRC MORD
+    5   1   2   2   1   2  1087   9 : MM L1 T1 L2 T2 L3 NRC MORD
+ TOTAL ENERGY CORRECTION FROM PS     =     0.4577804526D-02
+ TOTAL PARTIAL CHARGE         SCHGPC =         1.0703539463
+ TOTAL LOCALIZED CHARGE (QLCTOT)     =         0.0000000000
+ KQITG MMT       =    13   13
+ NUMBER OF BANDS SHOULD BE GREATER THAN 15
+ KLMT NLMT       =     7    7
+ KLMTT MAX. LMTT =    12   12
+ KLMTA MAX. LMTA =    72   72
+ NAC   =  120
+ TOTCH =      30.000000000000
+
+                             <<< WFNFFT >>>
+
+WFNFFT: IK=     1 IBS=    14 IBE=    17
+
+WFNFFT: CREATING nfwfn_kpt0001_band0014_re.xsf
+WFNFFT: CREATING nfwfn_kpt0001_band0014_im.xsf
+WFNFFT: CREATING nfwfn_kpt0001_band0015_re.xsf
+WFNFFT: CREATING nfwfn_kpt0001_band0015_im.xsf
+WFNFFT: CREATING nfwfn_kpt0001_band0016_re.xsf
+WFNFFT: CREATING nfwfn_kpt0001_band0016_im.xsf
+WFNFFT: CREATING nfwfn_kpt0001_band0017_re.xsf
+WFNFFT: CREATING nfwfn_kpt0001_band0017_im.xsf
+
+WFNFFT: EXITING
+
+ ***********************************************************************
+ *                                                                     *
+ *                               TIMING                                *
+ *                                                                     *
+ ***********************************************************************
+      SUBROUTINE        CALLS        TOTAL CPU TIME           <CPU TIME>
+         FFT_SET            1                6.6813               6.6813
+    init_chg_zaj            1                0.3715               0.3715
+          Wfnfft            1                0.2900               0.2900
+           pspot            1                0.2455               0.2455
+           psloc            2                0.0811               0.0405
+           gstep            1                0.0593               0.0593
+     reading_pot            1                0.0414               0.0414
+    reading_wave            1                0.0391               0.0391
+ ***********************************************************************
+
+ =======================================================================
+ TASK                   CALLS        TOTAL CPU TIME           <CPU TIME>
+  
+ ALLREDUCE                 10                0.0077               0.0008
+ ALLREDUCE_KB               3                0.0000               0.0000
+ ALLGATHERV                 9                0.0043               0.0005
+ SCATTV                     2                0.0006               0.0003
+ TOTAL TIME FOR COMMUNICATION                0.0126
+ =======================================================================
+
+ TOTAL CPU TIME:  00 HOURS 00 MINUTES  8.04 SECONDS
+
+ PROGRAM STATE ENDED AT: Sep  2 21:41:25 2020
+  
+ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+                           _______________________
+     __________   _______/______v______v______v___]
+    D          | |                                 |
+    D   A A    | | Congratulations!                |  C( > < )D
+  --  =(^.^)=  | |  The calculation has converged. |    = o =
+ |     @@@@@   | |                                 |    (    )~
+ /--=O=-+-=O=---+--=O=--+--==O==--+--==O==--+--=O=-+--=O=---=O=-/
+  
+ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH

@@ -1,0 +1,41 @@
+#
+# Benzene molecule in a box
+#
+TASK   PRTWFC
+WF_OPT DAV
+NTYP   2
+NATM   12
+TYPE   0
+GMAX    5.00
+GMAXP  15.00
+MIX_ALPHA 0.8
+WIDTH   0.0010
+EDELTA  0.1000D-08
+NEG     24
+CELL   15.00  15.00  15.00  90.00  90.00  90.00
+&ATOMIC_SPECIES
+ C  12.0107  pot.C_pbe3
+ H   1.0079  pot.H_lda3
+&END
+&ATOMIC_COORDINATES XYZ
+12
+benzene example from https://openbabel.org/wiki/XYZ_(format)
+  C        0.00000        1.40272        0.00000
+  H        0.00000        2.49029        0.00000
+  C       -1.21479        0.70136        0.00000
+  H       -2.15666        1.24515        0.00000
+  C       -1.21479       -0.70136        0.00000
+  H       -2.15666       -1.24515        0.00000
+  C        0.00000       -1.40272        0.00000
+  H        0.00000       -2.49029        0.00000
+  C        1.21479       -0.70136        0.00000
+  H        2.15666       -1.24515        0.00000
+  C        1.21479        0.70136        0.00000
+  H        2.15666        1.24515        0.00000
+&END
+&PLOT
+ IKPT 1
+ IBS  14  
+ IBE  17
+ FORMAT XSF
+&END

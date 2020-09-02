@@ -53,3 +53,6 @@ This example explains how to model an adsorbate on a surface by using a Cl atom 
 
 ### 6. GR
 This example explains how to optimize the lattice constant, calculate the band structure, and (projected) density of states of a free-standing graphene.
+
+### 7. C6H6
+This example explains how to perform the SCF calculation of molecular system and plot the wave functions (molecular orbitals) in real space. This also show that the atomic coordinate can be given in the XYZ format.
