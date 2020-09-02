@@ -50,3 +50,6 @@ A finite molecular dynamics simulation is also performed.
 
 ### 5. ClonAl100
 This example explains how to model an adsorbate on a surface by using a Cl atom on Al(100).
+
+### 6. GR
+This example explains how to optimize the lattice constant, calculate the band structure, and (projected) density of states of a free-standing graphene.
