@@ -56,3 +56,6 @@ This example explains how to optimize the lattice constant, calculate the band s
 
 ### 7. C6H6
 This example explains how to perform the SCF calculation of molecular system and plot the wave functions (molecular orbitals) in real space. This also show that the atomic coordinate can be given in the XYZ format.
+
+### 8. TiO2
+This example shows how to perform a DFT+U calculation by using rutile (TiO2).
