@@ -20,8 +20,8 @@ or with a queueing system, one may use a job script (say, qsub.sh) like
     ln -fs ${HOME}/STATE/src/state-5.6.6_beta/src/STATE .
     #
     # Pseudopotential data
-    ln -fs ${HOME}/STATE/gncpp/pot.C_pbe1 fort.37
-    ln -fs ${HOME}/STATE/gncpp/pot.O_pbe1 fort.38
+    ln -fs ${HOME}/STATE/gncpp/pot.C_pbe1
+    ln -fs ${HOME}/STATE/gncpp/pot.O_pbe1
     # 
     # Run!
     mpirun -np $NSLOTS ./STATE < nfinp_1 > nfout_1
