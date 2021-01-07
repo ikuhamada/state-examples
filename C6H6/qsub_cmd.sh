@@ -10,8 +10,8 @@ setenv OMP_NUM_THREADS 1
 ln -fs ${HOME}/STATE/src/state/src/STATE .
 
 # pseudopotential data
-ln -fs ${HOME}/STATE/gncpp/pot.C_pbe3
-ln -fs ${HOME}/STATE/gncpp/pot.H_lda3
+ln -fs ../gncpp/pot.C_pbe3
+ln -fs ../gncpp/pot.H_lda3
  
 # launch STATE
 mpirun -np $NSLOTS ./STATE < nfinp_scf > nfout_scf

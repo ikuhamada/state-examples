@@ -10,7 +10,7 @@ setenv OMP_NUM_THREADS 1
 ln -fs ${HOME}/STATE/src/state/src/STATE .
 
 # pseudopotential data
-ln -fs ${HOME}/STATE/gncpp/pot.C_pbe3
+ln -fs ../../gncpp/pot.C_pbe3
  
 # List of the lattice constant a
 A_LIST='4.54 4.56 4.58 4.60 4.62 4.64 4.66 4.68 4.70 4.72 4.74'

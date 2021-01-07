@@ -10,7 +10,7 @@ setenv OMP_NUM_THREADS 1
 ln -fs ${HOME}/STATE/src/state/src/STATE .
 
 # pseudopotential data
-ln -fs ${HOME}/STATE/gncpp/pot.C_pbe3
+ln -fs ../../gncpp/pot.C_pbe3
  
 # List of the tasks
 JOB_LIST='scf'

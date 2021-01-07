@@ -18,8 +18,8 @@ module load intel-mpi/2018.4.274
 
 ln -fs $HOME/STATE/src/state/src/STATE
 
-ln -fs $HOME/STATE/gncpp/pot.Al_pbe1 
-ln -fs $HOME/STATE/gncpp/pot.Cl_pbe1
+ln -fs ../gncpp/pot.Al_pbe1 
+ln -fs ../gncpp/pot.Cl_pbe1
 
 mpijob ./STATE < nfinp_gdiis_pbc > nfout_gdiis_pbc
 

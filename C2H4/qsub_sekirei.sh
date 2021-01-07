@@ -18,8 +18,8 @@ module load intel-mpi/2018.4.274
 
 ln -fs $HOME/STATE/src/state/src/STATE
 
-ln -fs $HOME/STATE/gncpp/pot.C_pbe3 
-ln -fs $HOME/STATE/gncpp/pot.H_lda3 
+ln -fs ../gncpp/pot.C_pbe3 
+ln -fs ../gncpp/pot.H_lda3 
 
 mpijob ./STATE < nfinp_vib > nfout_vib
 
