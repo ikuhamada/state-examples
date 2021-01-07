@@ -23,7 +23,7 @@ mkdir -p STATE/src
 #
 cd STATE
 #
-cd src; ln -s $SRC_DIR; cd ..
+cd src; ln -s $SRC_DIR state; cd ..
 #
 # 2. GNCPP directory
 # ------------------
