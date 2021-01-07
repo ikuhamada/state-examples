@@ -14,10 +14,10 @@ ln -fs ../gncpp/pot.C_pbe3
 ln -fs ../gncpp/pot.H_lda3
 
 # input file
-NFINP=nfinp_gdiis
+NFINP=nfinp_vib
 
 # output file
-NFOUT=nfout_gdiis
+NFOUT=nfout_vib
  
 # launch STATE
 mpirun -np $NSLOTS ./STATE < ${NFINP} > ${NFOUT}
