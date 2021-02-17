@@ -5,7 +5,8 @@
 # 0. Source directory and its version
 # -----------------------------------
 #
-VERSION='5.6.6'
+VERSION=''
+#VERSION='5.6.8'
 if [ -z ${VERSION} ];
 then
 STATE_SRC='state'
