@@ -16,10 +16,10 @@ or with a queueing system, one may use a job script (say, qsub.sh) like
     #
     setenv OMP_NUM_THREADS 1
     #
-    # Execuable of the STATE code
-    ln -fs ${HOME}/STATE/src/state-5.6.6/src/STATE .
+    # Set the execuable of the STATE code
+    ln -fs ${HOME}/STATE/src/state/src/STATE .
     #
-    # Pseudopotential data
+    # Set the Pseudopotential data
     ln -fs ${HOME}/STATE/gncpp/pot.C_pbe1
     ln -fs ${HOME}/STATE/gncpp/pot.O_pbe1
     # 
