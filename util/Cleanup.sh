@@ -4,5 +4,13 @@ rm -f zaj.data potential.data restart.data nfstop.data nfconstranint.data gdiis.
 
 rm -f nfinp_tmp.data
 
-rm -f STATE fort.* pot.*
+rm -f STATE fort.* 
+
+for p in pot.*
+do
+if [ -L ${p} ];
+then
+  rm -f ${p}
+fi
+done
 

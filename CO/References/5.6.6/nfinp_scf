@@ -1,0 +1,24 @@
+#
+# CO molecule in a box
+#
+WF_OPT    DAV
+NTYP      2
+NATM      2
+GMAX      5.50
+GMAXP     20.00
+NSCF      200
+WAYMIX    3
+KBXMIX    8
+MIX_ALPHA 0.8
+WIDTH     0.0010
+EDELTA    0.1000D-09
+NEG       8
+CELL      6.00  4.00  4.00  90.00  90.00  90.00
+&ATOMIC_SPECIES
+ C  12.011  pot.C_pbe1
+ O  15.999  pot.O_pbe1
+&END
+&ATOMIC_COORDINATES CARTESIAN
+  0.0000  0.0000  0.0000  1  1  1
+  2.2000  0.0000  0.0000  1  1  2
+&END
