@@ -47,6 +47,15 @@ This example explains how to perform the SCF calculation of a metallic system us
 ### Ni
 This example explains how to perform the SCF calculation of a spin polarized system.
 
+### H2
+This example explains how to perform the structural optimization and vibrational mode analysis by using a molecular system.
+
+### H2O
+This example explains how to perform the structural optimization and vibrational mode analysis by using a molecular system.
+
+### HCOOH
+Yet another example of a molecular system.
+
 ### C2H4
 This example explains how to perform the structural optimization and vibrational mode analysis by using a molecular system.
 A finite molecular dynamics simulation is also performed.
