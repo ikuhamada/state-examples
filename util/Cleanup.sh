@@ -6,11 +6,12 @@ rm -f nfinp_tmp.data
 
 rm -f STATE fort.* 
 
-for p in pot.*
+for f in pot.*
 do
-if [ -L ${p} ];
-then
-  rm -f ${p}
-fi
+  if [ -L ${f} ];
+  then
+    rm ${f}
+  fi
 done
 
+rm -f slurm*.out

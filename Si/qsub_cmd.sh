@@ -3,14 +3,23 @@
 #$ -pe fillup 6
 #$ -N Si
 
-#disable OPENMP parallelism
+# Disable OPENMP parallelism
+
 setenv OMP_NUM_THREADS 1
 
-# execuable of the STATE code
+# Set the execuable of the STATE code
 ln -fs ${HOME}/STATE/src/state/src/STATE .
 
-# pseudopotential data
+# Set the pseudopotential data
+
 ln -fs ../gncpp/pot.Si_pbe1
  
-# launch STATE
-mpirun -np $NSLOTS ./STATE < nfinp_scf > nfout_scf
+# Set the input/output file
+
+INPUT_FILE=nfinp_scf
+OUTPUT_FILE=nfout_scf
+
+# Run!
+
+mpirun -np $NSLOTS ./STATE < ${INPUT_FILE} > ${OUTPUT_FILE}
+

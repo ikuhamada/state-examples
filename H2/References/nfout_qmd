@@ -1,0 +1,1028 @@
+ 
+ ***********************************************************************
+ *                                                                     *
+ *                                                                     *
+ *                                                                     *
+ *              ******  ********    **    ******** ********            *
+ *             ******** ********   ****   ******** ********            *
+ *             **          **     **  **     **    **                  *
+ *              ***        **    ********    **    ******              *
+ *                ***      **   **********   **    ******              *
+ *                  **     **  **        **  **    **                  *
+ *             ********    ** **          ** **    ********            *
+ *              ******     ** VERSION 5.6.8  **    ********            *
+ *                               RICS-AIST                             *
+ *                           OSAKA UNIVERSITY                          *
+ *                                                                     *
+ ***********************************************************************
+ 
+ PROGRAM STATE STARTED AT: Feb 18 23:53:54 2021
+
+ THIS JOB RUNS ON           :c15u01n1                        
+ THE CURRENT DIRECTORY IS   :/home/k0472/k047203/STATE/examples/state
+ THE PROCESS ID IS          :   2065073
+ THE JOB WAS SUBMITTED BY   :k047203   
+ THE NUMBER OF PROCESSORS   :     4
+ THE NUMBER OF THREADS      :     1
+
+ GEOMETRY OPTIMIZATION BY QUENCHED MOLECULAR DYNAMICS 
+
+ ELECTRONIC WAVEFUNCTIONS INITIALIZED 
+ ELECTRONIC CHARGE INITIALIZED 
+ IONIC POSITIONS READ FROM STANDARD INPUT 
+ IONIC VELOCITIES INITIALIZED 
+ MAXIMUM SCF ITERATIONS :    200
+ MAXIMUM MD STEPS :    200
+ MAXIMUM ELAPSED CPU TIME :  86400.00 SEC
+ TIME INCREMENT IN MOLECULAR DYNAMICS :     10.00 A.U.
+ ENERGY CRITERION FOR SCF ITERATIONS :  0.100000E-09 HA/ATOM
+ FORCE CRITERION FOR GEOMETRY OPTIMIZATOIN :  0.500000E-03 HA/BOHR
+
+ EXCHANGE CORRELATION FUNCTIONALS : ggapbe
+ SPIN POLARIZATION NOT ALLOWED 
+ NUMBER OF BANDS CONSIDERED :        2
+ DAVIDSON METHOD WITH G-SPACE TECHNIQUE 
+ BLUGEL MIXING PARAMETERS 
+   MIXING OBJECT : CHARGE 
+   MIXING INFORMATION RESET AFTER   20 STEPS
+   MIXING PARAMETER :  0.700
+
+ ********************************** TYPE *******************************
+ TYPE  NAME  INITIAL CHARGE   MASS(AMU)     PP TYPE  ILOC   INITIAL SPIN
+    1     H          0.1500      2.0000   UltraSoft     3         0.0000
+ ***********************************************************************
+
+ ********************************* ATOMS *******************************
+   ATOM    X(BOHR)    Y(BOHR)    Z(BOHR)     TAUX    TAUY    TAUZ IW  IR
+   1  1   -0.69920    0.00000    0.00000  -0.0699  0.0000  0.0000  1   0
+   2  1    0.69920    0.00000    0.00000   0.0699  0.0000  0.0000  1   0
+ ***********************************************************************
+
+ ******************************** K-POINTS *****************************
+ BRAVIAS LATTICE         :        SIMPLE              
+ SPACE GROUP             :        P 1       
+ INVERSION SYMMETRY      :        NO 
+ CONV. LAT. VECTOR(BOHR) :       10.000000       0.000000       0.000000
+ CONV. LAT. VECTOR(BOHR) :        0.000000      10.000000       0.000000
+ CONV. LAT. VECTOR(BOHR) :        0.000000       0.000000      10.000000
+ PRIM. LAT. VECTOR(BOHR) :       10.000000       0.000000       0.000000
+ PRIM. LAT. VECTOR(BOHR) :        0.000000      10.000000       0.000000
+ PRIM. LAT. VECTOR(BOHR) :        0.000000       0.000000      10.000000
+ PRIM. CELL VOLUME       :    0.100000E+04
+ PRIM. REC. VECTOR(1/BOHR) :      0.628319       0.000000       0.000000
+ PRIM. REC. VECTOR(1/BOHR) :      0.000000       0.628319       0.000000
+ PRIM. REC. VECTOR(1/BOHR) :      0.000000       0.000000       0.628319
+ REC. PRIM. CELL VOLUME    :  0.248050E+00
+ ENERGY CUTOFF FOR SOFT MODE(RY) :  36.000
+ ENERGY CUTOFF FOR HARD MODE(RY) : 400.000
+ NUMBER OF K-POINT MESH  :               1              1              1
+ K-POINT SHIFT           :             OFF            OFF            OFF
+ NUMBER OF K-POINTS      :               1
+        NKP            WKP              KX             KY             KZ
+          1       1.000000        0.000000       0.000000       0.000000
+ ***********************************************************************
+ *I* TOTAL NUMBER OF DEGREES OF FREEDOM :     3
+     
+ NEIBRD =       1331
+ KID  KNX  KNY  KNZ  KNL  KNM  KNN  =   41   20   20   20   40   40   40
+ KIDP KNXP KNYP KNZP KNLP KNMP KNNP =   65   32   32   32   64   64   64
+ NUMBER OF GENERATED VECTORS KNG,KNGP =     29039    135043
+ KFFT KFFTP =     131200    532480
+ IOPT IOPTP =          1         0
+
+ ************************* SYMMETRY OPERATION **************************
+                   Rc              tc               Rp             tp
+         1.0000  0.0000  0.0000  0.0000   1.0000  0.0000  0.0000  0.0000
+ nr.  1  0.0000  1.0000  0.0000  0.0000   0.0000  1.0000  0.0000  0.0000
+         0.0000  0.0000  1.0000  0.0000   0.0000  0.0000  1.0000  0.0000
+ ***********************************************************************
+  
+           ===================================================
+           ===       MPI PARALLELIZATION INFORMATION       ===
+           ===================================================
+           === TOTAL NUMBER OF K-POINTS          :       1 ===
+           === K-POINT DIVISOR                   :       1 ===
+           === TOTAL NUMBER OF BANDS             :       2 ===
+           === BAND DIVISOR                      :       2 ===
+           === TOTAL NUMBER OF G-VECTORS         :    3743 ===
+           === G-VECTOR DIVISOR                  :       2 ===
+           ===================================================
+
+ ***********************************************************************
+                               ALLOCATION 
+ ***********************************************************************
+  NCPU  KNGP_FFT      KNGP       KNG     KNG1      KEG     KATM    KATM2
+     0     47020     33760      7259      936        1        0        0
+     1     22092     33761      7260      936        1        0        0
+     2     19707     33761      7260      935        1        1        1
+     3     46224     33761      7260      936        1        1        1
+ -----------------------------------------------------------------------
+  NCPU    KFFTPM     KFFTP    KFFTP2     KFFT    KMESH     KNMP     KNNP
+     0    133120    133120     66560    32800      375       16       16
+     1    133120    133120     66560    32800      375       16       16
+     2    133120    133120     66560    32800      375       16       16
+     3    133120    133120     66560    32800      376       16       16
+ ***********************************************************************
+                            END OF ALLOCATION 
+ ***********************************************************************
+
+ ********   <<  Reading Potential >>  ******** 
+ F_POT(01) = pot.H_pbe1_sp_new
+  1.0000  1.0000  2  2  0           : NATOMN LPSMAX IVAL ILOC ITPCC
+ ggapbe                             : XCTYPE
+ 16.2200  5.5500  1.1924 -0.1924    : ALP CC
+ 1501    96.0000 60.0000            : NMESH XH RMAX
+ VALL is read from file 37
+    1   2   1                       : IL ITAU(IL1) IVAN(IL1)
+    2   1   0                       : IL ITAU(IL1) IVAN(IL1)
+    1   1   1   1   1   1  1075   9 : MM L1 T1 L2 T2 L3 NRC MORD
+    2   1   1   1   2   1  1075   9 : MM L1 T1 L2 T2 L3 NRC MORD
+    3   1   2   1   2   1  1075   9 : MM L1 T1 L2 T2 L3 NRC MORD
+ TOTAL ENERGY CORRECTION FROM PS     =     0.2629200178D-03
+ TOTAL PARTIAL CHARGE         SCHGPC =         0.0000000000
+ TOTAL LOCALIZED CHARGE (QLCTOT)     =         0.0000000000
+ KQITG =     3
+ NUMBER OF BANDS SHOULD BE GREATER THAN 1
+ KLMT  =     2
+ KLMTT =     2
+ KLMTA =     4
+ TOTCH =       2.000000000000
+ NX NY NZ  =   2   2   2
+ NNEIB     =     125
+ ALF       =    3.333333
+ NEWLDG    =     751
+
+ ***********************************************************************
+ *                                                                     *
+ *                              START SCF                              *
+ *                                                                     *
+ ***********************************************************************
+
+  NSCF NADR            ETOTAL          EDEL          CDEL CONV      TCPU
+     1    0       -0.08672761   0.86728E-01   0.15929E-01    0      0.60
+     2    1       -0.90512775   0.81840E+00   0.26923E-02    0      0.12
+     3    2       -1.15866185   0.25353E+00   0.57569E-02    0      0.12
+     4    3       -1.16623467   0.75728E-02   0.28719E-02    1      0.12
+     5    4       -1.16761425   0.13796E-02   0.43331E-03    2      0.12
+     6    5       -1.16754594   0.68303E-04   0.45778E-03    2      0.12
+     7    6       -1.16744935   0.96597E-04   0.11491E-02    1      0.13
+     8    7       -1.16753594   0.86598E-04   0.91962E-03    2      0.12
+     9    8       -1.16764001   0.10406E-03   0.26001E-03    2      0.12
+    10    9       -1.16763695   0.30533E-05   0.34587E-03    2      0.12
+    11   10       -1.16764255   0.55933E-05   0.31835E-03    2      0.12
+    12   11       -1.16766212   0.19574E-04   0.18245E-04    3      0.12
+    13   12       -1.16766247   0.34844E-06   0.17987E-04    3      0.12
+    14   13       -1.16766254   0.73770E-07   0.45790E-05    3      0.12
+    15   14       -1.16766254   0.22962E-08   0.51390E-05    3      0.13
+    16   15       -1.16766254   0.28607E-08   0.38689E-05    3      0.13
+    17   16       -1.16766254   0.16839E-08   0.16213E-05    3      0.12
+    18   17       -1.16766254   0.31517E-09   0.20615E-05    3      0.12
+    19   18       -1.16766255   0.10790E-08   0.65794E-06    3      0.12
+    20   19       -1.16766255   0.10907E-09   0.32427E-06    4      0.12
+    21   20       -1.16766255   0.97133E-11   0.21819E-06    5      0.12
+    22    1       -1.16766255   0.11365E-10   0.58768E-07    6      0.16
+ 
+                                   TOTAL CHARGE DENSITY =      1.9999989
+
+                     TOTAL ENERGY AND ITS COMPONENTS 
+                  TOTAL ENERGY     =          -1.16766255 A.U.
+                KINETIC ENERGY     =           1.00210641 A.U.
+                HARTREE ENERGY     =           0.76019041 A.U.
+                     XC ENERGY     =          -0.68770330 A.U.
+                  LOCAL ENERGY     =          -2.42652391 A.U.
+               NONLOCAL ENERGY     =           0.03240939 A.U.
+                  EWALD ENERGY     =           0.15185845 A.U.
+                     PC ENERGY     =           0.00000000 A.U.
+               ENTROPIC ENERGY     =           0.00000000 A.U.
+
+                                         FERMI ENERGY =      -0.19752501
+ NKP=    1  NGP=      3743  K=(  0.00000  0.00000  0.00000)  WKP= 1.0000
+                              EIGEN VALUE 
+ -0.37732 -0.01773
+                               OCCUPATION 
+  1.00000  0.00000
+ 
+ QMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQM
+
+ MD ITERATION NR.      1:022          TOTAL CPU TIME =      4.77 SECONDS
+
+                       CONVERGED ENERGY AND FORCES 
+   NIT     TotalEnergy     f_max     f_rms      edel      vdel      fdel
+     1     -1.16766255  0.010758  0.010757  0.11D-10  0.59D-07  0.11D-10
+
+    ATOM              COORDINATES                        FORCES
+MD:    1
+MD:    1  H  -0.699200   0.000000   0.000000  -0.01076 -0.00000  0.00000
+MD:    2  H   0.699200   0.000000   0.000000   0.01076 -0.00000  0.00000
+
+ DQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQ
+
+ *I* restart data written in restart.data 
+
+  NSCF NADR            ETOTAL          EDEL          CDEL CONV      TCPU
+     1    1       -1.16766884   0.62967E-05   0.62342E-05    3      0.12
+     2    1       -1.16766884   0.14056E-08   0.21351E-05    3      0.12
+     3    2       -1.16766884   0.10546E-08   0.46006E-06    3      0.12
+     4    3       -1.16766884   0.50236E-10   0.13472E-06    4      0.13
+     5    4       -1.16766884   0.29024E-10   0.60530E-07    5      0.12
+     6    5       -1.16766884   0.21667E-11   0.13949E-07    6      0.16
+ 
+                                   TOTAL CHARGE DENSITY =      1.9999989
+
+                     TOTAL ENERGY AND ITS COMPONENTS 
+                  TOTAL ENERGY     =          -1.16766884 A.U.
+                KINETIC ENERGY     =           1.00184864 A.U.
+                HARTREE ENERGY     =           0.75997723 A.U.
+                     XC ENERGY     =          -0.68760035 A.U.
+                  LOCAL ENERGY     =          -2.42585043 A.U.
+               NONLOCAL ENERGY     =           0.03239558 A.U.
+                  EWALD ENERGY     =           0.15156048 A.U.
+                     PC ENERGY     =           0.00000000 A.U.
+               ENTROPIC ENERGY     =           0.00000000 A.U.
+
+                                         FERMI ENERGY =      -0.19749479
+ NKP=    1  NGP=      3743  K=(  0.00000  0.00000  0.00000)  WKP= 1.0000
+                              EIGEN VALUE 
+ -0.37727 -0.01772
+                               OCCUPATION 
+  1.00000  0.00000
+ 
+ QMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQM
+
+ MD ITERATION NR.      2:006          TOTAL CPU TIME =      5.63 SECONDS
+
+                       CONVERGED ENERGY AND FORCES 
+   NIT     TotalEnergy     f_max     f_rms      edel      vdel      fdel
+     2     -1.16766884  0.010532  0.010532  0.22D-11  0.14D-07  0.22D-11
+
+    ATOM              COORDINATES                        FORCES
+MD:    2
+MD:    1  H  -0.699495  -0.000000   0.000000  -0.01053  0.00000  0.00000
+MD:    2  H   0.699495  -0.000000   0.000000   0.01053  0.00000  0.00000
+
+ DQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQ
+
+ *I* restart data written in restart.data 
+
+  NSCF NADR            ETOTAL          EDEL          CDEL CONV      TCPU
+     1    5       -1.16768090   0.12059E-04   0.12358E-04    3      0.13
+     2    1       -1.16768091   0.51882E-08   0.42577E-05    3      0.12
+     3    2       -1.16768091   0.42857E-08   0.93152E-06    3      0.12
+     4    3       -1.16768091   0.12438E-09   0.26453E-06    4      0.12
+     5    4       -1.16768091   0.67127E-10   0.12844E-06    5      0.12
+     6    5       -1.16768091   0.22594E-10   0.43273E-07    6      0.16
+ 
+                                   TOTAL CHARGE DENSITY =      1.9999989
+
+                     TOTAL ENERGY AND ITS COMPONENTS 
+                  TOTAL ENERGY     =          -1.16768091 A.U.
+                KINETIC ENERGY     =           1.00134256 A.U.
+                HARTREE ENERGY     =           0.75955835 A.U.
+                     XC ENERGY     =          -0.68739812 A.U.
+                  LOCAL ENERGY     =          -2.42452371 A.U.
+               NONLOCAL ENERGY     =           0.03236849 A.U.
+                  EWALD ENERGY     =           0.15097152 A.U.
+                     PC ENERGY     =           0.00000000 A.U.
+               ENTROPIC ENERGY     =           0.00000000 A.U.
+
+                                         FERMI ENERGY =      -0.19743823
+ NKP=    1  NGP=      3743  K=(  0.00000  0.00000  0.00000)  WKP= 1.0000
+                              EIGEN VALUE 
+ -0.37716 -0.01771
+                               OCCUPATION 
+  1.00000  0.00000
+ 
+ QMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQM
+
+ MD ITERATION NR.      3:006          TOTAL CPU TIME =      6.48 SECONDS
+
+                       CONVERGED ENERGY AND FORCES 
+   NIT     TotalEnergy     f_max     f_rms      edel      vdel      fdel
+     3     -1.16768091  0.010086  0.010086  0.23D-10  0.43D-07  0.23D-10
+
+    ATOM              COORDINATES                        FORCES
+MD:    3
+MD:    1  H  -0.700079  -0.000000   0.000000  -0.01009  0.00000  0.00000
+MD:    2  H   0.700079  -0.000000   0.000000   0.01009  0.00000  0.00000
+
+ DQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQ
+
+ *I* restart data written in restart.data 
+
+  NSCF NADR            ETOTAL          EDEL          CDEL CONV      TCPU
+     1    5       -1.16769774   0.16823E-04   0.18173E-04    3      0.12
+     2    1       -1.16769775   0.11387E-07   0.62553E-05    3      0.12
+     3    2       -1.16769776   0.92351E-08   0.13654E-05    3      0.12
+     4    3       -1.16769776   0.26087E-09   0.39189E-06    3      0.12
+     5    4       -1.16769776   0.14609E-09   0.19010E-06    4      0.12
+     6    5       -1.16769776   0.52278E-10   0.64184E-07    5      0.12
+     7    6       -1.16769776   0.47495E-11   0.23986E-07    6      0.16
+ 
+                                   TOTAL CHARGE DENSITY =      1.9999989
+
+                     TOTAL ENERGY AND ITS COMPONENTS 
+                  TOTAL ENERGY     =          -1.16769776 A.U.
+                KINETIC ENERGY     =           1.00059665 A.U.
+                HARTREE ENERGY     =           0.75894071 A.U.
+                     XC ENERGY     =          -0.68709993 A.U.
+                  LOCAL ENERGY     =          -2.42256925 A.U.
+               NONLOCAL ENERGY     =           0.03232870 A.U.
+                  EWALD ENERGY     =           0.15010536 A.U.
+                     PC ENERGY     =           0.00000000 A.U.
+               ENTROPIC ENERGY     =           0.00000000 A.U.
+
+                                         FERMI ENERGY =      -0.19735927
+ NKP=    1  NGP=      3743  K=(  0.00000  0.00000  0.00000)  WKP= 1.0000
+                              EIGEN VALUE 
+ -0.37700 -0.01772
+                               OCCUPATION 
+  1.00000  0.00000
+ 
+ QMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQM
+
+ MD ITERATION NR.      4:007          TOTAL CPU TIME =      7.45 SECONDS
+
+                       CONVERGED ENERGY AND FORCES 
+   NIT     TotalEnergy     f_max     f_rms      edel      vdel      fdel
+     4     -1.16769776  0.009431  0.009431  0.47D-11  0.24D-07  0.47D-11
+
+    ATOM              COORDINATES                        FORCES
+MD:    4
+MD:    1  H  -0.700939  -0.000000   0.000000  -0.00943  0.00000  0.00000
+MD:    2  H   0.700940  -0.000000   0.000000   0.00943  0.00000  0.00000
+
+ DQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQ
+
+ *I* restart data written in restart.data 
+
+  NSCF NADR            ETOTAL          EDEL          CDEL CONV      TCPU
+     1    6       -1.16771795   0.20189E-04   0.23639E-04    3      0.12
+     2    1       -1.16771797   0.18767E-07   0.81581E-05    3      0.12
+     3    2       -1.16771798   0.15721E-07   0.17897E-05    3      0.12
+     4    3       -1.16771798   0.44186E-09   0.50429E-06    3      0.12
+     5    4       -1.16771798   0.24194E-09   0.24539E-06    3      0.12
+     6    5       -1.16771798   0.88204E-10   0.83008E-07    4      0.12
+     7    6       -1.16771798   0.82401E-11   0.31538E-07    5      0.12
+     8    7       -1.16771798   0.11022E-11   0.12512E-07    6      0.16
+ 
+                                   TOTAL CHARGE DENSITY =      1.9999989
+
+                     TOTAL ENERGY AND ITS COMPONENTS 
+                  TOTAL ENERGY     =          -1.16771798 A.U.
+                KINETIC ENERGY     =           0.99962880 A.U.
+                HARTREE ENERGY     =           0.75813865 A.U.
+                     XC ENERGY     =          -0.68671276 A.U.
+                  LOCAL ENERGY     =          -2.42003207 A.U.
+               NONLOCAL ENERGY     =           0.03227731 A.U.
+                  EWALD ENERGY     =           0.14898208 A.U.
+                     PC ENERGY     =           0.00000000 A.U.
+               ENTROPIC ENERGY     =           0.00000000 A.U.
+
+                                         FERMI ENERGY =      -0.19725488
+ NKP=    1  NGP=      3743  K=(  0.00000  0.00000  0.00000)  WKP= 1.0000
+                              EIGEN VALUE 
+ -0.37680 -0.01771
+                               OCCUPATION 
+  1.00000  0.00000
+ 
+ QMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQM
+
+ MD ITERATION NR.      5:008          TOTAL CPU TIME =      8.54 SECONDS
+
+                       CONVERGED ENERGY AND FORCES 
+   NIT     TotalEnergy     f_max     f_rms      edel      vdel      fdel
+     5     -1.16771798  0.008586  0.008586  0.11D-11  0.13D-07  0.11D-11
+
+    ATOM              COORDINATES                        FORCES
+MD:    5
+MD:    1  H  -0.702059  -0.000000   0.000000  -0.00859  0.00000 -0.00000
+MD:    2  H   0.702059  -0.000000   0.000000   0.00859 -0.00000  0.00000
+
+ DQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQ
+
+ *I* restart data written in restart.data 
+
+  NSCF NADR            ETOTAL          EDEL          CDEL CONV      TCPU
+     1    7       -1.16773988   0.21902E-04   0.28576E-04    3      0.12
+     2    1       -1.16773991   0.27038E-07   0.98767E-05    3      0.12
+     3    2       -1.16773993   0.23061E-07   0.21724E-05    3      0.12
+     4    3       -1.16773994   0.65420E-09   0.60748E-06    3      0.12
+     5    4       -1.16773994   0.35468E-09   0.29623E-06    3      0.12
+     6    5       -1.16773994   0.13320E-09   0.10605E-06    4      0.12
+     7    6       -1.16773994   0.10327E-10   0.34657E-07    5      0.12
+     8    7       -1.16773994   0.31175E-11   0.16354E-07    6      0.16
+ 
+                                   TOTAL CHARGE DENSITY =      1.9999989
+
+                     TOTAL ENERGY AND ITS COMPONENTS 
+                  TOTAL ENERGY     =          -1.16773994 A.U.
+                KINETIC ENERGY     =           0.99846051 A.U.
+                HARTREE ENERGY     =           0.75716951 A.U.
+                     XC ENERGY     =          -0.68624502 A.U.
+                  LOCAL ENERGY     =          -2.41696789 A.U.
+               NONLOCAL ENERGY     =           0.03221564 A.U.
+                  EWALD ENERGY     =           0.14762732 A.U.
+                     PC ENERGY     =           0.00000000 A.U.
+               ENTROPIC ENERGY     =           0.00000000 A.U.
+
+                                         FERMI ENERGY =      -0.19712786
+ NKP=    1  NGP=      3743  K=(  0.00000  0.00000  0.00000)  WKP= 1.0000
+                              EIGEN VALUE 
+ -0.37655 -0.01771
+                               OCCUPATION 
+  1.00000  0.00000
+ 
+ QMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQM
+
+ MD ITERATION NR.      6:008          TOTAL CPU TIME =      9.64 SECONDS
+
+                       CONVERGED ENERGY AND FORCES 
+   NIT     TotalEnergy     f_max     f_rms      edel      vdel      fdel
+     6     -1.16773994  0.007572  0.007572  0.31D-11  0.16D-07  0.31D-11
+
+    ATOM              COORDINATES                        FORCES
+MD:    6
+MD:    1  H  -0.703413  -0.000000   0.000000  -0.00757  0.00000 -0.00000
+MD:    2  H   0.703414  -0.000000   0.000000   0.00757  0.00000 -0.00000
+
+ DQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQ
+
+ *I* restart data written in restart.data 
+
+  NSCF NADR            ETOTAL          EDEL          CDEL CONV      TCPU
+     1    7       -1.16776178   0.21848E-04   0.32892E-04    3      0.12
+     2    1       -1.16776182   0.35614E-07   0.11379E-04    3      0.12
+     3    2       -1.16776185   0.30660E-07   0.25069E-05    3      0.12
+     4    3       -1.16776185   0.88102E-09   0.69802E-06    3      0.12
+     5    4       -1.16776185   0.47769E-09   0.34315E-06    3      0.12
+     6    5       -1.16776185   0.16794E-09   0.11650E-06    4      0.12
+     7    6       -1.16776185   0.13901E-10   0.34366E-07    5      0.12
+     8    7       -1.16776185   0.33831E-11   0.15726E-07    6      0.16
+ 
+                                   TOTAL CHARGE DENSITY =      1.9999989
+
+                     TOTAL ENERGY AND ITS COMPONENTS 
+                  TOTAL ENERGY     =          -1.16776185 A.U.
+                KINETIC ENERGY     =           0.99711715 A.U.
+                HARTREE ENERGY     =           0.75605396 A.U.
+                     XC ENERGY     =          -0.68570672 A.U.
+                  LOCAL ENERGY     =          -2.41344284 A.U.
+               NONLOCAL ENERGY     =           0.03214514 A.U.
+                  EWALD ENERGY     =           0.14607147 A.U.
+                     PC ENERGY     =           0.00000000 A.U.
+               ENTROPIC ENERGY     =           0.00000000 A.U.
+
+                                         FERMI ENERGY =      -0.19698169
+ NKP=    1  NGP=      3743  K=(  0.00000  0.00000  0.00000)  WKP= 1.0000
+                              EIGEN VALUE 
+ -0.37626 -0.01770
+                               OCCUPATION 
+  1.00000  0.00000
+ 
+ QMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQM
+
+ MD ITERATION NR.      7:008          TOTAL CPU TIME =     10.73 SECONDS
+
+                       CONVERGED ENERGY AND FORCES 
+   NIT     TotalEnergy     f_max     f_rms      edel      vdel      fdel
+     7     -1.16776185  0.006414  0.006414  0.34D-11  0.16D-07  0.34D-11
+
+    ATOM              COORDINATES                        FORCES
+MD:    7
+MD:    1  H  -0.704976  -0.000000   0.000000  -0.00641  0.00000 -0.00000
+MD:    2  H   0.704976  -0.000000   0.000000   0.00641  0.00000 -0.00000
+
+ DQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQ
+
+ *I* restart data written in restart.data 
+
+  NSCF NADR            ETOTAL          EDEL          CDEL CONV      TCPU
+     1    7       -1.16778191   0.20063E-04   0.36510E-04    3      0.13
+     2    1       -1.16778196   0.43673E-07   0.12643E-04    3      0.12
+     3    2       -1.16778200   0.37951E-07   0.27893E-05    3      0.12
+     4    3       -1.16778200   0.11000E-08   0.77351E-06    3      0.12
+     5    4       -1.16778200   0.58201E-09   0.38220E-06    3      0.12
+     6    5       -1.16778200   0.20809E-09   0.13090E-06    3      0.12
+     7    6       -1.16778200   0.17491E-10   0.38480E-07    4      0.12
+     8    7       -1.16778200   0.41678E-11   0.18089E-07    5      0.12
+     9    8       -1.16778200   0.61728E-13   0.72858E-08    6      0.16
+ 
+                                   TOTAL CHARGE DENSITY =      1.9999989
+
+                     TOTAL ENERGY AND ITS COMPONENTS 
+                  TOTAL ENERGY     =          -1.16778200 A.U.
+                KINETIC ENERGY     =           0.99562779 A.U.
+                HARTREE ENERGY     =           0.75481562 A.U.
+                     XC ENERGY     =          -0.68510929 A.U.
+                  LOCAL ENERGY     =          -2.40953232 A.U.
+               NONLOCAL ENERGY     =           0.03206753 A.U.
+                  EWALD ENERGY     =           0.14434866 A.U.
+                     PC ENERGY     =           0.00000000 A.U.
+               ENTROPIC ENERGY     =           0.00000000 A.U.
+
+                                         FERMI ENERGY =      -0.19682003
+ NKP=    1  NGP=      3743  K=(  0.00000  0.00000  0.00000)  WKP= 1.0000
+                              EIGEN VALUE 
+ -0.37595 -0.01769
+                               OCCUPATION 
+  1.00000  0.00000
+ 
+ QMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQM
+
+ MD ITERATION NR.      8:009          TOTAL CPU TIME =     11.94 SECONDS
+
+                       CONVERGED ENERGY AND FORCES 
+   NIT     TotalEnergy     f_max     f_rms      edel      vdel      fdel
+     8     -1.16778200  0.005141  0.005141  0.62D-13  0.73D-08  0.62D-13
+
+    ATOM              COORDINATES                        FORCES
+MD:    8
+MD:    1  H  -0.706714  -0.000000   0.000000  -0.00514  0.00000 -0.00000
+MD:    2  H   0.706714  -0.000000   0.000000   0.00514  0.00000  0.00000
+
+ DQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQ
+
+ *I* restart data written in restart.data 
+
+  NSCF NADR            ETOTAL          EDEL          CDEL CONV      TCPU
+     1    8       -1.16779872   0.16723E-04   0.39352E-04    3      0.13
+     2    1       -1.16779877   0.50491E-07   0.13642E-04    3      0.12
+     3    2       -1.16779882   0.44310E-07   0.30137E-05    3      0.12
+     4    3       -1.16779882   0.12907E-08   0.83282E-06    3      0.12
+     5    4       -1.16779882   0.67187E-09   0.41272E-06    3      0.12
+     6    5       -1.16779882   0.24424E-09   0.14078E-06    3      0.12
+     7    6       -1.16779882   0.20342E-10   0.41868E-07    4      0.13
+     8    7       -1.16779882   0.44598E-11   0.18813E-07    5      0.12
+     9    8       -1.16779882   0.99920E-14   0.80036E-08    6      0.17
+ 
+                                   TOTAL CHARGE DENSITY =      1.9999990
+
+                     TOTAL ENERGY AND ITS COMPONENTS 
+                  TOTAL ENERGY     =          -1.16779882 A.U.
+                KINETIC ENERGY     =           0.99402334 A.U.
+                HARTREE ENERGY     =           0.75347978 A.U.
+                     XC ENERGY     =          -0.68446495 A.U.
+                  LOCAL ENERGY     =          -2.40531737 A.U.
+               NONLOCAL ENERGY     =           0.03198458 A.U.
+                  EWALD ENERGY     =           0.14249581 A.U.
+                     PC ENERGY     =           0.00000000 A.U.
+               ENTROPIC ENERGY     =           0.00000000 A.U.
+
+                                         FERMI ENERGY =      -0.19664524
+ NKP=    1  NGP=      3743  K=(  0.00000  0.00000  0.00000)  WKP= 1.0000
+                              EIGEN VALUE 
+ -0.37561 -0.01768
+                               OCCUPATION 
+  1.00000  0.00000
+ 
+ QMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQM
+
+ MD ITERATION NR.      9:009          TOTAL CPU TIME =     13.17 SECONDS
+
+                       CONVERGED ENERGY AND FORCES 
+   NIT     TotalEnergy     f_max     f_rms      edel      vdel      fdel
+     9     -1.16779882  0.003782  0.003782  0.10D-13  0.80D-08  0.10D-13
+
+    ATOM              COORDINATES                        FORCES
+MD:    9
+MD:    1  H  -0.708594  -0.000000   0.000000  -0.00378  0.00000 -0.00000
+MD:    2  H   0.708594  -0.000000   0.000000   0.00378  0.00000 -0.00000
+
+ DQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQ
+
+ *I* restart data written in restart.data 
+
+  NSCF NADR            ETOTAL          EDEL          CDEL CONV      TCPU
+     1    8       -1.16781094   0.12125E-04   0.41411E-04    3      0.13
+     2    1       -1.16781100   0.55497E-07   0.14373E-04    3      0.12
+     3    2       -1.16781105   0.49334E-07   0.31805E-05    3      0.12
+     4    3       -1.16781105   0.14305E-08   0.87405E-06    3      0.12
+     5    4       -1.16781105   0.74121E-09   0.43570E-06    3      0.12
+     6    5       -1.16781105   0.27480E-09   0.14716E-06    3      0.12
+     7    6       -1.16781105   0.22475E-10   0.44010E-07    4      0.12
+     8    7       -1.16781105   0.53790E-11   0.13191E-07    5      0.12
+     9    8       -1.16781105   0.14433E-13   0.43102E-08    6      0.17
+ 
+                                   TOTAL CHARGE DENSITY =      1.9999991
+
+                     TOTAL ENERGY AND ITS COMPONENTS 
+                  TOTAL ENERGY     =          -1.16781105 A.U.
+                KINETIC ENERGY     =           0.99233684 A.U.
+                HARTREE ENERGY     =           0.75207360 A.U.
+                     XC ENERGY     =          -0.68378685 A.U.
+                  LOCAL ENERGY     =          -2.40088427 A.U.
+               NONLOCAL ENERGY     =           0.03189810 A.U.
+                  EWALD ENERGY     =           0.14055153 A.U.
+                     PC ENERGY     =           0.00000000 A.U.
+               ENTROPIC ENERGY     =           0.00000000 A.U.
+
+                                         FERMI ENERGY =      -0.19646119
+ NKP=    1  NGP=      3743  K=(  0.00000  0.00000  0.00000)  WKP= 1.0000
+                              EIGEN VALUE 
+ -0.37525 -0.01767
+                               OCCUPATION 
+  1.00000  0.00000
+ 
+ QMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQM
+
+ MD ITERATION NR.     10:009          TOTAL CPU TIME =     14.38 SECONDS
+
+                       CONVERGED ENERGY AND FORCES 
+   NIT     TotalEnergy     f_max     f_rms      edel      vdel      fdel
+    10     -1.16781105  0.002367  0.002367  0.14D-13  0.43D-08  0.14D-13
+
+    ATOM              COORDINATES                        FORCES
+MD:   10
+MD:    1  H  -0.710577  -0.000000   0.000000  -0.00237  0.00000 -0.00000
+MD:    2  H   0.710577  -0.000000   0.000000   0.00237 -0.00000  0.00000
+
+ DQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQ
+
+ *I* restart data written in restart.data 
+
+  NSCF NADR            ETOTAL          EDEL          CDEL CONV      TCPU
+     1    8       -1.16781771   0.66548E-05   0.42645E-04    3      0.13
+     2    1       -1.16781776   0.58309E-07   0.14823E-04    3      0.12
+     3    2       -1.16781782   0.52634E-07   0.32862E-05    3      0.12
+     4    3       -1.16781782   0.15263E-08   0.89624E-06    3      0.12
+     5    4       -1.16781782   0.77935E-09   0.45085E-06    3      0.12
+     6    5       -1.16781782   0.29268E-09   0.15493E-06    3      0.12
+     7    6       -1.16781782   0.23808E-10   0.45515E-07    4      0.12
+     8    7       -1.16781782   0.56724E-11   0.14103E-07    5      0.12
+     9    8       -1.16781782   0.17297E-12   0.45081E-08    6      0.16
+ 
+                                   TOTAL CHARGE DENSITY =      1.9999992
+
+                     TOTAL ENERGY AND ITS COMPONENTS 
+                  TOTAL ENERGY     =          -1.16781782 A.U.
+                KINETIC ENERGY     =           0.99060252 A.U.
+                HARTREE ENERGY     =           0.75062528 A.U.
+                     XC ENERGY     =          -0.68308859 A.U.
+                  LOCAL ENERGY     =          -2.39632213 A.U.
+               NONLOCAL ENERGY     =           0.03180992 A.U.
+                  EWALD ENERGY     =           0.13855519 A.U.
+                     PC ENERGY     =           0.00000000 A.U.
+               ENTROPIC ENERGY     =           0.00000000 A.U.
+
+                                         FERMI ENERGY =      -0.19627168
+ NKP=    1  NGP=      3743  K=(  0.00000  0.00000  0.00000)  WKP= 1.0000
+                              EIGEN VALUE 
+ -0.37488 -0.01766
+                               OCCUPATION 
+  1.00000  0.00000
+ 
+ QMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQM
+
+ MD ITERATION NR.     11:009          TOTAL CPU TIME =     15.59 SECONDS
+
+                       CONVERGED ENERGY AND FORCES 
+   NIT     TotalEnergy     f_max     f_rms      edel      vdel      fdel
+    11     -1.16781782  0.000926  0.000926  0.17D-12  0.45D-08  0.17D-12
+
+    ATOM              COORDINATES                        FORCES
+MD:   11
+MD:    1  H  -0.712625  -0.000000   0.000000  -0.00093  0.00000 -0.00000
+MD:    2  H   0.712625  -0.000000   0.000000   0.00093 -0.00000  0.00000
+
+ DQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQ
+
+ *I* restart data written in restart.data 
+
+  NSCF NADR            ETOTAL          EDEL          CDEL CONV      TCPU
+     1    8       -1.16781857   0.75247E-06   0.43051E-04    3      0.12
+     2    1       -1.16781863   0.59042E-07   0.14982E-04    3      0.12
+     3    2       -1.16781868   0.53982E-07   0.33278E-05    3      0.13
+     4    3       -1.16781869   0.15385E-08   0.90451E-06    3      0.12
+     5    4       -1.16781869   0.80747E-09   0.45561E-06    3      0.12
+     6    5       -1.16781869   0.30207E-09   0.15913E-06    3      0.12
+     7    6       -1.16781869   0.24165E-10   0.46414E-07    4      0.12
+     8    7       -1.16781869   0.62068E-11   0.14446E-07    5      0.12
+     9    8       -1.16781869   0.13900E-12   0.45240E-08    6      0.16
+ 
+                                   TOTAL CHARGE DENSITY =      1.9999993
+
+                     TOTAL ENERGY AND ITS COMPONENTS 
+                  TOTAL ENERGY     =          -1.16781869 A.U.
+                KINETIC ENERGY     =           0.98885413 A.U.
+                HARTREE ENERGY     =           0.74916289 A.U.
+                     XC ENERGY     =          -0.68238374 A.U.
+                  LOCAL ENERGY     =          -2.39171973 A.U.
+               NONLOCAL ENERGY     =           0.03172178 A.U.
+                  EWALD ENERGY     =           0.13654597 A.U.
+                     PC ENERGY     =           0.00000000 A.U.
+               ENTROPIC ENERGY     =           0.00000000 A.U.
+
+                                         FERMI ENERGY =      -0.19608048
+ NKP=    1  NGP=      3743  K=(  0.00000  0.00000  0.00000)  WKP= 1.0000
+                              EIGEN VALUE 
+ -0.37451 -0.01766
+                               OCCUPATION 
+  1.00000  0.00000
+ 
+ QMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQM
+
+ MD ITERATION NR.     12:009          TOTAL CPU TIME =     16.82 SECONDS
+
+                       CONVERGED ENERGY AND FORCES 
+   NIT     TotalEnergy     f_max     f_rms      edel      vdel      fdel
+    12     -1.16781869  0.000511  0.000511  0.14D-12  0.45D-08  0.14D-12
+
+    ATOM              COORDINATES                        FORCES
+MD:   12
+MD:    1  H  -0.714698  -0.000000   0.000000   0.00051  0.00000 -0.00000
+MD:    2  H   0.714699  -0.000000   0.000000  -0.00051  0.00000 -0.00000
+
+ DQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQ
+
+ *I* restart data written in restart.data 
+
+  NSCF NADR            ETOTAL          EDEL          CDEL CONV      TCPU
+     1    8       -1.16781869   0.87486E-13   0.41469E-08    3      0.13
+     2    1       -1.16781869   0.31530E-13   0.17385E-08    4      0.12
+     3    2       -1.16781869   0.13767E-13   0.34349E-09    5      0.12
+     4    3       -1.16781869   0.10525E-12   0.16065E-09    6      0.16
+ 
+                                   TOTAL CHARGE DENSITY =      1.9999993
+
+                     TOTAL ENERGY AND ITS COMPONENTS 
+                  TOTAL ENERGY     =          -1.16781869 A.U.
+                KINETIC ENERGY     =           0.98885406 A.U.
+                HARTREE ENERGY     =           0.74916284 A.U.
+                     XC ENERGY     =          -0.68238372 A.U.
+                  LOCAL ENERGY     =          -2.39171963 A.U.
+               NONLOCAL ENERGY     =           0.03172178 A.U.
+                  EWALD ENERGY     =           0.13654597 A.U.
+                     PC ENERGY     =           0.00000000 A.U.
+               ENTROPIC ENERGY     =           0.00000000 A.U.
+
+                                         FERMI ENERGY =      -0.19608055
+ NKP=    1  NGP=      3743  K=(  0.00000  0.00000  0.00000)  WKP= 1.0000
+                              EIGEN VALUE 
+ -0.37451 -0.01766
+                               OCCUPATION 
+  1.00000  0.00000
+ 
+ QMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQM
+
+ MD ITERATION NR.     13:004          TOTAL CPU TIME =     17.43 SECONDS
+
+                       CONVERGED ENERGY AND FORCES 
+   NIT     TotalEnergy     f_max     f_rms      edel      vdel      fdel
+    13     -1.16781869  0.000511  0.000511  0.11D-12  0.16D-09  0.11D-12
+
+    ATOM              COORDINATES                        FORCES
+MD:   13
+MD:    1  H  -0.714698  -0.000000   0.000000   0.00051 -0.00000 -0.00000
+MD:    2  H   0.714699  -0.000000   0.000000  -0.00051  0.00000 -0.00000
+
+ DQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQ
+
+ *I* restart data written in restart.data 
+
+  NSCF NADR            ETOTAL          EDEL          CDEL CONV      TCPU
+     1    3       -1.16781870   0.14158E-07   0.29564E-06    3      0.12
+     2    1       -1.16781870   0.11615E-11   0.10501E-06    4      0.12
+     3    2       -1.16781870   0.58018E-11   0.30664E-07    5      0.12
+     4    3       -1.16781870   0.30616E-11   0.66290E-08    6      0.16
+ 
+                                   TOTAL CHARGE DENSITY =      1.9999993
+
+                     TOTAL ENERGY AND ITS COMPONENTS 
+                  TOTAL ENERGY     =          -1.16781870 A.U.
+                KINETIC ENERGY     =           0.98886603 A.U.
+                HARTREE ENERGY     =           0.74917284 A.U.
+                     XC ENERGY     =          -0.68238854 A.U.
+                  LOCAL ENERGY     =          -2.39175092 A.U.
+               NONLOCAL ENERGY     =           0.03172236 A.U.
+                  EWALD ENERGY     =           0.13655953 A.U.
+                     PC ENERGY     =           0.00000000 A.U.
+               ENTROPIC ENERGY     =           0.00000000 A.U.
+
+                                         FERMI ENERGY =      -0.19608236
+ NKP=    1  NGP=      3743  K=(  0.00000  0.00000  0.00000)  WKP= 1.0000
+                              EIGEN VALUE 
+ -0.37451 -0.01766
+                               OCCUPATION 
+  1.00000  0.00000
+ 
+ QMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQM
+
+ MD ITERATION NR.     14:004          TOTAL CPU TIME =     18.03 SECONDS
+
+                       CONVERGED ENERGY AND FORCES 
+   NIT     TotalEnergy     f_max     f_rms      edel      vdel      fdel
+    14     -1.16781870  0.000502  0.000502  0.31D-11  0.66D-08  0.31D-11
+
+    ATOM              COORDINATES                        FORCES
+MD:   14
+MD:    1  H  -0.714684  -0.000000   0.000000   0.00050  0.00000 -0.00000
+MD:    2  H   0.714684  -0.000000   0.000000  -0.00050  0.00000 -0.00000
+
+ DQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQ
+
+ *I* restart data written in restart.data 
+
+  NSCF NADR            ETOTAL          EDEL          CDEL CONV      TCPU
+     1    3       -1.16781873   0.27237E-07   0.58782E-06    3      0.13
+     2    1       -1.16781873   0.56777E-11   0.20299E-06    4      0.12
+     3    2       -1.16781873   0.12885E-10   0.42198E-07    5      0.13
+     4    3       -1.16781873   0.21816E-11   0.10912E-07    6      0.16
+ 
+                                   TOTAL CHARGE DENSITY =      1.9999993
+
+                     TOTAL ENERGY AND ITS COMPONENTS 
+                  TOTAL ENERGY     =          -1.16781873 A.U.
+                KINETIC ENERGY     =           0.98889005 A.U.
+                HARTREE ENERGY     =           0.74919284 A.U.
+                     XC ENERGY     =          -0.68239819 A.U.
+                  LOCAL ENERGY     =          -2.39181337 A.U.
+               NONLOCAL ENERGY     =           0.03172356 A.U.
+                  EWALD ENERGY     =           0.13658638 A.U.
+                     PC ENERGY     =           0.00000000 A.U.
+               ENTROPIC ENERGY     =           0.00000000 A.U.
+
+                                         FERMI ENERGY =      -0.19608553
+ NKP=    1  NGP=      3743  K=(  0.00000  0.00000  0.00000)  WKP= 1.0000
+                              EIGEN VALUE 
+ -0.37451 -0.01766
+                               OCCUPATION 
+  1.00000  0.00000
+ 
+ QMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQM
+
+ MD ITERATION NR.     15:004          TOTAL CPU TIME =     18.66 SECONDS
+
+                       CONVERGED ENERGY AND FORCES 
+   NIT     TotalEnergy     f_max     f_rms      edel      vdel      fdel
+    15     -1.16781873  0.000483  0.000483  0.22D-11  0.11D-07  0.22D-11
+
+    ATOM              COORDINATES                        FORCES
+MD:   15
+MD:    1  H  -0.714656  -0.000000   0.000000   0.00048  0.00000 -0.00000
+MD:    2  H   0.714657  -0.000000   0.000000  -0.00048  0.00000 -0.00000
+
+ EXITING ATOM LOOP 
+
+CHGPRO:     0.0000      0.0090378271     -0.1950670870     -0.0573611621
+CHGPRO:     0.1562      0.0088929616     -0.1901905258     -0.0535596233
+CHGPRO:     0.3125      0.0084651235     -0.1768993689     -0.0429951611
+CHGPRO:     0.4688      0.0077693978     -0.1604497945     -0.0302016781
+CHGPRO:     0.6250      0.0068441239     -0.1467287962     -0.0206070586
+CHGPRO:     0.7812      0.0057907554     -0.1348257850     -0.0136762931
+CHGPRO:     0.9375      0.0047505735     -0.1237615051     -0.0080761554
+CHGPRO:     1.0938      0.0038188450     -0.1138913356     -0.0038250231
+CHGPRO:     1.2500      0.0030220545     -0.1051996881     -0.0005332766
+CHGPRO:     1.4062      0.0023599229     -0.0973383994      0.0019555353
+CHGPRO:     1.5625      0.0018253833     -0.0903864256      0.0038736734
+CHGPRO:     1.7188      0.0014032517     -0.0837878071      0.0053176630
+CHGPRO:     1.8750      0.0010741255     -0.0781872628      0.0064328512
+CHGPRO:     2.0312      0.0008194544     -0.0728502267      0.0072700642
+CHGPRO:     2.1875      0.0006235739     -0.0681289427      0.0079221060
+CHGPRO:     2.3438      0.0004738020     -0.0637338200      0.0084099165
+CHGPRO:     2.5000      0.0003599072     -0.0595712094      0.0087951361
+CHGPRO:     2.6562      0.0002736144     -0.0556859713      0.0090814083
+CHGPRO:     2.8125      0.0002083272     -0.0521832332      0.0093125125
+CHGPRO:     2.9688      0.0001589255     -0.0487766801      0.0094823572
+CHGPRO:     3.1250      0.0001215464     -0.0455572380      0.0096241232
+CHGPRO:     3.2812      0.0000933019     -0.0422773799      0.0097261307
+CHGPRO:     3.4375      0.0000720174     -0.0393987855      0.0098152612
+CHGPRO:     3.5938      0.0000560180     -0.0366292036      0.0098768561
+CHGPRO:     3.7500      0.0000440102     -0.0342618977      0.0099341696
+CHGPRO:     3.9062      0.0000350031     -0.0319585190      0.0099710049
+CHGPRO:     4.0625      0.0000282652     -0.0299871645      0.0100084220
+CHGPRO:     4.2188      0.0000232648     -0.0279517772      0.0100293569
+CHGPRO:     4.3750      0.0000196230     -0.0265389040      0.0100535076
+CHGPRO:     4.5312      0.0000170605     -0.0246001702      0.0100633421
+CHGPRO:     4.6875      0.0000153751     -0.0224524028      0.0100777652
+CHGPRO:     4.8438      0.0000144211     -0.0173935944      0.0100789816
+CHGPRO:     5.0000      0.0000141135     -0.0111292445      0.0100854078
+CHGPRO:     5.1562      0.0000144211     -0.0173935943      0.0100789816
+CHGPRO:     5.3125      0.0000153751     -0.0224524026      0.0100777652
+CHGPRO:     5.4688      0.0000170605     -0.0246001701      0.0100633421
+CHGPRO:     5.6250      0.0000196230     -0.0265389040      0.0100535076
+CHGPRO:     5.7812      0.0000232648     -0.0279517771      0.0100293569
+CHGPRO:     5.9375      0.0000282652     -0.0299871642      0.0100084220
+CHGPRO:     6.0938      0.0000350031     -0.0319585190      0.0099710049
+CHGPRO:     6.2500      0.0000440102     -0.0342618975      0.0099341696
+CHGPRO:     6.4062      0.0000560180     -0.0366292035      0.0098768561
+CHGPRO:     6.5625      0.0000720174     -0.0393987852      0.0098152612
+CHGPRO:     6.7188      0.0000933019     -0.0422773798      0.0097261307
+CHGPRO:     6.8750      0.0001215464     -0.0455572378      0.0096241232
+CHGPRO:     7.0312      0.0001589255     -0.0487766800      0.0094823572
+CHGPRO:     7.1875      0.0002083272     -0.0521832330      0.0093125125
+CHGPRO:     7.3438      0.0002736144     -0.0556859712      0.0090814083
+CHGPRO:     7.5000      0.0003599072     -0.0595712092      0.0087951362
+CHGPRO:     7.6562      0.0004738020     -0.0637338198      0.0084099166
+CHGPRO:     7.8125      0.0006235739     -0.0681289424      0.0079221061
+CHGPRO:     7.9688      0.0008194544     -0.0728502265      0.0072700642
+CHGPRO:     8.1250      0.0010741255     -0.0781872625      0.0064328512
+CHGPRO:     8.2812      0.0014032517     -0.0837878069      0.0053176630
+CHGPRO:     8.4375      0.0018253833     -0.0903864253      0.0038736735
+CHGPRO:     8.5938      0.0023599228     -0.0973383991      0.0019555354
+CHGPRO:     8.7500      0.0030220544     -0.1051996876     -0.0005332765
+CHGPRO:     8.9062      0.0038188450     -0.1138913352     -0.0038250229
+CHGPRO:     9.0625      0.0047505734     -0.1237615045     -0.0080761551
+CHGPRO:     9.2188      0.0057907553     -0.1348257844     -0.0136762927
+CHGPRO:     9.3750      0.0068441238     -0.1467287956     -0.0206070582
+CHGPRO:     9.5312      0.0077693977     -0.1604497937     -0.0302016775
+CHGPRO:     9.6875      0.0084651234     -0.1768993681     -0.0429951604
+CHGPRO:     9.8438      0.0088929616     -0.1901905253     -0.0535596230
+
+ *I* wavefunction data written in zaj.data
+ *I* writing eko_l
+
+ *I* writing fsr_l, fsi_l
+ *I* potential data written in potential.data 
+
+           <<<  Atomic Charge >>>
+  ia is   rd d_rd  Charge(1)  Charge(2)  Charge(3)
+   1  1 1.00 0.10   0.418163   0.513122   0.612756
+   2  1 1.00 0.10   0.418163   0.513122   0.612756
+
+ ***********************************************************************
+ *                                                                     *
+ *                               TIMING                                *
+ *                                                                     *
+ ***********************************************************************
+      SUBROUTINE        CALLS        TOTAL CPU TIME           <CPU TIME>
+             SCF           15               16.4808               1.0987
+      xc_gga_chg          244               13.4171               0.0550
+          WF_Dav          137                1.5149               0.0111
+     WF_Dav_bare          137                1.5143               0.0111
+    xc_1_gr_ch12          732                0.9588               0.0013
+           pspot            1                0.7181               0.7181
+     ft_atom_chg           15                0.6705               0.0447
+        dav_hphi          411                0.6270               0.0015
+     diagonalize          411                0.5402               0.0013
+             Dos           16                0.3830               0.0239
+           psloc            1                0.3381               0.3381
+     fdchgq0_fft          122                0.3059               0.0025
+         swffftx          411                0.2869               0.0007
+         FFT_SET            1                0.2466               0.2466
+           fd_vq          122                0.2283               0.0019
+    xc_1_gr_ch11          732                0.2277               0.0003
+          Chgfft          122                0.2105               0.0017
+         ptfft1p          122                0.2044               0.0017
+      dav_grmsmd           15                0.1988               0.0133
+       dav_mgs_t           15                0.1968               0.0131
+           Force           15                0.1886               0.0126
+        fdforce0           15                0.1628               0.0109
+       ptfft1p00           93                0.1617               0.0017
+          ptfft1          137                0.1103               0.0008
+    dav_residual          274                0.1102               0.0004
+   blugel_ishida          107                0.0890               0.0008
+          swffft          122                0.0798               0.0007
+      dav_nonloc          411                0.0796               0.0002
+           gstep            1                0.0478               0.0478
+    dav_nonloc_2        15618                0.0441               0.0000
+    Total Energy          122                0.0401               0.0003
+     gather_fft1          137                0.0309               0.0002
+    dav_nonloc_3        15618                0.0278               0.0000
+          Stlhxc          152                0.0273               0.0002
+   fdchgq0_fft_1          122                0.0269               0.0002
+           kbint            1                0.0264               0.0264
+          fsrfsi           15                0.0247               0.0016
+    gather_fft1g          122                0.0214               0.0002
+         dav_mgs          274                0.0213               0.0001
+      conv_check          122                0.0201               0.0002
+  dav_residual_1          274                0.0197               0.0001
+      dav_sumset          274                0.0186               0.0001
+ ***********************************************************************
+
+ =======================================================================
+ TASK                   CALLS        TOTAL CPU TIME           <CPU TIME>
+ FFT MPI                 3094                4.2572               0.0014
+ FFTW MPI1                259                0.0873               0.0003
+ FFTW3 MPI1G              944                0.5533               0.0006
+  
+ ALLREDUCE              67090                0.2018               0.0000
+ ALLREDUCE_G              442                0.0317               0.0001
+ ALLREDUCE_KB              63                0.0006               0.0000
+ ALLREDUCE_K             2350                0.0077               0.0000
+ ALLGATHERV               141                0.0329               0.0002
+ ALLGATHERV_KG            412                0.0012               0.0000
+ ALLGATHERV_K             274                0.0011               0.0000
+ ALLGATHERV_KB            122                0.0214               0.0002
+ GATHERV                    2                0.0017               0.0008
+ ALLTOALLV               1709                0.4966               0.0003
+ ALLTOALLV_KB             944                0.0345               0.0000
+ ALLTOALLV_KG            1157                0.0083               0.0000
+ TOTAL TIME FOR COMMUNICATION                0.8395
+ =======================================================================
+
+ TOTAL CPU TIME:  00 HOURS 00 MINUTES 18.74 SECONDS
+
+ PROGRAM STATE ENDED AT: Feb 18 23:54:12 2021
+  
+ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+                           _______________________
+     __________   _______/______v______v______v___]
+    D          | |                                 |
+    D   A A    | | Congratulations!                |  C( > < )D
+  --  =(^.^)=  | |  The calculation has converged. |    = o =
+ |     @@@@@   | |                                 |    (    )~
+ /--=O=-+-=O=---+--=O=--+--==O==--+--==O==--+--=O=-+--=O=---=O=-/
+  
+ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH

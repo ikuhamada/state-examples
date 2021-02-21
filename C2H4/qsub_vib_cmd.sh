@@ -3,21 +3,25 @@
 #$ -pe fillup 6
 #$ -N C2H4
 
-#disable OPENMP parallelism
+# Disable OPENMP parallelism
+
 setenv OMP_NUM_THREADS 1
 
-# execuable of the STATE code
+# Set the execuable of the STATE code
+
 ln -fs ${HOME}/STATE/src/state/src/STATE .
 
-# pseudopotential data
+# Set the pseudopotential data
+
 ln -fs ../gncpp/pot.C_pbe3
 ln -fs ../gncpp/pot.H_lda3
 
-# input file
-NFINP=nfinp_vib
+# Set the input/output file
 
-# output file
-NFOUT=nfout_vib
+INPUT_FILE=nfinp_vib
+OUTPUT_FILE=nfout_vib
  
-# launch STATE
-mpirun -np $NSLOTS ./STATE < ${NFINP} > ${NFOUT}
+# Run!
+
+mpirun -np $NSLOTS ./STATE < ${INPUT_FILE} > ${OUTPUT_FILE}
+
