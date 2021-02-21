@@ -3,19 +3,24 @@
 #$ -pe fillup 6
 #$ -N GR
 
-#disable OPENMP parallelism
+# Disable OPENMP parallelism
+
 setenv OMP_NUM_THREADS 1
 
-# execuable of the STATE code
+# Set the execuable of the STATE code
+
 ln -fs ${HOME}/STATE/src/state/src/STATE .
 
-# pseudopotential data
+# Set the pseudopotential data
+
 ln -fs ${HOME}/STATE/gncpp/pot.C_pbe3
  
-# List of the tasks
+# Set the list of the tasks
+
 JOB_LIST='scf band'
 
 # Run!
+
 for JOB in ${JOB_LIST}
 do
 

@@ -3,7 +3,7 @@
 Input examples for STATE, a plane-wave pseudopotential implementation of
 the electronic structure method based on density functional theory.
 
-To run STATE, make symbolic links to the STATE executable and pseudopotentials in the working directory, and execute
+To run STATE, make symbolic links to the STATE executable and pseudopotentials in the working directory and execute, for instance: 
 
     $ mpirun -np 4 ./STATE < input_file > output_file
 
@@ -17,13 +17,16 @@ or with a queueing system, one may use a job script (say, qsub.sh) like
     setenv OMP_NUM_THREADS 1
     #
     # Set the execuable of the STATE code
+    #
     ln -fs ${HOME}/STATE/src/state/src/STATE .
     #
     # Set the Pseudopotential data
+    #
     ln -fs ${HOME}/STATE/gncpp/pot.C_pbe1
     ln -fs ${HOME}/STATE/gncpp/pot.O_pbe1
     # 
     # Run!
+    #
     mpirun -np $NSLOTS ./STATE < nfinp_1 > nfout_1
 
 and submit

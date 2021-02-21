@@ -3,22 +3,24 @@
 #$ -pe fillup 6
 #$ -N GR
 
-#disable OPENMP parallelism
+# Disable OPENMP parallelism
 setenv OMP_NUM_THREADS 1
 
-# execuable of the STATE code
+# Set the execuable of the STATE code
 ln -fs ${HOME}/STATE/src/state/src/STATE .
 
-# pseudopotential data
+# Set the pseudopotential data
+
 ln -fs ../../gncpp/pot.C_pbe3
  
-# List of the lattice constant a
+# Set the List of the lattice constant a
 A_LIST='4.54 4.56 4.58 4.60 4.62 4.64 4.66 4.68 4.70 4.72 4.74'
 
-# Lattice constant c (10 Angstrom)
+# Set the lattice constant c (10 Angstrom)
 C='18.89726878'
 
-# launch STATE
+# Run!
+
 for A in ${A_LIST}
 do
 
