@@ -1,20 +1,28 @@
-#$ -S /bin/sh
-#$ -cwd
-#$ -pe fillup 6
-#$ -N GR
+#!/bin/sh
+#SBATCH -J  GR
+#SBATCH -p  i8cpu
+#SBATCH -N  1
+#SBATCH -n  4
 
-# Disable OPENMP parallelism
+# Load the modules
 
-setenv OMP_NUM_THREADS 1
+module load intel_compiler/2020.2.254
+module load intel_mpi/2020.2.254
+module load intel_mkl/2020.2.254
 
-# Set the execuable of the STATE code
+# Set the executable of the STATE code
 
-ln -fs ${HOME}/STATE/src/state/src/STATE .
+ln -fs ${HOME}/STATE/src/state/src/STATE
 
 # Set the pseudopotential data
 
 ln -fs ../../gncpp/pot.C_pbe3
- 
+
+# Set the list of the tasks
+
+JOB_LIST='scf'
+
+
 # Set the List of the lattice constant a
 
 A_LIST='4.54 4.56 4.58 4.60 4.62 4.64 4.66 4.68 4.70 4.72 4.74'
@@ -63,6 +71,7 @@ CELL      ${A} ${A} ${C}  90.00  90.00 120.00
 &END
 EOF
 
-mpirun -np $NSLOTS ./STATE < ${INPUT_FILE} > ${OUTPUT_FILE}
+srun ./STATE < ${INPUT_FILE} > ${OUTPUT_FILE}
 
 done
+

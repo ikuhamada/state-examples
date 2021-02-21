@@ -15,6 +15,11 @@ ln -fs ${HOME}/STATE/src/state/src/STATE .
 
 ln -fs ../../gncpp/pot.C_pbe3
  
+# Set the input/output file
+
+INPUT_FILE=nfinp_scf
+OUTPUT_FILE=nfout_scf
+
 # Run!
 
-mpirun -np $NSLOTS ./STATE < nfinp_scf > nfout_scf
+mpirun -np $NSLOTS ./STATE < ${INPUT_FILE} > ${OUTPUT_FILE}
