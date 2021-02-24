@@ -1,6 +1,6 @@
 #$ -S /bin/sh
 #$ -cwd
-#$ -pe fillup 6
+#$ -pe x6 6
 #$ -N C6H6
 
 # Disable OPENMP parallelism
@@ -22,4 +22,5 @@ INPUT_FILE=nfinp_scf
 OUTPUT_FILE=nfout_scf
 
 # Run!
+
 mpirun -np $NSLOTS ./STATE < ${INPUT_FILE} > ${OUTPUT_FILES}

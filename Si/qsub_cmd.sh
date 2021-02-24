@@ -1,6 +1,6 @@
 #$ -S /bin/sh
 #$ -cwd
-#$ -pe fillup 6
+#$ -pe x6 6
 #$ -N Si
 
 # Disable OPENMP parallelism
@@ -8,6 +8,7 @@
 export OMP_NUM_THREADS=1
 
 # Set the execuable of the STATE code
+
 ln -fs ${HOME}/STATE/src/state/src/STATE .
 
 # Set the pseudopotential data
