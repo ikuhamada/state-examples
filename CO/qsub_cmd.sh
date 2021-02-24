@@ -5,7 +5,7 @@
  
 # Disable the openMP parallelism
  
-setenv OMP_NUM_THREADS 1
+export OMP_NUM_THREADS=1
  
 # Set the execuable of the STATE code
 

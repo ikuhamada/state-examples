@@ -4,7 +4,8 @@
 #$ -N Al
 
 #disable OPENMP parallelism
-setenv OMP_NUM_THREADS 1
+
+export OMP_NUM_THREADS=1
 
 # execuable of the STATE code
 ln -fs ${HOME}/STATE/src/state/src/STATE .
