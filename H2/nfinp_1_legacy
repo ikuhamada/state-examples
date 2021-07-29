@@ -1,5 +1,5 @@
        0     0     0     0     0     0       : H2 molecule in a box 
- 6.0    20.0     1     2     2       : GMAX GMAXP NTYP NATM NATM2
+     6.0  20.0     1     2     2             : GMAX GMAXP NTYP NATM NATM2
        1     0                               : NUM_SPACE_GROUP TYPE_OF_BRAVIS_LATTICE 
     10.0  10.0  10.0  90.0  90.0  90.0       : A B C ALPHA BETA GAMMA
        1     1     1     1     1     1       : N1 N2 N3 M1 M2 M3 (k-point mesh and shift)        
