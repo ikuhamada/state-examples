@@ -7,7 +7,7 @@
 
 export OMP_NUM_THREADS=1
 
-# Set the execuable of the STATE code
+# Set the executable of the STATE code
 
 ln -fs ${HOME}/STATE/src/state/src/STATE .
 

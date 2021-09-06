@@ -13,7 +13,7 @@ export OMP_NUM_THREADS=1
 
 unset I_MPI_TCP_NETMASK
  
-# Set the execuable of the STATE code
+# Set the executable of the STATE code
 
 ln -fs ${HOME}/STATE/src/state-5.6.9/src/STATE .
  

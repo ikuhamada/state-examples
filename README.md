@@ -16,7 +16,7 @@ or with a queueing system, one may use a job script (say, qsub.sh) like
     #
     setenv OMP_NUM_THREADS 1
     #
-    # Set the execuable of the STATE code
+    # Set the executable of the STATE code
     #
     ln -fs ${HOME}/STATE/src/state/src/STATE .
     #
