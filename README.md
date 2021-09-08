@@ -11,7 +11,8 @@ or with a queueing system, one may use a job script (say, qsub.sh) like
 
     #$ -S /bin/sh
     #$ -cwd
-    #$ -pe fillup 6
+    #$ -q all.q
+    #$ -pe smp 4
     #$ -N CO
     #
     setenv OMP_NUM_THREADS 1

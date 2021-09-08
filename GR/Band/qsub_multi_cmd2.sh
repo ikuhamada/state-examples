@@ -18,7 +18,7 @@ ln -fs ../../gncpp/pot.C_pbe3
  
 # Set the list of the tasks
 
-JOB_LIST='scf'
+JOB_LIST='scf band'
 
 # Run!
 

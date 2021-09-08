@@ -16,18 +16,11 @@ ln -fs ${HOME}/STATE/src/state/src/STATE .
 
 ln -fs ../../gncpp/pot.C_pbe3
  
-# Set the list of the tasks
+# Set the input/output file
 
-JOB_LIST='scf'
+INPUT_FILE=nfinp_scf
+OUTPUT_FILE=nfout_scf
 
 # Run!
 
-for JOB in ${JOB_LIST}
-do
-
-INPUT_FILE=nfinp_${JOB}
-OUTPUT_FILE=nfout_${JOB}
-
 mpirun -np $NSLOTS ./STATE < ${INPUT_FILE} > ${OUTPUT_FILE}
-
-done

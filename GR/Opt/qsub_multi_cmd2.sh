@@ -1,7 +1,6 @@
 #$ -S /bin/sh
 #$ -cwd
-#$ -q all.q
-#$ -pe smp 4
+#$ -pe fillup 6
 #$ -N GR
 
 # Disable OPENMP parallelism

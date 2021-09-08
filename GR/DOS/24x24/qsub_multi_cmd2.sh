@@ -8,17 +8,16 @@
 
 setenv OMP_NUM_THREADS 1
 
-# Set the executable of the STATE code
+# Set the execuable of the STATE code
 
 ln -fs ${HOME}/STATE/src/state/src/STATE .
 
 # Set the pseudopotential data
 
-ln -fs ../../gncpp/pot.C_pbe3
+ln -fs ../../../STATE/gncpp/pot.C_pbe3
  
 # Set the list of the tasks
-
-JOB_LIST='scf'
+JOB_LIST='scf pdos scf+pdos' 
 
 # Run!
 
