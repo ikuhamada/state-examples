@@ -24,4 +24,4 @@ OUTPUT_FILE=nfout_scf
 
 # Run!
 
-mpirun -np $NSLOTS ./STATE < ${INPUT_FILE} > ${OUTPUT_FILES}
+mpirun -np $NSLOTS ./STATE < ${INPUT_FILE} > ${OUTPUT_FILE}
