@@ -1,0 +1,1115 @@
+ 
+ ***********************************************************************
+ *                                                                     *
+ *                                                                     *
+ *                                                                     *
+ *              ******  ********    **    ******** ********            *
+ *             ******** ********   ****   ******** ********            *
+ *             **          **     **  **     **    **                  *
+ *              ***        **    ********    **    ******              *
+ *                ***      **   **********   **    ******              *
+ *                  **     **  **        **  **    **                  *
+ *             ********    ** **          ** **    ********            *
+ *              ******     ** VERSION 5.6.9  **    ********            *
+ *                               RICS-AIST                             *
+ *                           OSAKA UNIVERSITY                          *
+ *                                                                     *
+ ***********************************************************************
+ 
+ PROGRAM STATE STARTED AT: Feb 21 22:33:52 2022
+
+ THIS JOB RUNS ON         : c15u10n2                        
+ THE CURRENT DIRECTORY IS : /home/k0472/k047203/STATE/out/H2+H/Test/NEB 
+ THE PROCESS ID IS        : 128065
+ THE JOB WAS SUBMITTED BY : k047203   
+ THE NUMBER OF PROCESSORS : 20
+ THE NUMBER OF THREADS    : 2
+ NUMBER OF REPLICAS CONSIDERED :   5
+ REPLICA DIRECTORIES : 
+ 02 03 04 05 06
+ REPLICA #001 FOUND.
+ REPLICA #002 FOUND.
+ REPLICA #003 FOUND.
+ REPLICA #004 FOUND.
+ REPLICA #005 FOUND.
+ REPLICA #001 IS SUCCESSFULLY LAUNCHED.
+ REPLICA #004 IS SUCCESSFULLY LAUNCHED.
+ REPLICA #003 IS SUCCESSFULLY LAUNCHED.
+ REPLICA #002 IS SUCCESSFULLY LAUNCHED.
+ REPLICA #005 IS SUCCESSFULLY LAUNCHED.
+ SAMPLING DENSITY :  10
+ SAMPLING DENSITY :  10
+ SAMPLING DENSITY :  10
+ SAMPLING DENSITY :  10
+ SAMPLING DENSITY :  10
+ REPLICA ASYNCHRONOUS MODE
+ NUMBER OF REPLICAS :   5
+ DIRECTORY FOR THE TERMINAL (INI.) IMAGE: 01
+ DIRECTORY FOR THE TERMINAL (FIN.) IMAGE: 07
+ WORKING DIRECTORY FOR THE REPLICA #004 : 06
+ WORKING DIRECTORY FOR THE REPLICA #000 : 02
+ WORKING DIRECTORY FOR THE REPLICA #001 : 03
+ WORKING DIRECTORY FOR THE REPLICA #002 : 04
+ WORKING DIRECTORY FOR THE REPLICA #003 : 05
+ *----------------------------------------------- CPU :          29.3769
+ REPLICA #001 : ...
+ REPLICA #002 : ...
+ REPLICA #003 : ...
+ REPLICA #004 : SCF CONVERGED (   1-ST MD).
+ REPLICA #005 : ...
+ *----------------------------------------------- CPU :          30.1193
+ REPLICA #001 : ...
+ REPLICA #002 : ...
+ REPLICA #003 : SCF CONVERGED (   1-ST MD).
+ REPLICA #004 : SCF CONVERGED (   1-ST MD).
+ REPLICA #005 : ...
+ *----------------------------------------------- CPU :          31.4682
+ REPLICA #001 : SCF CONVERGED (   1-ST MD).
+ REPLICA #002 : ...
+ REPLICA #003 : SCF CONVERGED (   1-ST MD).
+ REPLICA #004 : SCF CONVERGED (   1-ST MD).
+ REPLICA #005 : ...
+ *----------------------------------------------- CPU :          46.7740
+ REPLICA #001 : SCF CONVERGED (   2-ND MD).
+ REPLICA #002 : SCF CONVERGED (   1-ST MD).
+ REPLICA #003 : SCF CONVERGED (   1-ST MD).
+ REPLICA #004 : SCF CONVERGED (   1-ST MD).
+ REPLICA #005 : SCF CONVERGED (   1-ST MD).
+ *----------------------------------------------- CPU :          61.6422
+ REPLICA #001 : SCF CONVERGED (   3-RD MD).
+ REPLICA #002 : SCF CONVERGED (   2-ND MD).
+ REPLICA #003 : SCF CONVERGED (   2-ND MD).
+ REPLICA #004 : SCF CONVERGED (   2-ND MD).
+ REPLICA #005 : SCF CONVERGED (   2-ND MD).
+ *----------------------------------------------- CPU :          77.6697
+ REPLICA #001 : SCF CONVERGED (   4-TH MD).
+ REPLICA #002 : SCF CONVERGED (   3-RD MD).
+ REPLICA #003 : SCF CONVERGED (   3-RD MD).
+ REPLICA #004 : SCF CONVERGED (   3-RD MD).
+ REPLICA #005 : SCF CONVERGED (   3-RD MD).
+ *----------------------------------------------- CPU :          93.6763
+ REPLICA #001 : SCF CONVERGED (   5-TH MD).
+ REPLICA #002 : SCF CONVERGED (   4-TH MD).
+ REPLICA #003 : SCF CONVERGED (   4-TH MD).
+ REPLICA #004 : SCF CONVERGED (   4-TH MD).
+ REPLICA #005 : SCF CONVERGED (   4-TH MD).
+ *----------------------------------------------- CPU :         110.7501
+ REPLICA #001 : SCF CONVERGED (   6-TH MD).
+ REPLICA #002 : SCF CONVERGED (   4-TH MD).
+ REPLICA #003 : SCF CONVERGED (   5-TH MD).
+ REPLICA #004 : SCF CONVERGED (   5-TH MD).
+ REPLICA #005 : SCF CONVERGED (   5-TH MD).
+ *----------------------------------------------- CPU :         127.5953
+ REPLICA #001 : SCF CONVERGED (   7-TH MD).
+ REPLICA #002 : SCF CONVERGED (   5-TH MD).
+ REPLICA #003 : SCF CONVERGED (   6-TH MD).
+ REPLICA #004 : SCF CONVERGED (   6-TH MD).
+ REPLICA #005 : SCF CONVERGED (   6-TH MD).
+ *----------------------------------------------- CPU :         142.5652
+ REPLICA #001 : SCF CONVERGED (   8-TH MD).
+ REPLICA #002 : SCF CONVERGED (   6-TH MD).
+ REPLICA #003 : SCF CONVERGED (   7-TH MD).
+ REPLICA #004 : SCF CONVERGED (   7-TH MD).
+ REPLICA #005 : SCF CONVERGED (   7-TH MD).
+ *----------------------------------------------- CPU :         157.7690
+ REPLICA #001 : SCF CONVERGED (   9-TH MD).
+ REPLICA #002 : SCF CONVERGED (   7-TH MD).
+ REPLICA #003 : SCF CONVERGED (   8-TH MD).
+ REPLICA #004 : SCF CONVERGED (   7-TH MD).
+ REPLICA #005 : SCF CONVERGED (   8-TH MD).
+ *----------------------------------------------- CPU :         171.9319
+ REPLICA #001 : SCF CONVERGED (  10-TH MD).
+ REPLICA #002 : SCF CONVERGED (   8-TH MD).
+ REPLICA #003 : SCF CONVERGED (   8-TH MD).
+ REPLICA #004 : SCF CONVERGED (   8-TH MD).
+ REPLICA #005 : SCF CONVERGED (   9-TH MD).
+ *----------------------------------------------- CPU :         185.8889
+ REPLICA #001 : SCF CONVERGED (  11-TH MD).
+ REPLICA #002 : SCF CONVERGED (   9-TH MD).
+ REPLICA #003 : SCF CONVERGED (   9-TH MD).
+ REPLICA #004 : SCF CONVERGED (   9-TH MD).
+ REPLICA #005 : SCF CONVERGED (  10-TH MD).
+ *----------------------------------------------- CPU :         196.3230
+ REPLICA #001 : SCF CONVERGED (  12-TH MD).
+ REPLICA #002 : SCF CONVERGED (   9-TH MD).
+ REPLICA #003 : SCF CONVERGED (  10-TH MD).
+ REPLICA #004 : SCF CONVERGED (   9-TH MD).
+ REPLICA #005 : SCF CONVERGED (  11-TH MD).
+ *----------------------------------------------- CPU :         205.6755
+ REPLICA #001 : SCF CONVERGED (  13-TH MD).
+ REPLICA #002 : SCF CONVERGED (  10-TH MD).
+ REPLICA #003 : SCF CONVERGED (  10-TH MD).
+ REPLICA #004 : SCF CONVERGED (  10-TH MD).
+ REPLICA #005 : SCF CONVERGED (  11-TH MD).
+ *----------------------------------------------- CPU :         212.7064
+ REPLICA #001 : SCF CONVERGED (  14-TH MD).
+ REPLICA #002 : SCF CONVERGED (  10-TH MD).
+ REPLICA #003 : SCF CONVERGED (  11-TH MD).
+ REPLICA #004 : SCF CONVERGED (  10-TH MD).
+ REPLICA #005 : SCF CONVERGED (  12-TH MD).
+ *----------------------------------------------- CPU :         220.4494
+ REPLICA #001 : SCF CONVERGED (  15-TH MD).
+ REPLICA #002 : SCF CONVERGED (  10-TH MD).
+ REPLICA #003 : SCF CONVERGED (  11-TH MD).
+ REPLICA #004 : SCF CONVERGED (  11-TH MD).
+ REPLICA #005 : SCF CONVERGED (  13-TH MD).
+ *----------------------------------------------- CPU :         227.4598
+ REPLICA #001 : SCF CONVERGED (  16-TH MD).
+ REPLICA #002 : SCF CONVERGED (  11-TH MD).
+ REPLICA #003 : SCF CONVERGED (  11-TH MD).
+ REPLICA #004 : SCF CONVERGED (  11-TH MD).
+ REPLICA #005 : SCF CONVERGED (  14-TH MD).
+ *----------------------------------------------- CPU :         234.6385
+ REPLICA #001 : SCF CONVERGED (  17-TH MD).
+ REPLICA #002 : SCF CONVERGED (  11-TH MD).
+ REPLICA #003 : SCF CONVERGED (  12-TH MD).
+ REPLICA #004 : SCF CONVERGED (  12-TH MD).
+ REPLICA #005 : SCF CONVERGED (  15-TH MD).
+ *----------------------------------------------- CPU :         242.8043
+ REPLICA #001 : SCF CONVERGED (  18-TH MD).
+ REPLICA #002 : SCF CONVERGED (  12-TH MD).
+ REPLICA #003 : SCF CONVERGED (  12-TH MD).
+ REPLICA #004 : SCF CONVERGED (  12-TH MD).
+ REPLICA #005 : SCF CONVERGED (  15-TH MD).
+ *----------------------------------------------- CPU :         251.3126
+ REPLICA #001 : SCF CONVERGED (  19-TH MD).
+ REPLICA #002 : SCF CONVERGED (  12-TH MD).
+ REPLICA #003 : SCF CONVERGED (  13-TH MD).
+ REPLICA #004 : SCF CONVERGED (  13-TH MD).
+ REPLICA #005 : SCF CONVERGED (  16-TH MD).
+ *----------------------------------------------- CPU :         260.0375
+ REPLICA #001 : SCF CONVERGED (  20-TH MD).
+ REPLICA #002 : SCF CONVERGED (  13-TH MD).
+ REPLICA #003 : SCF CONVERGED (  13-TH MD).
+ REPLICA #004 : SCF CONVERGED (  13-TH MD).
+ REPLICA #005 : SCF CONVERGED (  17-TH MD).
+ *----------------------------------------------- CPU :         267.7776
+ REPLICA #001 : SCF CONVERGED (  21-ST MD).
+ REPLICA #002 : SCF CONVERGED (  13-TH MD).
+ REPLICA #003 : SCF CONVERGED (  14-TH MD).
+ REPLICA #004 : SCF CONVERGED (  14-TH MD).
+ REPLICA #005 : SCF CONVERGED (  18-TH MD).
+ *----------------------------------------------- CPU :         276.3000
+ REPLICA #001 : SCF CONVERGED (  22-ND MD).
+ REPLICA #002 : SCF CONVERGED (  14-TH MD).
+ REPLICA #003 : SCF CONVERGED (  14-TH MD).
+ REPLICA #004 : SCF CONVERGED (  14-TH MD).
+ REPLICA #005 : SCF CONVERGED (  19-TH MD).
+ *----------------------------------------------- CPU :         284.4426
+ REPLICA #001 : SCF CONVERGED (  23-RD MD).
+ REPLICA #002 : SCF CONVERGED (  14-TH MD).
+ REPLICA #003 : SCF CONVERGED (  15-TH MD).
+ REPLICA #004 : SCF CONVERGED (  15-TH MD).
+ REPLICA #005 : SCF CONVERGED (  20-TH MD).
+ *----------------------------------------------- CPU :         292.5943
+ REPLICA #001 : SCF CONVERGED (  24-TH MD).
+ REPLICA #002 : SCF CONVERGED (  15-TH MD).
+ REPLICA #003 : SCF CONVERGED (  15-TH MD).
+ REPLICA #004 : SCF CONVERGED (  15-TH MD).
+ REPLICA #005 : SCF CONVERGED (  21-ST MD).
+ *----------------------------------------------- CPU :         300.7737
+ REPLICA #001 : SCF CONVERGED (  25-TH MD).
+ REPLICA #002 : SCF CONVERGED (  15-TH MD).
+ REPLICA #003 : SCF CONVERGED (  15-TH MD).
+ REPLICA #004 : SCF CONVERGED (  16-TH MD).
+ REPLICA #005 : SCF CONVERGED (  22-ND MD).
+ *----------------------------------------------- CPU :         309.5157
+ REPLICA #001 : SCF CONVERGED (  26-TH MD).
+ REPLICA #002 : SCF CONVERGED (  16-TH MD).
+ REPLICA #003 : SCF CONVERGED (  16-TH MD).
+ REPLICA #004 : SCF CONVERGED (  16-TH MD).
+ REPLICA #005 : SCF CONVERGED (  22-ND MD).
+ *----------------------------------------------- CPU :         318.9024
+ REPLICA #001 : SCF CONVERGED (  27-TH MD).
+ REPLICA #002 : SCF CONVERGED (  16-TH MD).
+ REPLICA #003 : SCF CONVERGED (  17-TH MD).
+ REPLICA #004 : SCF CONVERGED (  17-TH MD).
+ REPLICA #005 : SCF CONVERGED (  23-RD MD).
+ *----------------------------------------------- CPU :         327.9994
+ REPLICA #001 : SCF CONVERGED (  28-TH MD).
+ REPLICA #002 : SCF CONVERGED (  17-TH MD).
+ REPLICA #003 : SCF CONVERGED (  17-TH MD).
+ REPLICA #004 : SCF CONVERGED (  17-TH MD).
+ REPLICA #005 : SCF CONVERGED (  24-TH MD).
+ *----------------------------------------------- CPU :         338.0839
+ REPLICA #001 : SCF CONVERGED (  29-TH MD).
+ REPLICA #002 : SCF CONVERGED (  17-TH MD).
+ REPLICA #003 : SCF CONVERGED (  18-TH MD).
+ REPLICA #004 : SCF CONVERGED (  18-TH MD).
+ REPLICA #005 : SCF CONVERGED (  25-TH MD).
+ *----------------------------------------------- CPU :         347.5804
+ REPLICA #001 : SCF CONVERGED (  30-TH MD).
+ REPLICA #002 : SCF CONVERGED (  18-TH MD).
+ REPLICA #003 : SCF CONVERGED (  18-TH MD).
+ REPLICA #004 : SCF CONVERGED (  19-TH MD).
+ REPLICA #005 : SCF CONVERGED (  26-TH MD).
+ *----------------------------------------------- CPU :         358.3631
+ REPLICA #001 : SCF CONVERGED (  31-ST MD).
+ REPLICA #002 : SCF CONVERGED (  19-TH MD).
+ REPLICA #003 : SCF CONVERGED (  19-TH MD).
+ REPLICA #004 : SCF CONVERGED (  19-TH MD).
+ REPLICA #005 : SCF CONVERGED (  27-TH MD).
+ *----------------------------------------------- CPU :         370.8293
+ REPLICA #001 : SCF CONVERGED (  32-ND MD).
+ REPLICA #002 : SCF CONVERGED (  20-TH MD).
+ REPLICA #003 : SCF CONVERGED (  20-TH MD).
+ REPLICA #004 : SCF CONVERGED (  20-TH MD).
+ REPLICA #005 : SCF CONVERGED (  28-TH MD).
+ *----------------------------------------------- CPU :         380.9139
+ REPLICA #001 : SCF CONVERGED (  33-RD MD).
+ REPLICA #002 : SCF CONVERGED (  20-TH MD).
+ REPLICA #003 : SCF CONVERGED (  20-TH MD).
+ REPLICA #004 : SCF CONVERGED (  21-ST MD).
+ REPLICA #005 : SCF CONVERGED (  29-TH MD).
+ *----------------------------------------------- CPU :         390.4644
+ REPLICA #001 : SCF CONVERGED (  34-TH MD).
+ REPLICA #002 : SCF CONVERGED (  21-ST MD).
+ REPLICA #003 : SCF CONVERGED (  21-ST MD).
+ REPLICA #004 : SCF CONVERGED (  21-ST MD).
+ REPLICA #005 : SCF CONVERGED (  30-TH MD).
+ *----------------------------------------------- CPU :         399.9667
+ REPLICA #001 : SCF CONVERGED (  35-TH MD).
+ REPLICA #002 : SCF CONVERGED (  21-ST MD).
+ REPLICA #003 : SCF CONVERGED (  21-ST MD).
+ REPLICA #004 : SCF CONVERGED (  22-ND MD).
+ REPLICA #005 : SCF CONVERGED (  31-ST MD).
+ *----------------------------------------------- CPU :         410.6402
+ REPLICA #001 : SCF CONVERGED (  36-TH MD).
+ REPLICA #002 : SCF CONVERGED (  22-ND MD).
+ REPLICA #003 : SCF CONVERGED (  22-ND MD).
+ REPLICA #004 : SCF CONVERGED (  23-RD MD).
+ REPLICA #005 : SCF CONVERGED (  32-ND MD).
+ *----------------------------------------------- CPU :         420.6141
+ REPLICA #001 : SCF CONVERGED (  37-TH MD).
+ REPLICA #002 : SCF CONVERGED (  23-RD MD).
+ REPLICA #003 : SCF CONVERGED (  23-RD MD).
+ REPLICA #004 : SCF CONVERGED (  23-RD MD).
+ REPLICA #005 : SCF CONVERGED (  33-RD MD).
+ *----------------------------------------------- CPU :         431.2519
+ REPLICA #001 : SCF CONVERGED (  38-TH MD).
+ REPLICA #002 : SCF CONVERGED (  24-TH MD).
+ REPLICA #003 : SCF CONVERGED (  23-RD MD).
+ REPLICA #004 : SCF CONVERGED (  24-TH MD).
+ REPLICA #005 : SCF CONVERGED (  34-TH MD).
+ *----------------------------------------------- CPU :         440.6406
+ REPLICA #001 : SCF CONVERGED (  39-TH MD).
+ REPLICA #002 : SCF CONVERGED (  25-TH MD).
+ REPLICA #003 : SCF CONVERGED (  24-TH MD).
+ REPLICA #004 : SCF CONVERGED (  26-TH MD).
+ REPLICA #005 : SCF CONVERGED (  35-TH MD).
+ *----------------------------------------------- CPU :         450.5490
+ REPLICA #001 : SCF CONVERGED (  40-TH MD).
+ REPLICA #002 : SCF CONVERGED (  26-TH MD).
+ REPLICA #003 : SCF CONVERGED (  24-TH MD).
+ REPLICA #004 : SCF CONVERGED (  27-TH MD).
+ REPLICA #005 : SCF CONVERGED (  36-TH MD).
+ *----------------------------------------------- CPU :         459.8102
+ REPLICA #001 : SCF CONVERGED (  41-ST MD).
+ REPLICA #002 : SCF CONVERGED (  27-TH MD).
+ REPLICA #003 : SCF CONVERGED (  25-TH MD).
+ REPLICA #004 : SCF CONVERGED (  28-TH MD).
+ REPLICA #005 : SCF CONVERGED (  37-TH MD).
+ *----------------------------------------------- CPU :         469.6703
+ REPLICA #001 : SCF CONVERGED (  42-ND MD).
+ REPLICA #002 : SCF CONVERGED (  28-TH MD).
+ REPLICA #003 : SCF CONVERGED (  25-TH MD).
+ REPLICA #004 : SCF CONVERGED (  29-TH MD).
+ REPLICA #005 : SCF CONVERGED (  37-TH MD).
+ *----------------------------------------------- CPU :         479.1081
+ REPLICA #001 : SCF CONVERGED (  43-RD MD).
+ REPLICA #002 : SCF CONVERGED (  29-TH MD).
+ REPLICA #003 : SCF CONVERGED (  26-TH MD).
+ REPLICA #004 : SCF CONVERGED (  30-TH MD).
+ REPLICA #005 : SCF CONVERGED (  38-TH MD).
+ *----------------------------------------------- CPU :         489.4690
+ REPLICA #001 : SCF CONVERGED (  44-TH MD).
+ REPLICA #002 : SCF CONVERGED (  30-TH MD).
+ REPLICA #003 : SCF CONVERGED (  27-TH MD).
+ REPLICA #004 : SCF CONVERGED (  32-ND MD).
+ REPLICA #005 : SCF CONVERGED (  39-TH MD).
+ *----------------------------------------------- CPU :         500.1577
+ REPLICA #001 : SCF CONVERGED (  45-TH MD).
+ REPLICA #002 : SCF CONVERGED (  32-ND MD).
+ REPLICA #003 : SCF CONVERGED (  27-TH MD).
+ REPLICA #004 : SCF CONVERGED (  33-RD MD).
+ REPLICA #005 : SCF CONVERGED (  40-TH MD).
+ *----------------------------------------------- CPU :         512.4065
+ REPLICA #001 : SCF CONVERGED (  46-TH MD).
+ REPLICA #002 : SCF CONVERGED (  33-RD MD).
+ REPLICA #003 : SCF CONVERGED (  28-TH MD).
+ REPLICA #004 : SCF CONVERGED (  34-TH MD).
+ REPLICA #005 : SCF CONVERGED (  42-ND MD).
+ *----------------------------------------------- CPU :         524.6581
+ REPLICA #001 : SCF CONVERGED (  47-TH MD).
+ REPLICA #002 : SCF CONVERGED (  35-TH MD).
+ REPLICA #003 : SCF CONVERGED (  29-TH MD).
+ REPLICA #004 : SCF CONVERGED (  36-TH MD).
+ REPLICA #005 : SCF CONVERGED (  43-RD MD).
+ *----------------------------------------------- CPU :         539.2184
+ REPLICA #001 : SCF CONVERGED (  48-TH MD).
+ REPLICA #002 : SCF CONVERGED (  37-TH MD).
+ REPLICA #003 : SCF CONVERGED (  29-TH MD).
+ REPLICA #004 : SCF CONVERGED (  38-TH MD).
+ REPLICA #005 : SCF CONVERGED (  44-TH MD).
+ *----------------------------------------------- CPU :         549.0117
+ REPLICA #001 : SCF CONVERGED (  49-TH MD).
+ REPLICA #002 : SCF CONVERGED (  38-TH MD).
+ REPLICA #003 : SCF CONVERGED (  30-TH MD).
+ REPLICA #004 : SCF CONVERGED (  39-TH MD).
+ REPLICA #005 : SCF CONVERGED (  45-TH MD).
+ *----------------------------------------------- CPU :         558.9072
+ REPLICA #001 : SCF CONVERGED (  50-TH MD).
+ REPLICA #002 : SCF CONVERGED (  39-TH MD).
+ REPLICA #003 : SCF CONVERGED (  31-ST MD).
+ REPLICA #004 : SCF CONVERGED (  41-ST MD).
+ REPLICA #005 : SCF CONVERGED (  46-TH MD).
+ *----------------------------------------------- CPU :         568.3197
+ REPLICA #001 : SCF CONVERGED (  51-ST MD).
+ REPLICA #002 : SCF CONVERGED (  40-TH MD).
+ REPLICA #003 : SCF CONVERGED (  31-ST MD).
+ REPLICA #004 : SCF CONVERGED (  42-ND MD).
+ REPLICA #005 : SCF CONVERGED (  47-TH MD).
+ *----------------------------------------------- CPU :         578.8561
+ REPLICA #001 : SCF CONVERGED (  52-ND MD).
+ REPLICA #002 : SCF CONVERGED (  41-ST MD).
+ REPLICA #003 : SCF CONVERGED (  32-ND MD).
+ REPLICA #004 : SCF CONVERGED (  43-RD MD).
+ REPLICA #005 : SCF CONVERGED (  48-TH MD).
+ *----------------------------------------------- CPU :         590.9450
+ REPLICA #001 : SCF CONVERGED (  53-RD MD).
+ REPLICA #002 : SCF CONVERGED (  42-ND MD).
+ REPLICA #003 : SCF CONVERGED (  33-RD MD).
+ REPLICA #004 : SCF CONVERGED (  44-TH MD).
+ REPLICA #005 : SCF CONVERGED (  49-TH MD).
+ *----------------------------------------------- CPU :         597.7833
+ REPLICA #001 : SCF CONVERGED (  54-TH MD).
+ REPLICA #002 : SCF CONVERGED (  43-RD MD).
+ REPLICA #003 : SCF CONVERGED (  33-RD MD).
+ REPLICA #004 : SCF CONVERGED (  45-TH MD).
+ REPLICA #005 : SCF CONVERGED (  50-TH MD).
+ *----------------------------------------------- CPU :         608.3055
+ REPLICA #001 : SCF CONVERGED (  55-TH MD).
+ REPLICA #002 : SCF CONVERGED (  43-RD MD).
+ REPLICA #003 : SCF CONVERGED (  34-TH MD).
+ REPLICA #004 : SCF CONVERGED (  46-TH MD).
+ REPLICA #005 : SCF CONVERGED (  51-ST MD).
+ *----------------------------------------------- CPU :         618.0380
+ REPLICA #001 : SCF CONVERGED (  56-TH MD).
+ REPLICA #002 : SCF CONVERGED (  44-TH MD).
+ REPLICA #003 : SCF CONVERGED (  34-TH MD).
+ REPLICA #004 : SCF CONVERGED (  47-TH MD).
+ REPLICA #005 : SCF CONVERGED (  52-ND MD).
+ *----------------------------------------------- CPU :         627.3550
+ REPLICA #001 : SCF CONVERGED (  57-TH MD).
+ REPLICA #002 : SCF CONVERGED (  45-TH MD).
+ REPLICA #003 : SCF CONVERGED (  35-TH MD).
+ REPLICA #004 : SCF CONVERGED (  47-TH MD).
+ REPLICA #005 : SCF CONVERGED (  53-RD MD).
+ *----------------------------------------------- CPU :         638.9833
+ REPLICA #001 : SCF CONVERGED (  58-TH MD).
+ REPLICA #002 : SCF CONVERGED (  46-TH MD).
+ REPLICA #003 : SCF CONVERGED (  36-TH MD).
+ REPLICA #004 : SCF CONVERGED (  48-TH MD).
+ REPLICA #005 : SCF CONVERGED (  54-TH MD).
+ *----------------------------------------------- CPU :         647.3818
+ REPLICA #001 : SCF CONVERGED (  59-TH MD).
+ REPLICA #002 : SCF CONVERGED (  47-TH MD).
+ REPLICA #003 : SCF CONVERGED (  36-TH MD).
+ REPLICA #004 : SCF CONVERGED (  49-TH MD).
+ REPLICA #005 : SCF CONVERGED (  55-TH MD).
+ *----------------------------------------------- CPU :         657.2506
+ REPLICA #001 : SCF CONVERGED (  60-TH MD).
+ REPLICA #002 : SCF CONVERGED (  48-TH MD).
+ REPLICA #003 : SCF CONVERGED (  37-TH MD).
+ REPLICA #004 : SCF CONVERGED (  50-TH MD).
+ REPLICA #005 : SCF CONVERGED (  56-TH MD).
+ *----------------------------------------------- CPU :         666.7672
+ REPLICA #001 : SCF CONVERGED (  61-ST MD).
+ REPLICA #002 : SCF CONVERGED (  49-TH MD).
+ REPLICA #003 : SCF CONVERGED (  37-TH MD).
+ REPLICA #004 : SCF CONVERGED (  51-ST MD).
+ REPLICA #005 : SCF CONVERGED (  57-TH MD).
+ *----------------------------------------------- CPU :         674.3583
+ REPLICA #001 : SCF CONVERGED (  62-ND MD).
+ REPLICA #002 : SCF CONVERGED (  50-TH MD).
+ REPLICA #003 : SCF CONVERGED (  38-TH MD).
+ REPLICA #004 : SCF CONVERGED (  52-ND MD).
+ REPLICA #005 : SCF CONVERGED (  58-TH MD).
+ *----------------------------------------------- CPU :         684.2410
+ REPLICA #001 : SCF CONVERGED (  63-RD MD).
+ REPLICA #002 : SCF CONVERGED (  51-ST MD).
+ REPLICA #003 : SCF CONVERGED (  39-TH MD).
+ REPLICA #004 : SCF CONVERGED (  52-ND MD).
+ REPLICA #005 : SCF CONVERGED (  58-TH MD).
+ *----------------------------------------------- CPU :         693.5848
+ REPLICA #001 : SCF CONVERGED (  64-TH MD).
+ REPLICA #002 : SCF CONVERGED (  52-ND MD).
+ REPLICA #003 : SCF CONVERGED (  39-TH MD).
+ REPLICA #004 : SCF CONVERGED (  53-RD MD).
+ REPLICA #005 : SCF CONVERGED (  59-TH MD).
+ *----------------------------------------------- CPU :         704.9979
+ REPLICA #001 : SCF CONVERGED (  65-TH MD).
+ REPLICA #002 : SCF CONVERGED (  53-RD MD).
+ REPLICA #003 : SCF CONVERGED (  40-TH MD).
+ REPLICA #004 : SCF CONVERGED (  55-TH MD).
+ REPLICA #005 : SCF CONVERGED (  60-TH MD).
+ *----------------------------------------------- CPU :         715.5090
+ REPLICA #001 : SCF CONVERGED (  66-TH MD).
+ REPLICA #002 : SCF CONVERGED (  54-TH MD).
+ REPLICA #003 : SCF CONVERGED (  41-ST MD).
+ REPLICA #004 : SCF CONVERGED (  56-TH MD).
+ REPLICA #005 : SCF CONVERGED (  61-ST MD).
+ *----------------------------------------------- CPU :         724.3834
+ REPLICA #001 : SCF CONVERGED (  67-TH MD).
+ REPLICA #002 : SCF CONVERGED (  55-TH MD).
+ REPLICA #003 : SCF CONVERGED (  42-ND MD).
+ REPLICA #004 : SCF CONVERGED (  57-TH MD).
+ REPLICA #005 : SCF CONVERGED (  62-ND MD).
+ *----------------------------------------------- CPU :         735.7478
+ REPLICA #001 : SCF CONVERGED (  68-TH MD).
+ REPLICA #002 : SCF CONVERGED (  56-TH MD).
+ REPLICA #003 : SCF CONVERGED (  43-RD MD).
+ REPLICA #004 : SCF CONVERGED (  58-TH MD).
+ REPLICA #005 : SCF CONVERGED (  63-RD MD).
+ *----------------------------------------------- CPU :         745.8256
+ REPLICA #001 : SCF CONVERGED (  69-TH MD).
+ REPLICA #002 : SCF CONVERGED (  57-TH MD).
+ REPLICA #003 : SCF CONVERGED (  43-RD MD).
+ REPLICA #004 : SCF CONVERGED (  59-TH MD).
+ REPLICA #005 : SCF CONVERGED (  64-TH MD).
+ *----------------------------------------------- CPU :         755.1443
+ REPLICA #001 : SCF CONVERGED (  70-TH MD).
+ REPLICA #002 : SCF CONVERGED (  58-TH MD).
+ REPLICA #003 : SCF CONVERGED (  44-TH MD).
+ REPLICA #004 : SCF CONVERGED (  60-TH MD).
+ REPLICA #005 : SCF CONVERGED (  65-TH MD).
+ *----------------------------------------------- CPU :         762.2142
+ REPLICA #001 : SCF CONVERGED (  71-ST MD).
+ REPLICA #002 : SCF CONVERGED (  59-TH MD).
+ REPLICA #003 : SCF CONVERGED (  44-TH MD).
+ REPLICA #004 : SCF CONVERGED (  61-ST MD).
+ REPLICA #005 : SCF CONVERGED (  66-TH MD).
+ *----------------------------------------------- CPU :         771.6705
+ REPLICA #001 : SCF CONVERGED (  72-ND MD).
+ REPLICA #002 : SCF CONVERGED (  60-TH MD).
+ REPLICA #003 : SCF CONVERGED (  45-TH MD).
+ REPLICA #004 : SCF CONVERGED (  61-ST MD).
+ REPLICA #005 : SCF CONVERGED (  67-TH MD).
+ *----------------------------------------------- CPU :         781.0255
+ REPLICA #001 : SCF CONVERGED (  73-RD MD).
+ REPLICA #002 : SCF CONVERGED (  61-ST MD).
+ REPLICA #003 : SCF CONVERGED (  46-TH MD).
+ REPLICA #004 : SCF CONVERGED (  62-ND MD).
+ REPLICA #005 : SCF CONVERGED (  68-TH MD).
+ *----------------------------------------------- CPU :         790.2982
+ REPLICA #001 : SCF CONVERGED (  74-TH MD).
+ REPLICA #002 : SCF CONVERGED (  62-ND MD).
+ REPLICA #003 : SCF CONVERGED (  48-TH MD).
+ REPLICA #004 : SCF CONVERGED (  63-RD MD).
+ REPLICA #005 : SCF CONVERGED (  69-TH MD).
+ *----------------------------------------------- CPU :         799.5380
+ REPLICA #001 : SCF CONVERGED (  75-TH MD).
+ REPLICA #002 : SCF CONVERGED (  63-RD MD).
+ REPLICA #003 : SCF CONVERGED (  49-TH MD).
+ REPLICA #004 : SCF CONVERGED (  64-TH MD).
+ REPLICA #005 : SCF CONVERGED (  70-TH MD).
+ *----------------------------------------------- CPU :         808.7305
+ REPLICA #001 : SCF CONVERGED (  76-TH MD).
+ REPLICA #002 : SCF CONVERGED (  64-TH MD).
+ REPLICA #003 : SCF CONVERGED (  50-TH MD).
+ REPLICA #004 : SCF CONVERGED (  65-TH MD).
+ REPLICA #005 : SCF CONVERGED (  71-ST MD).
+ *----------------------------------------------- CPU :         816.6454
+ REPLICA #001 : SCF CONVERGED (  77-TH MD).
+ REPLICA #002 : SCF CONVERGED (  65-TH MD).
+ REPLICA #003 : SCF CONVERGED (  51-ST MD).
+ REPLICA #004 : SCF CONVERGED (  66-TH MD).
+ REPLICA #005 : SCF CONVERGED (  72-ND MD).
+ *----------------------------------------------- CPU :         825.4634
+ REPLICA #001 : SCF CONVERGED (  78-TH MD).
+ REPLICA #002 : SCF CONVERGED (  66-TH MD).
+ REPLICA #003 : SCF CONVERGED (  52-ND MD).
+ REPLICA #004 : SCF CONVERGED (  67-TH MD).
+ REPLICA #005 : SCF CONVERGED (  73-RD MD).
+ *----------------------------------------------- CPU :         836.4406
+ REPLICA #001 : SCF CONVERGED (  79-TH MD).
+ REPLICA #002 : SCF CONVERGED (  67-TH MD).
+ REPLICA #003 : SCF CONVERGED (  54-TH MD).
+ REPLICA #004 : SCF CONVERGED (  68-TH MD).
+ REPLICA #005 : SCF CONVERGED (  74-TH MD).
+ *----------------------------------------------- CPU :         845.8381
+ REPLICA #001 : SCF CONVERGED (  80-TH MD).
+ REPLICA #002 : SCF CONVERGED (  68-TH MD).
+ REPLICA #003 : SCF CONVERGED (  55-TH MD).
+ REPLICA #004 : SCF CONVERGED (  69-TH MD).
+ REPLICA #005 : SCF CONVERGED (  75-TH MD).
+ *----------------------------------------------- CPU :         855.2983
+ REPLICA #001 : SCF CONVERGED (  81-ST MD).
+ REPLICA #002 : SCF CONVERGED (  69-TH MD).
+ REPLICA #003 : SCF CONVERGED (  56-TH MD).
+ REPLICA #004 : SCF CONVERGED (  70-TH MD).
+ REPLICA #005 : SCF CONVERGED (  76-TH MD).
+ *----------------------------------------------- CPU :         864.6642
+ REPLICA #001 : SCF CONVERGED (  82-ND MD).
+ REPLICA #002 : SCF CONVERGED (  70-TH MD).
+ REPLICA #003 : SCF CONVERGED (  58-TH MD).
+ REPLICA #004 : SCF CONVERGED (  71-ST MD).
+ REPLICA #005 : SCF CONVERGED (  77-TH MD).
+ *----------------------------------------------- CPU :         871.9023
+ REPLICA #001 : SCF CONVERGED (  83-RD MD).
+ REPLICA #002 : SCF CONVERGED (  71-ST MD).
+ REPLICA #003 : SCF CONVERGED (  59-TH MD).
+ REPLICA #004 : SCF CONVERGED (  72-ND MD).
+ REPLICA #005 : SCF CONVERGED (  78-TH MD).
+ *----------------------------------------------- CPU :         880.7761
+ REPLICA #001 : SCF CONVERGED (  84-TH MD).
+ REPLICA #002 : SCF CONVERGED (  72-ND MD).
+ REPLICA #003 : SCF CONVERGED (  60-TH MD).
+ REPLICA #004 : SCF CONVERGED (  73-RD MD).
+ REPLICA #005 : SCF CONVERGED (  79-TH MD).
+ *----------------------------------------------- CPU :         887.9754
+ REPLICA #001 : SCF CONVERGED (  85-TH MD).
+ REPLICA #002 : SCF CONVERGED (  73-RD MD).
+ REPLICA #003 : SCF CONVERGED (  62-ND MD).
+ REPLICA #004 : SCF CONVERGED (  74-TH MD).
+ REPLICA #005 : SCF CONVERGED (  80-TH MD).
+ *----------------------------------------------- CPU :         897.5651
+ REPLICA #001 : SCF CONVERGED (  86-TH MD).
+ REPLICA #002 : SCF CONVERGED (  74-TH MD).
+ REPLICA #003 : SCF CONVERGED (  63-RD MD).
+ REPLICA #004 : SCF CONVERGED (  75-TH MD).
+ REPLICA #005 : SCF CONVERGED (  81-ST MD).
+ *----------------------------------------------- CPU :         904.1628
+ REPLICA #001 : SCF CONVERGED (  87-TH MD).
+ REPLICA #002 : SCF CONVERGED (  75-TH MD).
+ REPLICA #003 : SCF CONVERGED (  64-TH MD).
+ REPLICA #004 : SCF CONVERGED (  76-TH MD).
+ REPLICA #005 : SCF CONVERGED (  82-ND MD).
+ *----------------------------------------------- CPU :         913.5162
+ REPLICA #001 : SCF CONVERGED (  88-TH MD).
+ REPLICA #002 : SCF CONVERGED (  76-TH MD).
+ REPLICA #003 : SCF CONVERGED (  66-TH MD).
+ REPLICA #004 : SCF CONVERGED (  77-TH MD).
+ REPLICA #005 : SCF CONVERGED (  83-RD MD).
+ *----------------------------------------------- CPU :         920.8240
+ REPLICA #001 : SCF CONVERGED (  89-TH MD).
+ REPLICA #002 : SCF CONVERGED (  77-TH MD).
+ REPLICA #003 : SCF CONVERGED (  67-TH MD).
+ REPLICA #004 : SCF CONVERGED (  78-TH MD).
+ REPLICA #005 : SCF CONVERGED (  84-TH MD).
+ *----------------------------------------------- CPU :         928.1124
+ REPLICA #001 : SCF CONVERGED (  90-TH MD).
+ REPLICA #002 : SCF CONVERGED (  77-TH MD).
+ REPLICA #003 : SCF CONVERGED (  69-TH MD).
+ REPLICA #004 : SCF CONVERGED (  78-TH MD).
+ REPLICA #005 : SCF CONVERGED (  84-TH MD).
+ *----------------------------------------------- CPU :         937.3927
+ REPLICA #001 : SCF CONVERGED (  91-ST MD).
+ REPLICA #002 : SCF CONVERGED (  78-TH MD).
+ REPLICA #003 : SCF CONVERGED (  71-ST MD).
+ REPLICA #004 : SCF CONVERGED (  79-TH MD).
+ REPLICA #005 : SCF CONVERGED (  86-TH MD).
+ *----------------------------------------------- CPU :         944.5270
+ REPLICA #001 : SCF CONVERGED (  92-ND MD).
+ REPLICA #002 : SCF CONVERGED (  79-TH MD).
+ REPLICA #003 : SCF CONVERGED (  72-ND MD).
+ REPLICA #004 : SCF CONVERGED (  80-TH MD).
+ REPLICA #005 : SCF CONVERGED (  87-TH MD).
+ *----------------------------------------------- CPU :         951.7742
+ REPLICA #001 : SCF CONVERGED (  93-RD MD).
+ REPLICA #002 : SCF CONVERGED (  80-TH MD).
+ REPLICA #003 : SCF CONVERGED (  73-RD MD).
+ REPLICA #004 : SCF CONVERGED (  81-ST MD).
+ REPLICA #005 : SCF CONVERGED (  88-TH MD).
+ *----------------------------------------------- CPU :         961.4525
+ REPLICA #001 : SCF CONVERGED (  94-TH MD).
+ REPLICA #002 : SCF CONVERGED (  81-ST MD).
+ REPLICA #003 : SCF CONVERGED (  75-TH MD).
+ REPLICA #004 : SCF CONVERGED (  82-ND MD).
+ REPLICA #005 : SCF CONVERGED (  89-TH MD).
+ *----------------------------------------------- CPU :         968.8122
+ REPLICA #001 : SCF CONVERGED (  95-TH MD).
+ REPLICA #002 : SCF CONVERGED (  82-ND MD).
+ REPLICA #003 : SCF CONVERGED (  77-TH MD).
+ REPLICA #004 : SCF CONVERGED (  83-RD MD).
+ REPLICA #005 : SCF CONVERGED (  90-TH MD).
+ *----------------------------------------------- CPU :         975.9824
+ REPLICA #001 : SCF CONVERGED (  96-TH MD).
+ REPLICA #002 : SCF CONVERGED (  83-RD MD).
+ REPLICA #003 : SCF CONVERGED (  78-TH MD).
+ REPLICA #004 : SCF CONVERGED (  84-TH MD).
+ REPLICA #005 : SCF CONVERGED (  91-ST MD).
+ *----------------------------------------------- CPU :         985.2883
+ REPLICA #001 : SCF CONVERGED (  97-TH MD).
+ REPLICA #002 : SCF CONVERGED (  84-TH MD).
+ REPLICA #003 : SCF CONVERGED (  80-TH MD).
+ REPLICA #004 : SCF CONVERGED (  85-TH MD).
+ REPLICA #005 : SCF CONVERGED (  92-ND MD).
+ *----------------------------------------------- CPU :         991.8671
+ REPLICA #001 : SCF CONVERGED (  98-TH MD).
+ REPLICA #002 : SCF CONVERGED (  85-TH MD).
+ REPLICA #003 : SCF CONVERGED (  81-ST MD).
+ REPLICA #004 : SCF CONVERGED (  85-TH MD).
+ REPLICA #005 : SCF CONVERGED (  93-RD MD).
+ *----------------------------------------------- CPU :        1000.3804
+ REPLICA #001 : SCF CONVERGED (  99-TH MD).
+ REPLICA #002 : SCF CONVERGED (  86-TH MD).
+ REPLICA #003 : SCF CONVERGED (  83-RD MD).
+ REPLICA #004 : SCF CONVERGED (  86-TH MD).
+ REPLICA #005 : SCF CONVERGED (  94-TH MD).
+ *----------------------------------------------- CPU :        1006.9739
+ REPLICA #001 : SCF CONVERGED ( 100-TH MD).
+ REPLICA #002 : SCF CONVERGED (  87-TH MD).
+ REPLICA #003 : SCF CONVERGED (  84-TH MD).
+ REPLICA #004 : SCF CONVERGED (  87-TH MD).
+ REPLICA #005 : SCF CONVERGED (  94-TH MD).
+ *----------------------------------------------- CPU :        1015.6534
+ REPLICA #001 : SCF CONVERGED ( 101-ST MD).
+ REPLICA #002 : SCF CONVERGED (  88-TH MD).
+ REPLICA #003 : SCF CONVERGED (  86-TH MD).
+ REPLICA #004 : SCF CONVERGED (  88-TH MD).
+ REPLICA #005 : SCF CONVERGED (  96-TH MD).
+ *----------------------------------------------- CPU :        1022.1910
+ REPLICA #001 : SCF CONVERGED ( 102-ND MD).
+ REPLICA #002 : SCF CONVERGED (  89-TH MD).
+ REPLICA #003 : SCF CONVERGED (  87-TH MD).
+ REPLICA #004 : SCF CONVERGED (  89-TH MD).
+ REPLICA #005 : SCF CONVERGED (  96-TH MD).
+ *----------------------------------------------- CPU :        1029.6846
+ REPLICA #001 : SCF CONVERGED ( 103-RD MD).
+ REPLICA #002 : SCF CONVERGED (  89-TH MD).
+ REPLICA #003 : SCF CONVERGED (  88-TH MD).
+ REPLICA #004 : SCF CONVERGED (  90-TH MD).
+ REPLICA #005 : SCF CONVERGED (  97-TH MD).
+ *----------------------------------------------- CPU :        1037.2760
+ REPLICA #001 : SCF CONVERGED ( 104-TH MD).
+ REPLICA #002 : SCF CONVERGED (  90-TH MD).
+ REPLICA #003 : SCF CONVERGED (  90-TH MD).
+ REPLICA #004 : SCF CONVERGED (  91-ST MD).
+ REPLICA #005 : SCF CONVERGED (  98-TH MD).
+ *----------------------------------------------- CPU :        1044.5043
+ REPLICA #001 : SCF CONVERGED ( 105-TH MD).
+ REPLICA #002 : SCF CONVERGED (  91-ST MD).
+ REPLICA #003 : SCF CONVERGED (  91-ST MD).
+ REPLICA #004 : SCF CONVERGED (  92-ND MD).
+ REPLICA #005 : SCF CONVERGED (  99-TH MD).
+ *----------------------------------------------- CPU :        1051.6345
+ REPLICA #001 : SCF CONVERGED ( 106-TH MD).
+ REPLICA #002 : SCF CONVERGED (  92-ND MD).
+ REPLICA #003 : SCF CONVERGED (  93-RD MD).
+ REPLICA #004 : SCF CONVERGED (  92-ND MD).
+ REPLICA #005 : SCF CONVERGED ( 100-TH MD).
+ *----------------------------------------------- CPU :        1058.1605
+ REPLICA #001 : SCF CONVERGED ( 107-TH MD).
+ REPLICA #002 : SCF CONVERGED (  93-RD MD).
+ REPLICA #003 : SCF CONVERGED (  94-TH MD).
+ REPLICA #004 : SCF CONVERGED (  93-RD MD).
+ REPLICA #005 : SCF CONVERGED ( 101-ST MD).
+ *----------------------------------------------- CPU :        1064.7522
+ REPLICA #001 : SCF CONVERGED ( 108-TH MD).
+ REPLICA #002 : SCF CONVERGED (  94-TH MD).
+ REPLICA #003 : SCF CONVERGED (  95-TH MD).
+ REPLICA #004 : SCF CONVERGED (  94-TH MD).
+ REPLICA #005 : SCF CONVERGED ( 102-ND MD).
+ *----------------------------------------------- CPU :        1071.8911
+ REPLICA #001 : SCF CONVERGED ( 109-TH MD).
+ REPLICA #002 : SCF CONVERGED (  95-TH MD).
+ REPLICA #003 : SCF CONVERGED (  96-TH MD).
+ REPLICA #004 : SCF CONVERGED (  95-TH MD).
+ REPLICA #005 : SCF CONVERGED ( 103-RD MD).
+ *----------------------------------------------- CPU :        1079.1832
+ REPLICA #001 : SCF CONVERGED ( 110-TH MD).
+ REPLICA #002 : SCF CONVERGED (  95-TH MD).
+ REPLICA #003 : SCF CONVERGED (  98-TH MD).
+ REPLICA #004 : SCF CONVERGED (  96-TH MD).
+ REPLICA #005 : SCF CONVERGED ( 104-TH MD).
+ *----------------------------------------------- CPU :        1085.6898
+ REPLICA #001 : SCF CONVERGED ( 111-ST MD).
+ REPLICA #002 : SCF CONVERGED (  96-TH MD).
+ REPLICA #003 : SCF CONVERGED (  99-TH MD).
+ REPLICA #004 : SCF CONVERGED (  96-TH MD).
+ REPLICA #005 : SCF CONVERGED ( 105-TH MD).
+ *----------------------------------------------- CPU :        1092.1605
+ REPLICA #001 : SCF CONVERGED ( 112-ND MD).
+ REPLICA #002 : SCF CONVERGED (  97-TH MD).
+ REPLICA #003 : SCF CONVERGED ( 100-TH MD).
+ REPLICA #004 : SCF CONVERGED (  97-TH MD).
+ REPLICA #005 : SCF CONVERGED ( 106-TH MD).
+ *----------------------------------------------- CPU :        1099.8070
+ REPLICA #001 : SCF CONVERGED ( 113-RD MD).
+ REPLICA #002 : SCF CONVERGED (  98-TH MD).
+ REPLICA #003 : SCF CONVERGED ( 102-ND MD).
+ REPLICA #004 : SCF CONVERGED (  98-TH MD).
+ REPLICA #005 : SCF CONVERGED ( 107-TH MD).
+ *----------------------------------------------- CPU :        1106.4286
+ REPLICA #001 : SCF CONVERGED ( 114-TH MD).
+ REPLICA #002 : SCF CONVERGED (  99-TH MD).
+ REPLICA #003 : SCF CONVERGED ( 103-RD MD).
+ REPLICA #004 : SCF CONVERGED (  99-TH MD).
+ REPLICA #005 : SCF CONVERGED ( 108-TH MD).
+ *----------------------------------------------- CPU :        1113.7820
+ REPLICA #001 : SCF CONVERGED ( 115-TH MD).
+ REPLICA #002 : SCF CONVERGED ( 100-TH MD).
+ REPLICA #003 : SCF CONVERGED ( 105-TH MD).
+ REPLICA #004 : SCF CONVERGED ( 100-TH MD).
+ REPLICA #005 : SCF CONVERGED ( 109-TH MD).
+ *----------------------------------------------- CPU :        1121.1061
+ REPLICA #001 : SCF CONVERGED ( 116-TH MD).
+ REPLICA #002 : SCF CONVERGED ( 101-ST MD).
+ REPLICA #003 : SCF CONVERGED ( 106-TH MD).
+ REPLICA #004 : SCF CONVERGED ( 101-ST MD).
+ REPLICA #005 : SCF CONVERGED ( 110-TH MD).
+ *----------------------------------------------- CPU :        1128.2878
+ REPLICA #001 : SCF CONVERGED ( 117-TH MD).
+ REPLICA #002 : SCF CONVERGED ( 101-ST MD).
+ REPLICA #003 : SCF CONVERGED ( 108-TH MD).
+ REPLICA #004 : SCF CONVERGED ( 102-ND MD).
+ REPLICA #005 : SCF CONVERGED ( 111-ST MD).
+ *----------------------------------------------- CPU :        1134.7847
+ REPLICA #001 : SCF CONVERGED ( 118-TH MD).
+ REPLICA #002 : SCF CONVERGED ( 102-ND MD).
+ REPLICA #003 : SCF CONVERGED ( 109-TH MD).
+ REPLICA #004 : SCF CONVERGED ( 102-ND MD).
+ REPLICA #005 : SCF CONVERGED ( 112-ND MD).
+ *----------------------------------------------- CPU :        1143.3527
+ REPLICA #001 : SCF CONVERGED ( 119-TH MD).
+ REPLICA #002 : SCF CONVERGED ( 103-RD MD).
+ REPLICA #003 : SCF CONVERGED ( 111-ST MD).
+ REPLICA #004 : SCF CONVERGED ( 103-RD MD).
+ REPLICA #005 : SCF CONVERGED ( 113-RD MD).
+ *----------------------------------------------- CPU :        1149.8730
+ REPLICA #001 : SCF CONVERGED ( 120-TH MD).
+ REPLICA #002 : SCF CONVERGED ( 104-TH MD).
+ REPLICA #003 : SCF CONVERGED ( 113-RD MD).
+ REPLICA #004 : SCF CONVERGED ( 104-TH MD).
+ REPLICA #005 : SCF CONVERGED ( 114-TH MD).
+ *----------------------------------------------- CPU :        1156.4138
+ REPLICA #001 : SCF CONVERGED ( 121-ST MD).
+ REPLICA #002 : SCF CONVERGED ( 105-TH MD).
+ REPLICA #003 : SCF CONVERGED ( 114-TH MD).
+ REPLICA #004 : SCF CONVERGED ( 105-TH MD).
+ REPLICA #005 : SCF CONVERGED ( 115-TH MD).
+ *----------------------------------------------- CPU :        1162.9547
+ REPLICA #001 : SCF CONVERGED ( 122-ND MD).
+ REPLICA #002 : SCF CONVERGED ( 106-TH MD).
+ REPLICA #003 : SCF CONVERGED ( 115-TH MD).
+ REPLICA #004 : SCF CONVERGED ( 106-TH MD).
+ REPLICA #005 : SCF CONVERGED ( 116-TH MD).
+ *----------------------------------------------- CPU :        1170.2230
+ REPLICA #001 : SCF CONVERGED ( 123-RD MD).
+ REPLICA #002 : SCF CONVERGED ( 107-TH MD).
+ REPLICA #003 : SCF CONVERGED ( 117-TH MD).
+ REPLICA #004 : SCF CONVERGED ( 107-TH MD).
+ REPLICA #005 : SCF CONVERGED ( 117-TH MD).
+ *----------------------------------------------- CPU :        1176.8203
+ REPLICA #001 : SCF CONVERGED ( 124-TH MD).
+ REPLICA #002 : SCF CONVERGED ( 108-TH MD).
+ REPLICA #003 : SCF CONVERGED ( 118-TH MD).
+ REPLICA #004 : SCF CONVERGED ( 108-TH MD).
+ REPLICA #005 : SCF CONVERGED ( 118-TH MD).
+ *----------------------------------------------- CPU :        1183.3734
+ REPLICA #001 : SCF CONVERGED ( 125-TH MD).
+ REPLICA #002 : SCF CONVERGED ( 108-TH MD).
+ REPLICA #003 : SCF CONVERGED ( 120-TH MD).
+ REPLICA #004 : SCF CONVERGED ( 108-TH MD).
+ REPLICA #005 : SCF CONVERGED ( 119-TH MD).
+ *----------------------------------------------- CPU :        1189.9099
+ REPLICA #001 : SCF CONVERGED ( 126-TH MD).
+ REPLICA #002 : SCF CONVERGED ( 109-TH MD).
+ REPLICA #003 : SCF CONVERGED ( 121-ST MD).
+ REPLICA #004 : SCF CONVERGED ( 109-TH MD).
+ REPLICA #005 : SCF CONVERGED ( 120-TH MD).
+ *----------------------------------------------- CPU :        1196.5458
+ REPLICA #001 : SCF CONVERGED ( 127-TH MD).
+ REPLICA #002 : SCF CONVERGED ( 110-TH MD).
+ REPLICA #003 : SCF CONVERGED ( 122-ND MD).
+ REPLICA #004 : SCF CONVERGED ( 110-TH MD).
+ REPLICA #005 : SCF CONVERGED ( 121-ST MD).
+ *----------------------------------------------- CPU :        1203.0858
+ REPLICA #001 : SCF CONVERGED ( 128-TH MD).
+ REPLICA #002 : SCF CONVERGED ( 111-ST MD).
+ REPLICA #003 : SCF CONVERGED ( 124-TH MD).
+ REPLICA #004 : SCF CONVERGED ( 111-ST MD).
+ REPLICA #005 : SCF CONVERGED ( 122-ND MD).
+ *----------------------------------------------- CPU :        1209.6094
+ REPLICA #001 : SCF CONVERGED ( 129-TH MD).
+ REPLICA #002 : SCF CONVERGED ( 112-ND MD).
+ REPLICA #003 : SCF CONVERGED ( 125-TH MD).
+ REPLICA #004 : SCF CONVERGED ( 112-ND MD).
+ REPLICA #005 : SCF CONVERGED ( 123-RD MD).
+ *----------------------------------------------- CPU :        1216.2024
+ REPLICA #001 : SCF CONVERGED ( 130-TH MD).
+ REPLICA #002 : SCF CONVERGED ( 113-RD MD).
+ REPLICA #003 : SCF CONVERGED ( 127-TH MD).
+ REPLICA #004 : SCF CONVERGED ( 113-RD MD).
+ REPLICA #005 : SCF CONVERGED ( 124-TH MD).
+ *----------------------------------------------- CPU :        1222.7826
+ REPLICA #001 : SCF CONVERGED ( 131-ST MD).
+ REPLICA #002 : SCF CONVERGED ( 113-RD MD).
+ REPLICA #003 : SCF CONVERGED ( 128-TH MD).
+ REPLICA #004 : SCF CONVERGED ( 113-RD MD).
+ REPLICA #005 : SCF CONVERGED ( 125-TH MD).
+ *----------------------------------------------- CPU :        1229.3544
+ REPLICA #001 : SCF CONVERGED ( 132-ND MD).
+ REPLICA #002 : SCF CONVERGED ( 114-TH MD).
+ REPLICA #003 : SCF CONVERGED ( 130-TH MD).
+ REPLICA #004 : SCF CONVERGED ( 114-TH MD).
+ REPLICA #005 : SCF CONVERGED ( 126-TH MD).
+ *----------------------------------------------- CPU :        1235.9219
+ REPLICA #001 : SCF CONVERGED ( 133-RD MD).
+ REPLICA #002 : SCF CONVERGED ( 115-TH MD).
+ REPLICA #003 : SCF CONVERGED ( 131-ST MD).
+ REPLICA #004 : SCF CONVERGED ( 115-TH MD).
+ REPLICA #005 : SCF CONVERGED ( 127-TH MD).
+ *----------------------------------------------- CPU :        1242.4568
+ REPLICA #001 : SCF CONVERGED ( 134-TH MD).
+ REPLICA #002 : SCF CONVERGED ( 116-TH MD).
+ REPLICA #003 : SCF CONVERGED ( 133-RD MD).
+ REPLICA #004 : SCF CONVERGED ( 116-TH MD).
+ REPLICA #005 : SCF CONVERGED ( 128-TH MD).
+ *----------------------------------------------- CPU :        1248.9889
+ REPLICA #001 : SCF CONVERGED ( 135-TH MD).
+ REPLICA #002 : SCF CONVERGED ( 117-TH MD).
+ REPLICA #003 : SCF CONVERGED ( 134-TH MD).
+ REPLICA #004 : SCF CONVERGED ( 117-TH MD).
+ REPLICA #005 : SCF CONVERGED ( 129-TH MD).
+ *----------------------------------------------- CPU :        1255.5682
+ REPLICA #001 : SCF CONVERGED ( 136-TH MD).
+ REPLICA #002 : SCF CONVERGED ( 118-TH MD).
+ REPLICA #003 : SCF CONVERGED ( 135-TH MD).
+ REPLICA #004 : SCF CONVERGED ( 117-TH MD).
+ REPLICA #005 : SCF CONVERGED ( 130-TH MD).
+ *----------------------------------------------- CPU :        1262.1039
+ REPLICA #001 : SCF CONVERGED ( 137-TH MD).
+ REPLICA #002 : SCF CONVERGED ( 118-TH MD).
+ REPLICA #003 : SCF CONVERGED ( 137-TH MD).
+ REPLICA #004 : SCF CONVERGED ( 118-TH MD).
+ REPLICA #005 : SCF CONVERGED ( 131-ST MD).
+ *----------------------------------------------- CPU :        1268.6890
+ REPLICA #001 : SCF CONVERGED ( 138-TH MD).
+ REPLICA #002 : SCF CONVERGED ( 119-TH MD).
+ REPLICA #003 : SCF CONVERGED ( 138-TH MD).
+ REPLICA #004 : SCF CONVERGED ( 119-TH MD).
+ REPLICA #005 : SCF CONVERGED ( 132-ND MD).
+ *----------------------------------------------- CPU :        1274.6134
+ REPLICA #001 : SCF CONVERGED ( 139-TH MD).
+ REPLICA #002 : SCF CONVERGED ( 120-TH MD).
+ REPLICA #003 : SCF CONVERGED ( 140-TH MD).
+ REPLICA #004 : SCF CONVERGED ( 120-TH MD).
+ REPLICA #005 : SCF CONVERGED ( 133-RD MD).
+ *----------------------------------------------- CPU :        1281.1353
+ REPLICA #001 : SCF CONVERGED ( 140-TH MD).
+ REPLICA #002 : SCF CONVERGED ( 121-ST MD).
+ REPLICA #003 : SCF CONVERGED ( 141-ST MD).
+ REPLICA #004 : SCF CONVERGED ( 121-ST MD).
+ REPLICA #005 : SCF CONVERGED ( 134-TH MD).
+ *----------------------------------------------- CPU :        1287.6978
+ REPLICA #001 : SCF CONVERGED ( 141-ST MD).
+ REPLICA #002 : SCF CONVERGED ( 122-ND MD).
+ REPLICA #003 : SCF CONVERGED ( 143-RD MD).
+ REPLICA #004 : SCF CONVERGED ( 121-ST MD).
+ REPLICA #005 : SCF CONVERGED ( 135-TH MD).
+ *----------------------------------------------- CPU :        1293.7203
+ REPLICA #001 : SCF CONVERGED ( 142-ND MD).
+ REPLICA #002 : SCF CONVERGED ( 123-RD MD).
+ REPLICA #003 : SCF CONVERGED ( 144-TH MD).
+ REPLICA #004 : SCF CONVERGED ( 122-ND MD).
+ REPLICA #005 : SCF CONVERGED ( 136-TH MD).
+ *----------------------------------------------- CPU :        1300.2125
+ REPLICA #001 : SCF CONVERGED ( 143-RD MD).
+ REPLICA #002 : SCF CONVERGED ( 123-RD MD).
+ REPLICA #003 : SCF CONVERGED ( 146-TH MD).
+ REPLICA #004 : SCF CONVERGED ( 123-RD MD).
+ REPLICA #005 : SCF CONVERGED ( 137-TH MD).
+ *----------------------------------------------- CPU :        1306.1544
+ REPLICA #001 : SCF CONVERGED ( 144-TH MD).
+ REPLICA #002 : SCF CONVERGED ( 124-TH MD).
+ REPLICA #003 : SCF CONVERGED ( 147-TH MD).
+ REPLICA #004 : SCF CONVERGED ( 124-TH MD).
+ REPLICA #005 : SCF CONVERGED ( 138-TH MD).
+ *----------------------------------------------- CPU :        1313.3872
+ REPLICA #001 : SCF CONVERGED ( 145-TH MD).
+ REPLICA #002 : SCF CONVERGED ( 125-TH MD).
+ REPLICA #003 : SCF CONVERGED ( 149-TH MD).
+ REPLICA #004 : SCF CONVERGED ( 125-TH MD).
+ REPLICA #005 : SCF CONVERGED ( 139-TH MD).
+ *----------------------------------------------- CPU :        1319.3799
+ REPLICA #001 : SCF CONVERGED ( 146-TH MD).
+ REPLICA #002 : SCF CONVERGED ( 126-TH MD).
+ REPLICA #003 : SCF CONVERGED ( 150-TH MD).
+ REPLICA #004 : SCF CONVERGED ( 125-TH MD).
+ REPLICA #005 : SCF CONVERGED ( 140-TH MD).
+ *----------------------------------------------- CPU :        1326.0492
+ REPLICA #001 : SCF CONVERGED ( 147-TH MD).
+ REPLICA #002 : SCF CONVERGED ( 127-TH MD).
+ REPLICA #003 : SCF CONVERGED ( 151-ST MD).
+ REPLICA #004 : SCF CONVERGED ( 126-TH MD).
+ REPLICA #005 : SCF CONVERGED ( 141-ST MD).
+ *----------------------------------------------- CPU :        1332.8297
+ REPLICA #001 : SCF CONVERGED ( 148-TH MD).
+ REPLICA #002 : SCF CONVERGED ( 128-TH MD).
+ REPLICA #003 : SCF CONVERGED ( 153-RD MD).
+ REPLICA #004 : SCF CONVERGED ( 127-TH MD).
+ REPLICA #005 : SCF CONVERGED ( 142-ND MD).
+ *----------------------------------------------- CPU :        1339.6440
+ REPLICA #001 : SCF CONVERGED ( 149-TH MD).
+ REPLICA #002 : SCF CONVERGED ( 129-TH MD).
+ REPLICA #003 : SCF CONVERGED ( 154-TH MD).
+ REPLICA #004 : SCF CONVERGED ( 128-TH MD).
+ REPLICA #005 : SCF CONVERGED ( 143-RD MD).
+ *----------------------------------------------- CPU :        1345.9039
+ REPLICA #001 : SCF CONVERGED ( 150-TH MD).
+ REPLICA #002 : SCF CONVERGED ( 129-TH MD).
+ REPLICA #003 : SCF CONVERGED ( 156-TH MD).
+ REPLICA #004 : SCF CONVERGED ( 129-TH MD).
+ REPLICA #005 : SCF CONVERGED ( 144-TH MD).
+ *----------------------------------------------- CPU :        1352.4541
+ REPLICA #001 : SCF CONVERGED ( 151-ST MD).
+ REPLICA #002 : SCF CONVERGED ( 130-TH MD).
+ REPLICA #003 : SCF CONVERGED ( 157-TH MD).
+ REPLICA #004 : SCF CONVERGED ( 130-TH MD).
+ REPLICA #005 : SCF CONVERGED ( 145-TH MD).
+ *----------------------------------------------- CPU :        1358.3748
+ REPLICA #001 : SCF CONVERGED ( 152-ND MD).
+ REPLICA #002 : SCF CONVERGED ( 131-ST MD).
+ REPLICA #003 : SCF CONVERGED ( 159-TH MD).
+ REPLICA #004 : SCF CONVERGED ( 130-TH MD).
+ REPLICA #005 : SCF CONVERGED ( 146-TH MD).
+ *----------------------------------------------- CPU :        1364.9602
+ REPLICA #001 : SCF CONVERGED ( 153-RD MD).
+ REPLICA #002 : SCF CONVERGED ( 132-ND MD).
+ REPLICA #003 : SCF CONVERGED ( 160-TH MD).
+ REPLICA #004 : SCF CONVERGED ( 131-ST MD).
+ REPLICA #005 : SCF CONVERGED ( 147-TH MD).
+ *----------------------------------------------- CPU :        1370.9359
+ REPLICA #001 : SCF CONVERGED ( 154-TH MD).
+ REPLICA #002 : SCF CONVERGED ( 133-RD MD).
+ REPLICA #003 : SCF CONVERGED ( 161-ST MD).
+ REPLICA #004 : SCF CONVERGED ( 132-ND MD).
+ REPLICA #005 : SCF CONVERGED ( 148-TH MD).
+ *----------------------------------------------- CPU :        1377.4758
+ REPLICA #001 : SCF CONVERGED ( 155-TH MD).
+ REPLICA #002 : SCF CONVERGED ( 134-TH MD).
+ REPLICA #003 : SCF CONVERGED ( 163-RD MD).
+ REPLICA #004 : SCF CONVERGED ( 133-RD MD).
+ REPLICA #005 : SCF CONVERGED ( 149-TH MD).
+ *----------------------------------------------- CPU :        1383.4160
+ REPLICA #001 : SCF CONVERGED ( 156-TH MD).
+ REPLICA #002 : SCF CONVERGED ( 135-TH MD).
+ REPLICA #003 : SCF CONVERGED ( 164-TH MD).
+ REPLICA #004 : SCF CONVERGED ( 133-RD MD).
+ REPLICA #005 : SCF CONVERGED ( 149-TH MD).
+ *----------------------------------------------- CPU :        1389.6129
+ REPLICA #001 : SCF CONVERGED ( 157-TH MD).
+ REPLICA #002 : SCF CONVERGED ( 135-TH MD).
+ REPLICA #003 : SCF CONVERGED ( 166-TH MD).
+ REPLICA #004 : SCF CONVERGED ( 134-TH MD).
+ REPLICA #005 : SCF CONVERGED ( 150-TH MD).
+ *----------------------------------------------- CPU :        1395.0653
+ REPLICA #001 : SCF CONVERGED ( 158-TH MD).
+ REPLICA #002 : SCF CONVERGED ( 136-TH MD).
+ REPLICA #003 : SCF CONVERGED ( 167-TH MD).
+ REPLICA #004 : SCF CONVERGED ( 135-TH MD).
+ REPLICA #005 : SCF CONVERGED ( 151-ST MD).
+ *----------------------------------------------- CPU :        1401.6482
+ REPLICA #001 : SCF CONVERGED ( 159-TH MD).
+ REPLICA #002 : SCF CONVERGED ( 137-TH MD).
+ REPLICA #003 : SCF CONVERGED ( 168-TH MD).
+ REPLICA #004 : SCF CONVERGED ( 136-TH MD).
+ REPLICA #005 : SCF CONVERGED ( 152-ND MD).
+ *----------------------------------------------- CPU :        1407.5830
+ REPLICA #001 : SCF CONVERGED ( 160-TH MD).
+ REPLICA #002 : SCF CONVERGED ( 138-TH MD).
+ REPLICA #003 : SCF CONVERGED ( 170-TH MD).
+ REPLICA #004 : SCF CONVERGED ( 136-TH MD).
+ REPLICA #005 : SCF CONVERGED ( 153-RD MD).
+ *----------------------------------------------- CPU :        1413.5571
+ REPLICA #001 : SCF CONVERGED ( 161-ST MD).
+ REPLICA #002 : SCF CONVERGED ( 138-TH MD).
+ REPLICA #003 : SCF CONVERGED ( 171-ST MD).
+ REPLICA #004 : SCF CONVERGED ( 137-TH MD).
+ REPLICA #005 : SCF CONVERGED ( 154-TH MD).
+ *----------------------------------------------- CPU :        1419.5321
+ REPLICA #001 : SCF CONVERGED ( 162-ND MD).
+ REPLICA #002 : SCF CONVERGED ( 139-TH MD).
+ REPLICA #003 : SCF CONVERGED ( 172-ND MD).
+ REPLICA #004 : SCF CONVERGED ( 138-TH MD).
+ REPLICA #005 : SCF CONVERGED ( 155-TH MD).
+ *----------------------------------------------- CPU :        1425.4904
+ REPLICA #001 : SCF CONVERGED ( 163-RD MD).
+ REPLICA #002 : SCF CONVERGED ( 140-TH MD).
+ REPLICA #003 : SCF CONVERGED ( 174-TH MD).
+ REPLICA #004 : SCF CONVERGED ( 139-TH MD).
+ REPLICA #005 : SCF CONVERGED ( 156-TH MD).
+ *----------------------------------------------- CPU :        1432.0432
+ REPLICA #001 : SCF CONVERGED ( 164-TH MD).
+ REPLICA #002 : SCF CONVERGED ( 141-ST MD).
+ REPLICA #003 : SCF CONVERGED ( 175-TH MD).
+ REPLICA #004 : SCF CONVERGED ( 140-TH MD).
+ REPLICA #005 : SCF CONVERGED ( 157-TH MD).
+ *----------------------------------------------- CPU :        1437.4711
+ REPLICA #001 : SCF CONVERGED ( 165-TH MD).
+ REPLICA #002 : SCF CONVERGED ( 142-ND MD).
+ REPLICA #003 : SCF CONVERGED ( 176-TH MD).
+ REPLICA #004 : SCF CONVERGED ( 141-ST MD).
+ REPLICA #005 : SCF CONVERGED ( 158-TH MD).
+ *----------------------------------------------- CPU :        1443.4611
+ REPLICA #001 : SCF CONVERGED ( 166-TH MD).
+ REPLICA #002 : SCF CONVERGED ( 143-RD MD).
+ REPLICA #003 : SCF CONVERGED ( 178-TH MD).
+ REPLICA #004 : SCF CONVERGED ( 142-ND MD).
+ REPLICA #005 : SCF CONVERGED ( 159-TH MD).
+ *----------------------------------------------- CPU :        1448.8031
+ REPLICA #001 : SCF CONVERGED ( 167-TH MD).
+ REPLICA #002 : SCF CONVERGED ( 143-RD MD).
+ REPLICA #003 : SCF CONVERGED ( 179-TH MD).
+ REPLICA #004 : SCF CONVERGED ( 142-ND MD).
+ REPLICA #005 : SCF CONVERGED ( 160-TH MD).
+ *----------------------------------------------- CPU :        1455.2881
+ REPLICA #001 : SCF CONVERGED ( 168-TH MD).
+ REPLICA #002 : SCF CONVERGED ( 144-TH MD).
+ REPLICA #003 : SCF CONVERGED ( 181-ST MD).
+ REPLICA #004 : SCF CONVERGED ( 143-RD MD).
+ REPLICA #005 : SCF CONVERGED ( 161-ST MD).
+ *----------------------------------------------- CPU :        1460.6522
+ REPLICA #001 : SCF CONVERGED ( 169-TH MD).
+ REPLICA #002 : SCF CONVERGED ( 145-TH MD).
+ REPLICA #003 : SCF CONVERGED ( 182-ND MD).
+ REPLICA #004 : SCF CONVERGED ( 144-TH MD).
+ REPLICA #005 : SCF CONVERGED ( 162-ND MD).
+ *----------------------------------------------- CPU :        1466.5988
+ REPLICA #001 : SCF CONVERGED ( 170-TH MD).
+ REPLICA #002 : SCF CONVERGED ( 146-TH MD).
+ REPLICA #003 : SCF CONVERGED ( 183-RD MD).
+ REPLICA #004 : SCF CONVERGED ( 144-TH MD).
+ REPLICA #005 : SCF CONVERGED ( 163-RD MD).
+ *----------------------------------------------- CPU :        1473.1282
+ REPLICA #001 : SCF CONVERGED ( 171-ST MD).
+ REPLICA #002 : SCF CONVERGED ( 147-TH MD).
+ REPLICA #003 : SCF CONVERGED ( 185-TH MD).
+ REPLICA #004 : SCF CONVERGED ( 145-TH MD).
+ REPLICA #005 : SCF CONVERGED ( 164-TH MD).
+ *----------------------------------------------- CPU :        1479.1338
+ REPLICA #001 : SCF CONVERGED ( 172-ND MD).
+ REPLICA #002 : SCF CONVERGED ( 148-TH MD).
+ REPLICA #003 : SCF CONVERGED ( 186-TH MD).
+ REPLICA #004 : SCF CONVERGED ( 146-TH MD).
+ REPLICA #005 : SCF CONVERGED ( 165-TH MD).
+ *----------------------------------------------- CPU :        1484.7480
+ REPLICA #001 : SCF CONVERGED ( 173-RD MD).
+ REPLICA #002 : SCF CONVERGED ( 148-TH MD).
+ REPLICA #003 : SCF CONVERGED ( 187-TH MD).
+ REPLICA #004 : SCF CONVERGED ( 147-TH MD).
+ REPLICA #005 : SCF CONVERGED ( 165-TH MD).
+ *----------------------------------------------- CPU :        1490.6846
+ REPLICA #001 : SCF CONVERGED ( 174-TH MD).
+ REPLICA #002 : SCF CONVERGED ( 149-TH MD).
+ REPLICA #003 : SCF CONVERGED ( 189-TH MD).
+ REPLICA #004 : SCF CONVERGED ( 148-TH MD).
+ REPLICA #005 : SCF CONVERGED ( 166-TH MD).
+ *----------------------------------------------- CPU :        1497.1956
+ REPLICA #001 : SCF CONVERGED ( 175-TH MD).
+ REPLICA #002 : SCF CONVERGED ( 150-TH MD).
+ REPLICA #003 : SCF CONVERGED ( 190-TH MD).
+ REPLICA #004 : SCF CONVERGED ( 149-TH MD).
+ REPLICA #005 : SCF CONVERGED ( 168-TH MD).
