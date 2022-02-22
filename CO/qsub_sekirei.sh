@@ -21,5 +21,5 @@ ln -fs $HOME/STATE/src/state/src/STATE
 ln -fs ../gncpp/pot.C_pbe1 fort.37
 ln -fs ../gncpp/pot.O_pbe1 fort.38
 
-mpijob ./STATE < nfinp_1 > nfout_1
+mpijob ./STATE < nfinp_scf > nfout_scf
 

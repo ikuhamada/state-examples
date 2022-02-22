@@ -1,8 +1,8 @@
-# H_2 + H
+# H<sub>2</sub> + H
 
 This example shows how to perform a nudged elastic band (NEB) calculation for a reaction path search.
 
-We consider a reaction: H_2 + H --> H + H__2.
+We consider a reaction: H<sub>2</sub> + H $rarr H + H<sub>2</sub>.
 
 ## Calculation of the initial and final states
 
