@@ -31,12 +31,12 @@ This creates input files (named nfinp.data) correspodning to the total 7 (6+1) i
 In a recent version of the STATE code, we mostly do what we call replica-parallel (or image-parallel) NEB, in which the calculatios are parallelized over the image. In the replica parallel NEB calculation, the number of images should be divisable by the number of cores to be used.
 In addition, we need the ``replica.cmd`` file as:
 
-   ASYNC
-   02
-   03
-   04
-   05
-   06
+    ASYNC
+    02
+    03
+    04
+    05
+    06
 
 in the ``replica.cmd`` file, first line specify if the images are syncronized or not (use ``ASYNC`` or ``NEB`` for the NEB calculation).
 In the following lines, the names of the subdirectories for the intermediate images are given (usually we do not include initial and final images).
