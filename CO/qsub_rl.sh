@@ -1,6 +1,6 @@
 #$ -S /bin/sh
 #$ -cwd
-#$ -q lr.q
+#$ -q rl.q
 #$ -pe smp 4
 #$ -N CO
  
