@@ -1,7 +1,7 @@
 #$ -S /bin/sh
 #$ -cwd
 #$ -q lr.q
-#$ -pe smp 6
+#$ -pe x6 6
 #$ -N GR
 
 # Disable OPENMP parallelism

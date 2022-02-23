@@ -1,7 +1,7 @@
 #$ -S /bin/sh
 #$ -cwd
 #$ -q rl.q
-#$ -pe smp 6
+#$ -pe x6 6
 #$ -N ClonAl100
 
 # Disable OPENMP parallelism
