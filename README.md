@@ -7,15 +7,11 @@ To run STATE, make symbolic links to the STATE executable and pseudopotentials i
 
     $ mpirun -np 4 ./STATE < input_file > output_file
 
-or with a queueing system, one may use a job script (say, qsub.sh) like
+or with a queueing system, one may use a job script (say, run.sh) like
 
-    #$ -S /bin/sh
-    #$ -cwd
-    #$ -q all.q
-    #$ -pe smp 4
-    #$ -N CO
+    #!/bin/sh
     #
-    setenv OMP_NUM_THREADS 1
+    export OMP_NUM_THREADS=1
     #
     # Set the executable of the STATE code
     #
@@ -28,11 +24,11 @@ or with a queueing system, one may use a job script (say, qsub.sh) like
     # 
     # Run!
     #
-    mpirun -np $NSLOTS ./STATE < nfinp_1 > nfout_1
+    mpiexec ./STATE < nfinp_1 > nfout_1
 
 and submit
 
-    $ qsub qsub.sh
+    $ submitjob -a STATE -i run.sh -n 1 -p 8 -w 1
 
 ## Examples
 
