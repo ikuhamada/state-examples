@@ -32,7 +32,7 @@ or with a queueing system, one may use a job script (say, qsub.sh) like
 
 and submit
 
-    $ qsub qsub.sh
+    qsub qsub.sh
 
 ## Examples
 
