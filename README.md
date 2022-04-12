@@ -28,7 +28,7 @@ or with a queueing system, one may use a job script (say, run.sh) like
 
 and submit
 
-    $ submitjob -a STATE -i run.sh -n 1 -p 8 -w 1
+    submitjob -a STATE -i run.sh -n 1 -p 8 -w 1
 
 ## Examples
 
