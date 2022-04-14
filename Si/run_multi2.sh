@@ -12,12 +12,13 @@ ln -fs ${HOME}/STATE/src/state/src/STATE .
 
 ln -fs ../gncpp/pot.Si_pbe1
  
-# Set the input/output file
+# Run a set of jobs
 
-INPUT_FILE=nfinp_scf
-OUTPUT_FILE=nfout_scf
+a_list='10.20 10.25 10.30 10.35 10.40 10.45 10.50'
 
-# Run!
-
+for a in ${a_list}
+do
+INPUT_FILE=nfinp_scf_${a}
+OUTPUT_FILE=nfout_scf_${a}
 mpiexec ./STATE < ${INPUT_FILE} > ${OUTPUT_FILE}
-
+done

@@ -1,16 +1,17 @@
 #!/bin/sh
-
-# Disable OpenMP parallelism
-
+ 
+# Disable the openMP parallelism
+ 
 export OMP_NUM_THREADS=1
-
+ 
 # Set the executable of the STATE code
 
 ln -fs ${HOME}/STATE/src/state/src/STATE .
-
+ 
 # Set the pseudopotential data
 
-ln -fs ../gncpp/pot.Si_pbe1
+ln -fs ../gncpp/pot.C_pbe1
+ln -fs ../gncpp/pot.O_pbe1
  
 # Set the input/output file
 
@@ -20,4 +21,3 @@ OUTPUT_FILE=nfout_scf
 # Run!
 
 mpiexec ./STATE < ${INPUT_FILE} > ${OUTPUT_FILE}
-
