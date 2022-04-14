@@ -4,7 +4,7 @@
 #$ -pe x6 6
 #$ -N GR
 
-# Disable OPENMP parallelism
+# Disable OpenMP parallelism
 
 export OMP_NUM_THREADS=1
 

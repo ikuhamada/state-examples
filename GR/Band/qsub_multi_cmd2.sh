@@ -4,9 +4,9 @@
 #$ -pe smp 4
 #$ -N GR
 
-# Disable OPENMP parallelism
+# Disable OpenMP parallelism
 
-setenv OMP_NUM_THREADS 1
+export OMP_NUM_THREADS=1
 
 # Set the executable of the STATE code
 
