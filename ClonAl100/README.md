@@ -1,6 +1,6 @@
 # ClonAl100
 
-This directory contains examples of the calculations of an adsorption system [ a Cl atom on al(100)] with periodic boundary condition (PBC) and effective screening medium (ESM) method
+This directory contains examples of the calculations of an adsorption system [a Cl atom on al(100)] with periodic boundary condition (PBC) and effective screening medium (ESM) method
 
 ## Files and directories
 
