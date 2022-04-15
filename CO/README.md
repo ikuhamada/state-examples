@@ -7,9 +7,9 @@ This directory contains an example of the SCF calculation of a carbon monoxide (
 - ``README.md`` : This file
 - ``nfinp_scf`` : Input file
 - ``run.sh`` : Job script
-- ``CO.xsf`` : an XSF file for the CO molecule
-- ``References/`` : The directory containing reference output file(s)
-- ``Scripts/`` : The directory containing job scripts for different platforms.
+- ``CO.xsf`` : XSF file for the CO molecule
+- ``References/`` : Directory containing reference output file(s)
+- ``Scripts/`` : Directory containing job scripts for different platforms.
 
 ## Execution
 
