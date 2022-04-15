@@ -5,7 +5,7 @@ This directory contains an example of the SCF calculation of a carbon monoxide (
 ## Files and directories
 
 - ``README.md`` : This file
-- ``nfinp_scf`` : Input file
+- ``nfinp_scf`` : Input file for the single point (SCF) calculation
 - ``run.sh`` : Job script
 - ``CO.xsf`` : XSF file for the CO molecule
 - ``References/`` : Directory containing reference output file(s)
