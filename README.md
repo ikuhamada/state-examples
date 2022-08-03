@@ -24,7 +24,7 @@ or with a queueing system, one may use a job script (say, run.sh) like
     # 
     # Run!
     #
-    sbatch ./STATE < nfinp_1 > nfout_1
+    mpiexec ./STATE < nfinp_1 > nfout_1
 
 and submit
 
