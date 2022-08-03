@@ -1,6 +1,5 @@
 #!/bin/sh
 
-
 # Disable OpenMP parallelism
 
 export OMP_NUM_THREADS=1
@@ -22,5 +21,5 @@ OUTPUT_FILE=nfout_qmd
 
 ulimit -s unlimited
 
-srun ./STATE < ${INPUT_FILE} > ${OUTPUT_FILE}
+sbatch ./STATE < ${INPUT_FILE} > ${OUTPUT_FILE}
 

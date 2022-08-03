@@ -20,5 +20,5 @@ OUTPUT_FILE=nfout_vib
  
 # Run!
 
-mpiexec ./STATE < ${INPUT_FILE} > ${OUTPUT_FILE}
+sbatch ./STATE < ${INPUT_FILE} > ${OUTPUT_FILE}
 

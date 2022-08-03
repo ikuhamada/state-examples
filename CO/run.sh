@@ -20,4 +20,4 @@ OUTPUT_FILE=nfout_scf
 
 # Run!
 
-mpiexec ./STATE < ${INPUT_FILE} > ${OUTPUT_FILE}
+sbatch ./STATE < ${INPUT_FILE} > ${OUTPUT_FILE}

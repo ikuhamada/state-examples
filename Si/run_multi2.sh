@@ -20,5 +20,5 @@ for a in ${a_list}
 do
 INPUT_FILE=nfinp_scf_${a}
 OUTPUT_FILE=nfout_scf_${a}
-mpiexec ./STATE < ${INPUT_FILE} > ${OUTPUT_FILE}
+sbatch ./STATE < ${INPUT_FILE} > ${OUTPUT_FILE}
 done

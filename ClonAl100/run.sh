@@ -25,4 +25,4 @@ fi
 
 # Run!
 
-mpiexec ./STATE < ${INPUT_FILE} > ${OUTPUT_FILE}
+sbatch ./STATE < ${INPUT_FILE} > ${OUTPUT_FILE}
