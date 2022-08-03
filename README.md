@@ -24,11 +24,11 @@ or with a queueing system, one may use a job script (say, run.sh) like
     # 
     # Run!
     #
-    mpiexec ./STATE < nfinp_1 > nfout_1
+    sbatch ./STATE < nfinp_1 > nfout_1
 
 and submit
 
-    submitjob -a STATE -i run.sh -n 1 -p 8 -w 1
+    sbatch run.sh
 
 ## Examples
 

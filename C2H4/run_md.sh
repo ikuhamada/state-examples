@@ -20,5 +20,5 @@ OUTPUT_FILE=nfout_nhc
  
 # Run!
 
-sbatch ./STATE < ${INPUT_FILE} > ${OUTPUT_FILE}
+mpiexec ./STATE < ${INPUT_FILE} > ${OUTPUT_FILE}
 

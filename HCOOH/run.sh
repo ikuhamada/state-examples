@@ -21,5 +21,5 @@ OUTPUT_FILE=nfout_qmd
 
 ulimit -s unlimited
 
-sbatch ./STATE < ${INPUT_FILE} > ${OUTPUT_FILE}
+mpiexec ./STATE < ${INPUT_FILE} > ${OUTPUT_FILE}
 
