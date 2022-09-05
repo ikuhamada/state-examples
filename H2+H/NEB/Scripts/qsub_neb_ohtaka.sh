@@ -1,6 +1,6 @@
 #!/bin/sh
 #SBATCH -J  H2+H
-#SBATCH -p  i8cpu
+#SBATCH -p  cmdinteractive
 #SBATCH -N  1
 #SBATCH -n  20
 #SBATCH -c  2
