@@ -12,7 +12,7 @@ module load intel_mkl/2020.4.304
 
 # Set the executable of the STATE code
 
-ln -fs ${HOME}/state/src/STATE
+ln -fs ${HOME}/STATE/src/state/src/STATE .
 
 # Set the pseudopotential data
 

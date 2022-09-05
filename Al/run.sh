@@ -8,7 +8,7 @@ module load intel_compiler/2020.4.304
 module load intel_mpi/2020.4.304
 module load intel_mkl/2020.4.304
 
-ln -fs ${HOME}/state/src/STATE
+ln -fs ${HOME}/STATE/src/state/src/STATE .
 
 ln -fs ../gncpp/pot.Al_pbe1
 
