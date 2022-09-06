@@ -1,10 +1,10 @@
 #!/bin/sh
 
 #SBATCH -J MoS2
-#SBATCH -p i8cpu
-#SBATCH -N 2
+#SBATCH -p cmd1cmd
+#SBATCH -N 1
 #SBATCH -n 128
-#SBATCH -c 2
+#SBATCH -c 1
 
 module load intel_mpi/2020.4.304
 module load intel_compiler/2020.4.304
