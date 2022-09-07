@@ -17,7 +17,7 @@ ln -fs ../gncpp/pot.Si_pbe1
 
 # Set the list of the lattice constants
 
-ALAT_LIST='10.10 10.15 10.20 10.25 10.30 10.35 10.40 10.45 10.50'
+ALAT_LIST='10.20 10.25 10.30 10.35 10.40 10.45 10.50'
  
 # Run!
 
