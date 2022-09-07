@@ -1,0 +1,42 @@
+ program polyfit version  0. 1
+ date : 07-09-2022
+
+  inputfile: standard input
+ outputfile: polyfit.out                             
+   datafile: etot.dat                                
+
+  6th order polynomial fitting
+
+ # of input data n=    11
+      6.00000000  -69.95942244
+      6.01000000  -69.95947775
+      6.02000000  -69.95951969
+      6.03000000  -69.95953174
+      6.04000000  -69.95953969
+      6.05000000  -69.95952684
+      6.06000000  -69.95949070
+      6.07000000  -69.95944336
+      6.08000000  -69.95937257
+      6.09000000  -69.95929300
+      6.10000000  -69.95919077
+
+ polyfit:
+ Order     Coeffcients
+     0   -111.75146291
+     1     23.53159440
+     2     -3.54026204
+     3     -0.22384205
+     4      0.09892602
+     5     -0.00729491
+     6      0.00010543
+
+ Chi-squared:   0.5546414703E-10
+
+
+ polymin:
+ Minimum(maximum) of the function
+ x0=       6.0363863647 y0=     -69.9595404689
+ dy0=       0.0000000001
+
+
+ polyfit ends successfully
