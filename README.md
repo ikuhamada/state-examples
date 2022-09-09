@@ -72,3 +72,7 @@ This example explains how to perform the SCF calculation of molecular system and
 
 ### TiO2
 This example shows how to perform a DFT+U calculation by using rutile (TiO2).
+
+### Si111-Al
+This example shows how to perform a calculation of an electrified surface/interface with the ESM method by using Si(111)(1x1)-Al. 
+
