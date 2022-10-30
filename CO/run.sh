@@ -1,14 +1,16 @@
 #!/bin/sh
-#SBATCH -J  CO
-#SBATCH -p  cmdinteractive
-#SBATCH -N  1
-#SBATCH -n  4
 
-# Load the modules
+#SBATCH --job-name=CO
+#SBATCH --partition=small
+#SBATCH --ntasks=4
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=4
+#SBATCH --output=%x.%j.out 
+#SBATCH --error=%x.%j.err
 
-module load intel_compiler/2020.4.304
-module load intel_mpi/2020.4.304
-module load intel_mkl/2020.4.304
+cd $SLURM_SUMBIT_DIR
+
+module load mpi
 
 # Set the executable of the STATE code
 
