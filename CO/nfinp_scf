@@ -7,9 +7,6 @@ NATM      2
 GMAX      5.50
 GMAXP     20.00
 NSCF      200
-WAYMIX    3
-KBXMIX    8
-MIX_ALPHA 0.8
 WIDTH     0.0010
 EDELTA    0.1000D-09
 NEG       8

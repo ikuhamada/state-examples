@@ -2,15 +2,15 @@
 
 #SBATCH --job-name=CO
 #SBATCH --partition=small
-#SBATCH --ntasks=4
+#SBATCH --ntasks=8
 #SBATCH --nodes=1
-#SBATCH --ntasks-per-node=4
+#SBATCH --ntasks-per-node=8
 #SBATCH --output=%x.%j.out 
 #SBATCH --error=%x.%j.err
 
-cd $SLURM_SUMBIT_DIR
-
 module load mpi
+
+export OMP_NUM_THREADS=1
 
 # Set the executable of the STATE code
 

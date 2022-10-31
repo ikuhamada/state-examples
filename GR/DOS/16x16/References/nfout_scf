@@ -10,23 +10,21 @@
  *                ***      **   **********   **    ******              *
  *                  **     **  **        **  **    **                  *
  *             ********    ** **          ** **    ********            *
- *              ******     ** VERSION 5.6.8  **    ********            *
+ *              ******     ** VERSION 5.6.10 **    ********            *
  *                               RICS-AIST                             *
  *                           OSAKA UNIVERSITY                          *
  *                                                                     *
  ***********************************************************************
  
- PROGRAM STATE STARTED AT: Feb 22  0:53:04 2021
+ PROGRAM STATE STARTED AT: Oct 31 15:59:57 2022
 
- THIS JOB RUNS ON         : c15u01n1                        
- THE CURRENT DIRECTORY IS : /home/k0472/k047203/STATE/examples/state-exa
- THE PROCESS ID IS        :    2388075
- THE JOB WAS SUBMITTED BY : k047203   
- THE NUMBER OF PROCESSORS :      8
- THE NUMBER OF THREADS    :      1
-
- GEOMETRY OPTIMIZATION BY QUENCHED MOLECULAR DYNAMICS 
-
+ THIS JOB RUNS ON         : hpc24.local                     
+ THE CURRENT DIRECTORY IS : /home/ikutaro.hamada/STATE/examples/GR/DOS/1
+ THE PROCESS ID IS        : 2299338
+ THE JOB WAS SUBMITTED BY : ikutaro.ha
+ THE NUMBER OF PROCESSORS : 8
+ THE NUMBER OF THREADS    : 1
+ 
  ELECTRONIC WAVEFUNCTIONS INITIALIZED 
  ELECTRONIC CHARGE INITIALIZED 
  IONIC POSITIONS READ FROM STANDARD INPUT 
@@ -36,9 +34,8 @@
  MAXIMUM ELAPSED CPU TIME :  86400.00 SEC
  TIME INCREMENT IN MOLECULAR DYNAMICS :     50.00 A.U.
  ENERGY CRITERION FOR SCF ITERATIONS :  0.100000E-11 HA/ATOM
- FORCE CRITERION FOR GEOMETRY OPTIMIZATOIN :  0.100000E+03 HA/BOHR
 
- EXCHANGE CORRELATION FUNCTIONALS : ggapbe
+ EXCHANGE CORRELATION FUNCTIONAL : ggapbe
  SPIN POLARIZATION NOT ALLOWED 
  NUMBER OF BANDS CONSIDERED :       24
  METHFESSEL-PAXTON SMEARING 
@@ -46,7 +43,7 @@
  DAVIDSON METHOD WITH G-SPACE TECHNIQUE 
  BROYDEN2 MIXING PARAMETERS 
    MIXING OBJECT : CHARGE 
-   MIXING INFORMATION RESET AFTER   20 STEPS
+   MIXING INFORMATION RESET AFTER 20 STEPS
    MIXING PARAMETER :  0.400
 
  ********************************** TYPE *******************************
@@ -271,7 +268,7 @@
  ggapbe                             : XCTYPE
   9.2800  3.6900  1.5222 -0.5222    : ALP CC
  1501    96.0000 60.0000            : NMESH XH RMAX
- VALL is read from file 37
+ VALL is read from unit 37
     1   1   0                       : IL ITAU(IL1) IVAN(IL1)
     2   2   1                       : IL ITAU(IL1) IVAN(IL1)
     3   1   0                       : IL ITAU(IL1) IVAN(IL1)
@@ -305,29 +302,29 @@
  ***********************************************************************
 
   NSCF NADR            ETOTAL          EDEL          CDEL CONV      TCPU
-     1    0      -10.06011217   0.10060E+02   0.16324E-01    0      2.29
-     2    1      -11.53872442   0.14786E+01   0.70568E-02    0      1.06
-     3    2      -11.56763442   0.28910E-01   0.32140E-02    1      1.06
+     1    0      -10.06011217   0.10060E+02   0.16324E-01    0      1.94
+     2    1      -11.53872442   0.14786E+01   0.70568E-02    0      1.05
+     3    2      -11.56763442   0.28910E-01   0.32140E-02    1      1.05
      4    3      -11.56992215   0.22877E-02   0.15210E-02    1      1.06
-     5    4      -11.57079026   0.86811E-03   0.67486E-03    2      1.07
+     5    4      -11.57079026   0.86811E-03   0.67486E-03    2      1.06
      6    5      -11.57103615   0.24589E-03   0.51604E-03    2      1.05
-     7    6      -11.57113038   0.94230E-04   0.36631E-03    2      1.07
-     8    7      -11.57122724   0.96860E-04   0.25201E-03    2      1.07
-     9    8      -11.57123591   0.86741E-05   0.20790E-03    2      1.06
-    10    9      -11.57124172   0.58083E-05   0.11619E-03    2      1.06
-    11   10      -11.57124824   0.65137E-05   0.10148E-03    2      1.06
-    12   11      -11.57125343   0.51945E-05   0.57777E-04    3      1.06
-    13   12      -11.57125874   0.53065E-05   0.18884E-04    3      1.05
-    14   13      -11.57125906   0.32171E-06   0.12650E-04    3      1.06
-    15   14      -11.57125946   0.40163E-06   0.42115E-05    3      1.06
-    16   15      -11.57125951   0.44996E-07   0.16508E-05    3      1.07
-    17   16      -11.57125951   0.94914E-08   0.10761E-05    3      1.07
-    18   17      -11.57125951   0.42062E-09   0.61746E-06    3      1.06
-    19   18      -11.57125952   0.10060E-08   0.10038E-06    3      1.06
-    20   19      -11.57125952   0.16698E-11   0.47132E-07    4      1.07
-    21   20      -11.57125952   0.29061E-11   0.26819E-07    4      1.07
-    22    1      -11.57125952   0.11298E-11   0.18289E-07    5      1.06
-    23    2      -11.57125952   0.54357E-12   0.58442E-08    6      1.07
+     7    6      -11.57113038   0.94230E-04   0.36631E-03    2      1.06
+     8    7      -11.57122724   0.96860E-04   0.25201E-03    2      1.06
+     9    8      -11.57123591   0.86741E-05   0.20790E-03    2      1.20
+    10    9      -11.57124172   0.58083E-05   0.11619E-03    2      1.24
+    11   10      -11.57124824   0.65137E-05   0.10148E-03    2      1.25
+    12   11      -11.57125343   0.51945E-05   0.57777E-04    3      1.24
+    13   12      -11.57125874   0.53065E-05   0.18884E-04    3      1.24
+    14   13      -11.57125906   0.32171E-06   0.12650E-04    3      1.25
+    15   14      -11.57125946   0.40163E-06   0.42115E-05    3      1.24
+    16   15      -11.57125951   0.44996E-07   0.16508E-05    3      1.24
+    17   16      -11.57125951   0.94914E-08   0.10761E-05    3      1.24
+    18   17      -11.57125951   0.42071E-09   0.61746E-06    3      1.24
+    19   18      -11.57125952   0.10061E-08   0.10038E-06    3      1.24
+    20   19      -11.57125952   0.16129E-11   0.47132E-07    4      1.25
+    21   20      -11.57125952   0.27960E-11   0.26819E-07    4      1.24
+    22    1      -11.57125952   0.11440E-11   0.18289E-07    5      1.24
+    23    2      -11.57125952   0.66791E-12   0.58442E-08    6      1.26
  
                                    TOTAL CHARGE DENSITY =      8.0000519
 
@@ -1516,11 +1513,11 @@
  
  QMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQMDQM
 
- MD ITERATION NR.      1:023          TOTAL CPU TIME =     28.25 SECONDS
+ MD ITERATION NR.      1:023          TOTAL CPU TIME =     32.94 SECONDS
 
                        CONVERGED ENERGY AND FORCES 
    NIT     TotalEnergy     f_max     f_rms      edel      vdel      fdel
-     1    -11.57125952  0.000001  0.000001  0.54D-12  0.58D-08  0.54D-12
+     1    -11.57125952  0.000001  0.000001  0.67D-12  0.58D-08  0.67D-12
 
     ATOM              COORDINATES                        FORCES
 MD:    1
@@ -1558,7 +1555,7 @@ CHGPRO:     5.3149      0.0000640866      0.0698214579      0.1261005723
 CHGPRO:     5.5117      0.0000443802      0.0749957814      0.1261702535
 CHGPRO:     5.7085      0.0000305777      0.0821253988      0.1261840530
 CHGPRO:     5.9054      0.0000210761      0.0862787794      0.1262270385
-CHGPRO:     6.1022      0.0000146732      0.0883227148      0.1262265409
+CHGPRO:     6.1022      0.0000146732      0.0883227147      0.1262265409
 CHGPRO:     6.2991      0.0000103002      0.0945329324      0.1262537273
 CHGPRO:     6.4959      0.0000072601      0.0976434777      0.1262490524
 CHGPRO:     6.6928      0.0000050650      0.1011706343      0.1262661539
@@ -1641,67 +1638,76 @@ CHGPRO:    18.7004      0.1567493163     -1.7718930843     -1.1579351490
  *                                                                     *
  ***********************************************************************
       SUBROUTINE        CALLS        TOTAL CPU TIME           <CPU TIME>
-             SCF            1               25.8181              25.8181
-          WF_Dav           24               23.4268               0.9761
-     WF_Dav_bare           24               23.4258               0.9761
-         fftw3c3        65130               11.7256               0.0002
-        dav_hphi         4680               11.2412               0.0024
-     diagonalize         4680                6.0660               0.0013
-         swffftx        28080                5.2691               0.0002
-        swffftx2        28080                5.0837               0.0002
-           kbint            1                2.1462               2.1462
-         dav_hij         4680                1.9231               0.0004
-          Chgfft           23                1.8155               0.0789
-          swffft         8970                1.6685               0.0002
-         dav_mgs         3120                1.6174               0.0005
-       dav_mgs_2         3120                1.4988               0.0005
-    dav_residual         3120                0.7627               0.0002
-      dav_nonloc         4680                0.5299               0.0001
- dav_refresh_phi         1560                0.3927               0.0003
-      xc_gga_chg           46                0.3589               0.0078
-    dav_nonloc_3        71856                0.2944               0.0000
-      dav_sumset         3120                0.2466               0.0001
-  dav_residual_1         3120                0.2428               0.0001
-    dav_sumset_1         3120                0.2047               0.0001
-    dav_nonloc_2        71856                0.1901               0.0000
-             Dos            2                0.1888               0.0944
- dav_band2g_hphi         4680                0.1777               0.0000
-      dav_precon         3120                0.1185               0.0000
-         Writing            1                0.1030               0.1030
-           pspot            1                0.0993               0.0993
-  dav_band2g_phi         1625                0.0921               0.0001
-       dav_mgs_1         3120                0.0773               0.0000
-         FFT_SET            1                0.0657               0.0657
-        swffftx1        28080                0.0552               0.0000
-      dav_grmsmd            1                0.0488               0.0488
-    dav_sumset_2         3120                0.0394               0.0000
-       dav_mgs_t           65                0.0384               0.0006
-       dav_mgs_3         3120                0.0371               0.0000
-    dav_copy_fsr         1560                0.0333               0.0000
+             SCF            1               28.8955              28.8955
+          WF_Dav           24               23.1396               0.9641
+     WF_Dav_bare           24               23.1383               0.9641
+        dav_hphi         4680               11.8868               0.0025
+         swffftx        28080                5.2325               0.0002
+         fftw3c3        65130                4.3907               0.0001
+           kbint            1                4.2000               4.2000
+          Chgfft           23                3.8848               0.1689
+     diagonalize         4680                1.9627               0.0004
+        swffftx2        28080                1.9262               0.0001
+         dav_mgs         3120                1.8169               0.0006
+          swffft         8970                1.6519               0.0002
+      dav_nonloc         4680                1.3720               0.0003
+      dav_precon         3120                1.2164               0.0004
+    dav_residual         3120                1.2094               0.0004
+ dav_band2g_hphi         4680                1.1729               0.0003
+             Dos            2                1.0826               0.5413
+       dav_mgs_2         3120                0.8732               0.0003
+    dav_nonloc_2        71856                0.8457               0.0000
+         dav_hij         4680                0.7801               0.0002
+       dav_mgs_1         3120                0.6637               0.0002
+  dav_residual_1         3120                0.6419               0.0002
+  dav_band2g_phi         1625                0.5296               0.0003
+      xc_gga_chg           46                0.5138               0.0112
+      dav_sumset         3120                0.4637               0.0001
+           pspot            1                0.4280               0.4280
+    dav_nonloc_3        71856                0.3865               0.0000
+           Force            1                0.3540               0.3540
+    dav_sumset_1         3120                0.3437               0.0001
+       dav_mgs_3         3120                0.2715               0.0001
+    Total Energy           23                0.2122               0.0092
+        swffftx1        28080                0.1523               0.0000
+ dav_refresh_phi         1560                0.1511               0.0001
+    dav_sumset_2         3120                0.1149               0.0000
+          fsrfsi            1                0.0978               0.0978
+           psloc            1                0.0958               0.0958
+    dav_nonloc_1         4680                0.0733               0.0000
+         Writing            1                0.0719               0.0719
+           fd_vq           23                0.0641               0.0028
+     fdchgq0_fft           23                0.0612               0.0027
+      dav_grmsmd            1                0.0580               0.0580
+    dav_copy_fsr         1560                0.0517               0.0000
+         FFT_SET            1                0.0458               0.0458
+   blugel_ishida           22                0.0446               0.0020
+   fdchgq0_fft_1           23                0.0386               0.0017
+       dav_mgs_t           65                0.0317               0.0005
  ***********************************************************************
 
  =======================================================================
  TASK                   CALLS        TOTAL CPU TIME           <CPU TIME>
- FFT SingleProc         65130               11.7458               0.0002
- FFT MPI                  551                0.1083               0.0002
- FFTW MPI1                 47                0.0074               0.0002
+ FFT SingleProc         65130                4.4286               0.0001
+ FFT MPI                  551                0.1180               0.0002
+ FFTW MPI1                 47                0.0055               0.0001
   
- ALLREDUCE               9135                0.0614               0.0000
- ALLREDUCE_G               75                0.0209               0.0003
+ ALLREDUCE               9135                0.0372               0.0000
+ ALLREDUCE_G               75                0.0113               0.0002
  ALLREDUCE_BG              24                0.0001               0.0000
- ALLREDUCE_K            23591                0.2184               0.0000
- ALLGATHERV                29                0.0061               0.0002
- ALLGATHERV_KG           4745                0.0329               0.0000
- ALLGATHERV_K            3120                0.0226               0.0000
- GATHERV                    2                0.0008               0.0004
- ALLTOALLV                310                0.0139               0.0000
- ALLTOALLV_KG           12805                0.2803               0.0000
- TOTAL TIME FOR COMMUNICATION                0.6576
+ ALLREDUCE_K            23591                0.2744               0.0000
+ ALLGATHERV                29                0.0038               0.0001
+ ALLGATHERV_KG           4745                0.0432               0.0000
+ ALLGATHERV_K            3120                0.0955               0.0000
+ GATHERV                    2                0.0001               0.0000
+ ALLTOALLV                310                0.0410               0.0001
+ ALLTOALLV_KG           12805                0.3306               0.0000
+ TOTAL TIME FOR COMMUNICATION                0.8371
  =======================================================================
 
- TOTAL CPU TIME:  00 HOURS 00 MINUTES 28.57 SECONDS
+ TOTAL CPU TIME:  00 HOURS 00 MINUTES 34.45 SECONDS
 
- PROGRAM STATE ENDED AT: Feb 22  0:53:33 2021
+ PROGRAM STATE ENDED AT: Oct 31 16:00:32 2022
   
  HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
  HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH

@@ -1,12 +1,16 @@
 #!/bin/sh
-#SBATCH -J  ClonAl100
-#SBATCH -p  cmdinteractive
-#SBATCH -N  1
-#SBATCH -n  16
 
-module load intel_compiler/2020.4.304
-module load intel_mpi/2020.4.304
-module load intel_mkl/2020.4.304
+#SBATCH --job-name=ClonAl100
+#SBATCH --partition=small
+#SBATCH --ntasks=8
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=8
+#SBATCH --output=%x.%j.out 
+#SBATCH --error=%x.%j.err
+
+module load mpi
+
+export OMP_NUM_THREADS=1
 
 ln -fs ${HOME}/STATE/src/state/src/STATE .
 
@@ -20,9 +24,15 @@ then
   rm -f gdiis.data
 fi
 
-srun ./STATE < nfinp_gdiis_pbc > nfout_gdiis_pbc
+INPUT_FILE=nfinp_gdiis_pbc
+OUTPUT_FILE=nfout_gdiis_pbc
+srun ./STATE < ${INPUT_FILE} > ${OUTPUT_FILE}
+
 mv gdiis.data gdiis.data_pbc
 
-srun ./STATE < nfinp_gdiis_esm > nfout_gdiis_esm
+INPUT_FILE=nfinp_gdiis_esm
+OUTPUT_FILE=nfout_gdiis_esm
+srun ./STATE < ${INPUT_FILE} > ${OUTPUT_FILE}
+
 mv gdiis.data gdiis.data_esm
 
