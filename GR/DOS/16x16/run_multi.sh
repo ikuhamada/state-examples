@@ -1,14 +1,14 @@
 #!/bin/sh
-#SBATCH -J  GR
-#SBATCH -p  i8cpu
-#SBATCH -N  1
-#SBATCH -n  4
 
-# Load the modules
+#SBATCH --job-name=GR
+#SBATCH --partition=small
+#SBATCH --ntasks=8
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=8
+#SBATCH --output=%x.%j.out
+#SBATCH --error=%x.%j.err
 
-module load intel_compiler/2020.2.254
-module load intel_mpi/2020.2.254
-module load intel_mkl/2020.2.254
+module load mpi mkl
 
 # Set the executable of the STATE code
 

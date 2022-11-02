@@ -8,7 +8,7 @@
 #SBATCH --output=%x.%j.out 
 #SBATCH --error=%x.%j.err
 
-module load mpi
+module load mpi mkl
 
 export OMP_NUM_THREADS=1
 

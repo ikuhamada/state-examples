@@ -1,14 +1,16 @@
 #!/bin/sh
-#SBATCH -J  GR
-#SBATCH -p  cmdinteractive
-#SBATCH -N  1
-#SBATCH -n  4
 
-# Load the modules
+#SBATCH --job-name=GR
+#SBATCH --partition=small
+#SBATCH --ntasks=8
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=8
+#SBATCH --output=%x.%j.out 
+#SBATCH --error=%x.%j.err
 
-module load intel_compiler/2020.4.304
-module load intel_mpi/2020.4.304
-module load intel_mkl/2020.4.304
+module load mpi mkl
+
+export OMP_NUM_THREADS=1
 
 # Set the executable of the STATE code
 
