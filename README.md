@@ -48,6 +48,9 @@ This example explains how to perform the SCF calculation of a metallic system us
 ### Ni
 This example explains how to perform the SCF calculation of a spin polarized system.
 
+### Fe
+This is yet another example to show how to perform the SCF calculation of a spin polarized bulk system.
+
 ### H2
 This example explains how to perform the structural optimization and vibrational mode analysis by using a molecular system.
 
