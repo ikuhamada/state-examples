@@ -48,6 +48,9 @@ This example explains how to perform the SCF calculation of a metallic system us
 ### Ni
 This example explains how to perform the SCF calculation of a spin polarized system.
 
+### Fe
+This is yet another example to show how to perform the SCF calculation of a spin polarized bulk system.
+
 ### Zn
 This example explains how to optimize a crystal structure with two or more lattice parameters.
 
