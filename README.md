@@ -5,9 +5,9 @@ the electronic structure method based on density functional theory.
 
 To run STATE, make symbolic links to the STATE executable and pseudopotentials in the working directory and execute, for instance: 
 
-    $ mpirun -np 4 ./STATE < input_file > output_file
+    mpirun -np 4 ./STATE < input_file > output_file
 
-or with a queueing system, one may use a job script (say, qsub.sh) like
+or with a queueing system, one may use a job script (say, ``run.sh``) like
 
     #$ -S /bin/sh
     #$ -cwd
