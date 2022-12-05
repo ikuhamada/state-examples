@@ -7,7 +7,7 @@ To run STATE, make symbolic links to the STATE executable and pseudopotentials i
 
     $ mpirun -np 4 ./STATE < input_file > output_file
 
-or with a queueing system, one may use a job script (say, qsub.sh) like
+or with a queueing system, one may use a job script (say, ``run.sh``) like
 
     #$ -S /bin/sh
     #$ -cwd
@@ -32,7 +32,7 @@ or with a queueing system, one may use a job script (say, qsub.sh) like
 
 and submit
 
-    qsub qsub.sh
+    qsub run.sh
 
 ## Examples
 
