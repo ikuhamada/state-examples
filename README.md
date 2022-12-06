@@ -79,3 +79,5 @@ This example explains how to optimize the lattice constant of a system with inte
 ### Si111-Al
 This example shows how to perform a calculation of an electrified surface/interface with the ESM method by using Si(111)(1x1)-Al. 
 
+### Ar2
+This example shows how the exchange-correlation functional used impact the binding energy of weakly interacting system by using Ar dimer.
