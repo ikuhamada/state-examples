@@ -1,0 +1,21 @@
+#
+# Ar dimer in a rectangular box
+#
+WF_OPT    DAV
+NTYP      1
+NATM      2
+GMAX      6.00
+GMAXP     12.00
+NSCF      200
+WIDTH     0.0010
+EDELTA    1.D-10
+NEG       24
+XCTYPE    rev-vdW-DF2
+CELL      20.0000  20.0000  30.0000  90.0000  90.0000  90.0000
+&ATOMIC_SPECIES
+ Ar  39.9480  pot.Ar_pbe1TM
+&END
+&ATOMIC_COORDINATES CARTESIAN
+  0.0000  0.0000  0.0000    1    1    1
+  0.0000  0.0000  7.5   1    1    1
+&END
