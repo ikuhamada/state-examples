@@ -1,0 +1,188 @@
+ 
+ ***********************************************************************
+ *                                                                     *
+ *                                                                     *
+ *                                                                     *
+ *              ******  ********    **    ******** ********            *
+ *             ******** ********   ****   ******** ********            *
+ *             **          **     **  **     **    **                  *
+ *              ***        **    ********    **    ******              *
+ *                ***      **   **********   **    ******              *
+ *                  **     **  **        **  **    **                  *
+ *             ********    ** **          ** **    ********            *
+ *              ******     ** VERSION 5.6.10 **    ********            *
+ *                               RICS-AIST                             *
+ *                           OSAKA UNIVERSITY                          *
+ *                                                                     *
+ ***********************************************************************
+ 
+ PROGRAM STATE STARTED AT: Nov 12  9:20:09 2022
+
+ THIS JOB RUNS ON         : hpc01.local                     
+ THE CURRENT DIRECTORY IS : /home/ikutaro.hamada/STATE/work/Ar2         
+ THE PROCESS ID IS        : 1931490
+ THE JOB WAS SUBMITTED BY : ikutaro.ha
+ THE NUMBER OF PROCESSORS : 16
+ THE NUMBER OF THREADS    : 1
+ 
+ ELECTRONIC WAVEFUNCTIONS INITIALIZED 
+ ELECTRONIC CHARGE INITIALIZED 
+ IONIC POSITIONS READ FROM STANDARD INPUT 
+ IONIC VELOCITIES INITIALIZED 
+ MAXIMUM SCF ITERATIONS :    200
+ MAXIMUM MD STEPS :    200
+ MAXIMUM ELAPSED CPU TIME :  86400.00 SEC
+ TIME INCREMENT IN MOLECULAR DYNAMICS :     50.00 A.U.
+ ENERGY CRITERION FOR SCF ITERATIONS :  0.100000E-09 HA/ATOM
+
+ EXCHANGE CORRELATION FUNCTIONAL : rev-vdw-df2
+ SPIN POLARIZATION NOT ALLOWED 
+ EFFICIENT IMPLEMENTATION OF VDW-DF:
+ ROMAN-PEREZ AND SOLER PRL 103, 096102 (2009).
+ WU AND GYGI JCP 136, 224107 (2012).
+ HAMAMOTO ET AL. PRB 93, 245440 (2016).
+ EXCHANGE FUNCTIONAL : b86r
+ NONLOCAL CORRELATION FUNCTIONAL : vdW-DF2
+ NUMBER OF BANDS CONSIDERED :       24
+ DAVIDSON METHOD WITH G-SPACE TECHNIQUE 
+ BLUGEL MIXING PARAMETERS 
+   MIXING OBJECT : CHARGE 
+   MIXING INFORMATION RESET AFTER 20 STEPS
+   MIXING PARAMETER :  0.700
+
+ ********************************** TYPE *******************************
+ TYPE  NAME  INITIAL CHARGE   MASS(AMU)     PP TYPE  ILOC   INITIAL SPIN
+    1    Ar          0.1500     39.9480   UltraSoft     3         0.0000
+ ***********************************************************************
+
+ ********************************* ATOMS *******************************
+   ATOM    X(BOHR)    Y(BOHR)    Z(BOHR)     TAUX    TAUY    TAUZ IW  IR
+   1  1    0.00000    0.00000    0.00000   0.0000  0.0000  0.0000  1   0
+   2  1    0.00000    0.00000    6.00000   0.0000  0.0000  0.2000  1   0
+ ***********************************************************************
+
+ ******************************** K-POINTS *****************************
+ BRAVIAS LATTICE         :        SIMPLE              
+ SPACE GROUP             :        P 1       
+ INVERSION SYMMETRY      :        NO 
+ CONV. LAT. VECTOR(BOHR) :       20.000000       0.000000       0.000000
+ CONV. LAT. VECTOR(BOHR) :        0.000000      20.000000       0.000000
+ CONV. LAT. VECTOR(BOHR) :        0.000000       0.000000      30.000000
+ PRIM. LAT. VECTOR(BOHR) :       20.000000       0.000000       0.000000
+ PRIM. LAT. VECTOR(BOHR) :        0.000000      20.000000       0.000000
+ PRIM. LAT. VECTOR(BOHR) :        0.000000       0.000000      30.000000
+ PRIM. CELL VOLUME       :    0.120000E+05
+ PRIM. REC. VECTOR(1/BOHR) :      0.314159       0.000000       0.000000
+ PRIM. REC. VECTOR(1/BOHR) :      0.000000       0.314159       0.000000
+ PRIM. REC. VECTOR(1/BOHR) :      0.000000       0.000000       0.209440
+ REC. PRIM. CELL VOLUME    :  0.206709E-01
+ ENERGY CUTOFF FOR SOFT MODE(RY) :  36.000
+ ENERGY CUTOFF FOR HARD MODE(RY) : 144.000
+ NUMBER OF K-POINT MESH  :               1              1              1
+ K-POINT SHIFT           :             OFF            OFF            OFF
+ NUMBER OF K-POINTS      :               1
+        NKP            WKP              KX             KY             KZ
+          1       1.000000        0.000000       0.000000       0.000000
+ ***********************************************************************
+ *I* TOTAL NUMBER OF DEGREES OF FREEDOM :     3
+     
+ NEIBRD =       1331
+ KID  KNX  KNY  KNZ  KNL  KNM  KNN  =   81   39   39   58   80   80  120
+ KIDP KNXP KNYP KNZP KNLP KNMP KNNP =   81   39   39   58   80   80  120
+ NUMBER OF GENERATED VECTORS KNG,KNGP =    350023    350023
+ KFFT KFFTP =    1555200   1555200
+ IOPT IOPTP =          0         0
+
+ ************************* SYMMETRY OPERATION **************************
+                   Rc              tc               Rp             tp
+         1.0000  0.0000  0.0000  0.0000   1.0000  0.0000  0.0000  0.0000
+ nr.  1  0.0000  1.0000  0.0000  0.0000   0.0000  1.0000  0.0000  0.0000
+         0.0000  0.0000  1.0000  0.0000   0.0000  0.0000  1.0000  0.0000
+ ***********************************************************************
+  
+           ===================================================
+           ===       MPI PARALLELIZATION INFORMATION       ===
+           ===================================================
+           === TOTAL NUMBER OF K-POINTS          :       1 ===
+           === K-POINT DIVISOR                   :       1 ===
+           === TOTAL NUMBER OF BANDS             :      24 ===
+           === BAND DIVISOR                      :      16 ===
+           === TOTAL NUMBER OF G-VECTORS         :   43697 ===
+           === G-VECTOR DIVISOR                  :       1 ===
+           ===================================================
+
+ ***********************************************************************
+                               ALLOCATION 
+ ***********************************************************************
+  NCPU  KNGP_FFT      KNGP       KNG     KNG1      KEG     KATM    KATM2
+     0     31931     21876     21876     2732        2        0        0
+     1     31075     21876     21876     2731        2        0        0
+     2     29203     21876     21876     2731        2        0        0
+     3     26427     21876     21876     2731        2        0        0
+     4     22635     21876     21876     2731        2        0        0
+     5     17943     21876     21876     2731        2        0        0
+     6     12227     21876     21876     2731        2        0        0
+     7      5603     21876     21876     2731        2        0        0
+     8       303     21876     21876     2731        1        0        0
+     9      5816     21877     21877     2731        1        0        0
+    10     14460     21877     21877     2731        1        0        0
+    11     21736     21877     21877     2731        1        0        0
+    12     27532     21877     21877     2731        1        0        0
+    13     31920     21877     21877     2731        1        0        0
+    14     34868     21877     21877     2731        1        1        1
+    15     36344     21877     21877     2731        1        1        1
+ -----------------------------------------------------------------------
+  NCPU    KFFTPM     KFFTP    KFFTP2     KFFT    KMESH     KNMP     KNNP
+     0     90720     97200     48600    97200       93        5        7
+     1     90720     97200     48600    97200       93        5        7
+     2     90720     97200     48600    97200       93        5        7
+     3     90720     97200     48600    97200       94        5        7
+     4     90720     97200     48600    97200       94        5        7
+     5     90720     97200     48600    97200       94        5        7
+     6     90720     97200     48600    97200       94        5        7
+     7     90720     97200     48600    97200       94        5        7
+     8    103680     97200     48600    97200       94        5        8
+     9    103680     97200     48600    97200       94        5        8
+    10    103680     97200     48600    97200       94        5        8
+    11    103680     97200     48600    97200       94        5        8
+    12    103680     97200     48600    97200       94        5        8
+    13    103680     97200     48600    97200       94        5        8
+    14    103680     97200     48600    97200       94        5        8
+    15    103680     97200     48600    97200       94        5        8
+ ***********************************************************************
+                            END OF ALLOCATION 
+ ***********************************************************************
+
+ ********   <<  Reading Potential >>  ******** 
+ F_POT(01) = pot.Ar_pbe1TM
+ 18.0000  8.0000  2      0          : NATOMN IVAL ILOC ITPCC
+ ggapbe                             : XCTYPE
+  3.9900  1.5900  1.3622 -0.3622    : ALP CC
+ 1501    96.0000 60.0000            : NMESH XH RMAX
+ VALL is read from unit 37
+    1   1   0                       : IL ITAU(IL1) IVAN(IL1)
+    2   1   0                       : IL ITAU(IL1) IVAN(IL1)
+    3   1   0                       : IL ITAU(IL1) IVAN(IL1)
+ TOTAL ENERGY CORRECTION FROM PS     =     0.2877945187D-02
+ TOTAL PARTIAL CHARGE         SCHGPC =         0.0000000000
+ TOTAL LOCALIZED CHARGE (QLCTOT)     =         0.0000000000
+ KQITG =     1
+ NUMBER OF BANDS SHOULD BE GREATER THAN 8
+ KLMT  =     6
+ KLMTT =     6
+ KLMTA =    12
+
+ ******************************* VDW-DF2 *******************************
+  QINI(Q1)               :   0.100000E-07
+  QCUT(QN)               :   0.100000E+02
+  NQS                    :   20
+  LAMBDA                 :   0.120000E+01
+  MCUT                   :   12
+ ***********************************************************************
+ ******************************** QMESH ********************************
+  0.00000  0.06462  0.14217  0.23523  0.34690  0.48091  0.64172  0.83468
+  1.06625  1.34412  1.67757  2.07771  2.55787  3.13407  3.82551  4.65524
+  5.65091  6.84571  8.27948 10.00000
+ ***********************************************************************
+
+ *F* PROGRAM STATE TERMINATED IN SUBROUTINE VDWDF_INIT - vdwdphi.dat NOT FOUND
