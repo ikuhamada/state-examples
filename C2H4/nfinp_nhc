@@ -1,5 +1,5 @@
 #
-# Ethylene molecule in a box: geometry optimization with the GDIIS method
+# Ethylene molecule in a box: finite temperature molecular dynamics
 #
 WF_OPT  DAV
 ION_DYN FTMD

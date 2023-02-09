@@ -1,5 +1,5 @@
 #
-# Ethylene molecule in a box: geometry optimization with the GDIIS method
+# Ethylene molecule in a box: vibrational mode analysis
 #
 TASK   VIB
 WF_OPT DAV
