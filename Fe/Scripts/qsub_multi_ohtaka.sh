@@ -16,6 +16,8 @@ JOB_LIST='scf band'
 
 EXEC=./STATE
 
+ln -fs ../gncpp/pot.Fe_pbe3
+
 ulimit -s unlimited
 
 for JOB in ${JOB_LIST}
