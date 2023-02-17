@@ -2,7 +2,7 @@
 #$ -cwd
 #$ -q all.q
 #$ -pe smp 4
-#$ -N Ni
+#$ -N Fe
 
 # Disable OPENMP parallelism
 
@@ -10,7 +10,7 @@ export OMP_NUM_THREADS=1
 
 # Set the executable of the STATE code
 
-ln -fs ${HOME}/STATE/src/state-5.6.12/src/STATE .
+ln -fs ${HOME}/STATE/src/state/src/STATE .
 
 # Set the pseudopotential data
 
