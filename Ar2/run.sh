@@ -16,7 +16,7 @@ ln -fs ${HOME}/STATE/src/state/src/STATE .
 
 ln -fs ../gncpp/pot.Ar_pbe1TM
 
-ln -fs ../gncpp/vdwdphi.dat_d01.1 vdwdphi.dat
+ln -fs ../gncpp/vdwdphi.dat_d0.1 vdwdphi.dat
  
 # Set the input/output file
 

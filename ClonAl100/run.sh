@@ -21,7 +21,13 @@ ln -fs ../gncpp/pot.Cl_pbe1
 
 INPUT_FILE=nfinp_gdiis_pbc
 OUTPUT_FILE=nfout_gdiis_pbc
- 
+
 # Run!
 
 mpirun -np $NSLOTS ./STATE < ${INPUT_FILE} > ${OUTPUT_FILE}
+
+if [ -e gdiis.data ];
+then
+  mv gdiis.data gdiis.data_save
+fi
+ 
