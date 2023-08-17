@@ -2,7 +2,7 @@
 #$ -cwd
 #$ -q all.q
 #$ -pe smp 4
-#$ -N C2H4
+#$ -N C2H4_VIB
 
 # Disable OPENMP parallelism
 
