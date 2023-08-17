@@ -1,23 +1,30 @@
 #!/bin/sh
+#SBATCH -J  Ar2
+#SBATCH -p  cmdinteractive
+#SBATCH -N  1
+#SBATCH -n  16
 
-#SBATCH --job-name=Ar2
-#SBATCH --partition=small
-#SBATCH --ntasks=16
-#SBATCH --nodes=1
-#SBATCH --ntasks-per-node=16
-#SBATCH --output=%x.%j.out 
-#SBATCH --error=%x.%j.err
+# Load modules
 
-module load mpi mkl
+module purge
+module load oneapi_compiler/2023.0.0
+module load oneapi_mkl/2023.0.0
+module load oneapi_mpi/2023.0.0
 
-export OMP_NUM_THREADS=1
+# Set this variable to use with OpenAPI and IntelMPI
+
+export FI_PROVIDER=psm3
+
+# Set the executable of the STATE code
 
 ln -fs ${HOME}/STATE/src/state/src/STATE
 
-ln -fs ${HOME}/STATE/gncpp/pot.Ar_pbe1TM
-#ln -fs ../gncpp/pot.Ar_pbe1TM
+# Set the pseudopotential data
 
-ln -fs ${HOME}/STATE/gncpp/vdwdphi.dat_d0.1 vdwdphi.dat
+ln -fs ../gncpp/pot.Ar_pbe1TM
+
+# Set the van der Waals kernel 
+
 ln -fs ../gncpp/vdwdphi.dat_d0.1 vdwdphi.dat
 
 INPUT_FILE=nfinp_ar2_scf_6.5

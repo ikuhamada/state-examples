@@ -1,26 +1,38 @@
 #!/bin/sh
+#SBATCH -J  Ar2
+#SBATCH -p  cmdinteractive
+#SBATCH -N  1
+#SBATCH -n  16
 
-#SBATCH --job-name=Ar2
-#SBATCH --partition=small
-#SBATCH --ntasks=16
-#SBATCH --nodes=1
-#SBATCH --ntasks-per-node=16
-#SBATCH --output=%x.%j.out 
-#SBATCH --error=%x.%j.err
+# Load modules
+module purge
+module load oneapi_compiler/2023.0.0
+module load oneapi_mkl/2023.0.0
+module load oneapi_mpi/2023.0.0
 
-module load mpi mkl
+# Set this variable to use with OpenAPI and IntelMPI
 
-export OMP_NUM_THREADS=1
+export FI_PROVIDER=psm3
+
+# Set the STATE executable
 
 ln -fs ${HOME}/STATE/src/state/src/STATE
 
-ln -fs ${HOME}/STATE/gncpp/pot.Ar_pbe1TM
-#ln -fs ../gncpp/pot.Ar_pbe1TM
+# Set the pseudopotentials
 
-ln -fs ${HOME}/STATE/gncpp/vdwdphi.dat_d0.1 vdwdphi.dat
+ln -fs ../gncpp/pot.Ar_pbe1TM
+
+# Set the van der Waals kernel
+
 ln -fs ../gncpp/vdwdphi.dat_d0.1 vdwdphi.dat
 
+# Run
+
+## Set the interatomic distances to calculate
+
 DIST_LIST='4.0 5.0 5.5 6.0 6.5 7.0 7.5 8.0 9.0 10.0 11.0 12.0'
+
+### Dimer calculations
 
 for DIST in ${DIST_LIST}
 do
@@ -54,6 +66,8 @@ EOF
 srun ./STATE < ${INPUT_FILE} > ${OUTPUT_FILE}
 
 done
+
+### Monomer calculation
 
 INPUT_FILE=nfinp_ar1_scf
 OUTPUT_FILE=nfout_ar1_scf
