@@ -10,9 +10,9 @@ export OMP_NUM_THREADS=1
 
 # Define the pseudopotential(s)
 
-pp1=pot.Si_lda1
+pp1=pot.Si_pbesol1
 
-A_LIST='10.00 10.05 10.10 10.15 10.20 10.25 10.30'
+A_LIST='10.15 10.20 10.25 10.30 10.35 10.40 10.45'
 
 ln -fs $HOME/STATE/src/state/src/STATE
 
@@ -39,7 +39,7 @@ KPOINT_MESH    8   8   8
 WIDTH     0.0002
 EDELTA    0.5000D-09
 NEG       8
-XCTYPE ldapw91
+XCTYPE pbesol
 CELL   ${A} ${A} ${A}  90.00  90.00  90.00
 VERBOSITY LOW
 &ATOMIC_SPECIES

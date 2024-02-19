@@ -1,0 +1,24 @@
+#
+# Crystalline silicon in the diamond structure
+#
+WF_OPT    DAV
+NTYP      1
+NATM      2
+TYPE      2
+NSPG      227
+GMAX      4.00
+GMAXP     8.00
+KPOINT_MESH    8   8   8
+WIDTH     0.0002
+EDELTA    0.5000D-09
+NEG       8
+XCTYPE pbesol
+CELL   10.40 10.40 10.40  90.00  90.00  90.00
+VERBOSITY LOW
+&ATOMIC_SPECIES
+ Si 28.0900 pot.Si_pbesol1
+&END
+&ATOMIC_COORDINATES CRYSTAL
+      0.000000000000      0.000000000000      0.000000000000    1    1    1
+      0.250000000000      0.250000000000      0.250000000000    1    1    1
+&END
