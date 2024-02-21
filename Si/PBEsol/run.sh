@@ -14,7 +14,7 @@ ln -fs ${HOME}/STATE/src/state/src/STATE .
 
 # Set the pseudopotential data
 
-ln -fs ../gncpp/pot.Si_pbe1
+ln -fs ../../gncpp/pot.Si_pbesol1
  
 # Set the input/output file
 
