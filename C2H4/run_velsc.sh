@@ -2,7 +2,7 @@
 #$ -cwd
 #$ -q all.q
 #$ -pe smp 4
-#$ -N C2H4_FTMD
+#$ -N C2H4_FTMD_VELSC
 
 # Disable OPENMP parallelism
 
@@ -19,8 +19,8 @@ ln -fs ../gncpp/pot.H_lda3
 
 # Set the input/output file
 
-INPUT_FILE=nfinp_nhc
-OUTPUT_FILE=nfout_nhc
+INPUT_FILE=nfinp_velsc
+OUTPUT_FILE=nfout_velsc
  
 # Run!
 
