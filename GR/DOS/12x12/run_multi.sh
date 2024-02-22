@@ -13,7 +13,7 @@ ln -fs ${HOME}/STATE/src/state/src/STATE .
 
 # Set the pseudopotential data
 
-ln -fs ${HOME}/STATE/gncpp/pot.C_pbe3
+ln -fs ../../../gncpp/pot.C_pbe3
  
 # Set the list of the tasks
 
