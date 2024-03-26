@@ -7,9 +7,13 @@
 
 # Load modules
 
-module load intel_compiler/2020.2.254
-module load intel_mpi/2020.2.254
-module load intel_mkl/2020.2.254
+module purge
+module load oneapi_compiler/2023.0.0
+module load oneapi_mkl/2023.0.0
+module load oneapi_mpi/2023.0.0
+
+ulimit -s unlimited
+export FI_PROVIDER=psm3
 
 # Set the executable of the STATE code
 
