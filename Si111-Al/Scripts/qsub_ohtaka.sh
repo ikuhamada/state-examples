@@ -6,9 +6,10 @@
 #SBATCH -c 4
 #SBATCH -t 00:30:00
 
-module load intel_mpi/2020.4.304
-module load intel_compiler/2020.4.304
-module load intel_mkl/2020.4.304
+module purge
+module load oneapi_compiler/2023.0.0
+module load oneapi_mkl/2023.0.0
+module load oneapi_mpi/2023.0.0
 
 # Set the executable of the STATE code
 

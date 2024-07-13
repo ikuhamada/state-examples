@@ -8,9 +8,10 @@
 #SBATCH -e ERR
 #SBATCH -o OUT
 
-module load intel_mpi/2020.4.304
-module load intel_compiler/2020.4.304
-module load intel_mkl/2020.4.304
+module purge
+module load oneapi_compiler/2023.0.0
+module load oneapi_mkl/2023.0.0
+module load oneapi_mpi/2023.0.0
 
 JOB_LIST='esm_bc3_chg-0.010 esm_bc3_chg-0.005 esm_bc3_chg+0.000 esm_bc3_chg+0.005 esm_bc3_chg+0.010 esm_bc2_chg-0.010 esm_bc2_chg+0.010 esm_bc2_ef-0.001 esm_bc2_ef+0.001'
 
