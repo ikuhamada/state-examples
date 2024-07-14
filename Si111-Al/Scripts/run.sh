@@ -13,11 +13,12 @@ module load oneapi_compiler/2023.0.0
 module load oneapi_mkl/2023.0.0
 module load oneapi_mpi/2023.0.0
 
+export FI_PROVIDER=psm3
+ulimit -s unlimited
+
 JOB_LIST='esm_bc1'
 
 EXEC=./STATE
-
-ulimit -s unlimited
 
 for JOB in ${JOB_LIST}
 do

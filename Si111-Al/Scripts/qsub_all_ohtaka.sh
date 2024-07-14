@@ -13,6 +13,9 @@ module load oneapi_compiler/2023.0.0
 module load oneapi_mkl/2023.0.0
 module load oneapi_mpi/2023.0.0
 
+export FI_PROVIDER=psm3
+ulimit -s unlimited
+
 # Set the executable of the STATE code
 
 ln -fs ${HOME}/STATE/src/state/src/STATE
