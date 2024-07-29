@@ -1,15 +1,18 @@
 #$ -S /bin/sh
 #$ -cwd
-#$ -q all.q
-#$ -pe smp 4
+#$ -q sb.q
+#$ -pe x6 6
 #$ -N Si
+
+module load intel/2021.2.0
+module load intelmpi/2021.2.0
 
 # Disable OPENMP parallelism
 
 export OMP_NUM_THREADS=1
 
 # Set the executable of the STATE code
-ln -fs ${HOME}/STATE/src/state/src/STATE .
+ln -fs ${HOME}/STATE/src/state-5.6.14/src/STATE .
 
 # Set the pseudopotential data
 

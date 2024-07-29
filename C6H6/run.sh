@@ -1,8 +1,11 @@
 #$ -S /bin/sh
 #$ -cwd
-#$ -q all.q
-#$ -pe smp 4
+#$ -q sb.q
+#$ -pe x6 6
 #$ -N C6H6
+
+module load intel/2021.2.0
+module load intelmpi/2021.2.0
 
 # Disable OPENMP parallelism
 
