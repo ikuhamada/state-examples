@@ -1,38 +1,46 @@
 # STATE examples
 
-Input examples for STATE, a plane-wave pseudopotential implementation of
-the electronic structure method based on density functional theory.
+Input examples for STATE, a plane-wave pseudopotential implementation of the electronic structure method based on density functional theory.
 
 To run STATE, make symbolic links to the STATE executable and pseudopotentials in the working directory and execute, for instance: 
 
-    $ mpirun -np 4 ./STATE < input_file > output_file
+```bash
+mpirun -np 6 ./STATE < input_file > output_file
+```
 
 or with a queueing system, one may use a job script (say, ``run.sh``) like
 
-    #$ -S /bin/sh
-    #$ -cwd
-    #$ -q all.q
-    #$ -pe smp 4
-    #$ -N CO
-    #
-    setenv OMP_NUM_THREADS 1
-    #
-    # Set the executable of the STATE code
-    #
-    ln -fs ${HOME}/STATE/src/state/src/STATE .
-    #
-    # Set the Pseudopotential data
-    #
-    ln -fs ${HOME}/STATE/gncpp/pot.C_pbe1
-    ln -fs ${HOME}/STATE/gncpp/pot.O_pbe1
-    # 
-    # Run!
-    #
-    mpirun -np $NSLOTS ./STATE < nfinp_1 > nfout_1
+```
+#$ -S /bin/sh
+#$ -cwd
+#$ -q sb.q
+#$ -pe x6 6
+#$ -N CO
+
+module load intel/2021.2.0
+module load intelmpi/2021.2.0
+ 
+setenv OMP_NUM_THREADS 1
+ 
+# Set the executable of the STATE code
+ 
+ln -fs ${HOME}/STATE/src/state/src/STATE .
+ 
+# Set the Pseudopotential data
+ 
+ln -fs ${HOME}/STATE/gncpp/pot.C_pbe1
+ln -fs ${HOME}/STATE/gncpp/pot.O_pbe1
+  
+# Run!
+ 
+mpirun -np $NSLOTS ./STATE < nfinp_1 > nfout_1
+```
 
 and submit
 
+```bash
     qsub run.sh
+```
 
 ## Examples
 
