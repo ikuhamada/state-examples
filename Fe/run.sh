@@ -1,19 +1,15 @@
-#$ -S /bin/sh
-#$ -cwd
-#$ -q sb.q
-#$ -pe x6 6
-#$ -N Fe
+#!/bin/bash
+#PBS -cwd
+#PBS -q xs2
+#PBS -l select=1:ncpus=8:ompthreads=1:mpiprocs=8
+#PBS -N Fe
 
 module load intel/2021.2.0
 module load intelmpi/2021.2.0
 
-# Disable OPENMP parallelism
-
-export OMP_NUM_THREADS=1
-
 # Set the executable of the STATE code
 
-ln -fs ${HOME}/STATE/src/state/src/STATE .
+ln -fs ${HOME}/STATE/src/state-5.6.17/src/STATE .
 
 # Set the pseudopotential data
 
