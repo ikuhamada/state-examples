@@ -3,8 +3,10 @@
 #PBS -l select=1:ncpus=8:ompthreads=1:mpiprocs=8
 #PBS -N Si
 
-module load intel/2021.2.0
-module load intelmpi/2021.2.0
+module load intel/2020.2.254
+module load intelmpi/2020.2.254
+
+cd $PBS_O_WORKDIR
 
 unset I_MPI_TCP_NETMASK
 
