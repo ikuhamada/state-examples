@@ -24,7 +24,7 @@ setenv OMP_NUM_THREADS 1
  
 # Set the executable of the STATE code
  
-ln -fs ${HOME}/STATE/src/state/src/STATE .
+ln -fs ${HOME}/STATE/src/state-5.6.17/src/STATE .
  
 # Set the Pseudopotential data
  
