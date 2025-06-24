@@ -32,7 +32,7 @@ ln -fs ${HOME}/STATE/gncpp/pot.O_pbe1
   
 # Run!
  
-mpirun -np $NSLOTS ./STATE < nfinp_1 > nfout_1
+mpirun ./STATE < nfinp_1 > nfout_1
 ```
 
 and submit
