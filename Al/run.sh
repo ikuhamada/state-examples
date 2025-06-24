@@ -1,5 +1,4 @@
 #!/bin/bash
-#PBS -cwd
 #PBS -q xs2
 #PBS -l select=1:ncpus=8:ompthreads=1:mpiprocs=8
 #PBS -N Al
