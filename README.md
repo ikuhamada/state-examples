@@ -5,22 +5,20 @@ Input examples for STATE, a plane-wave pseudopotential implementation of the ele
 To run STATE, make symbolic links to the STATE executable and pseudopotentials in the working directory and execute, for instance: 
 
 ```bash
-mpirun -np 6 ./STATE < input_file > output_file
+mpirun -np 6 ./STATE < [input_file] > [output_file]
 ```
 
 or with a queueing system, one may use a job script (say, ``run.sh``) like
 
 ```
-#$ -S /bin/sh
-#$ -cwd
-#$ -q sb.q
-#$ -pe x6 6
-#$ -N CO
+#!/bin/bash
+#PBS -cwd
+#PBS -q xs2
+#PBS -l select=1:ncpus=8:ompthreads=1:mpiprocs=8
+#PBS -N CO
 
 module load intel/2021.2.0
 module load intelmpi/2021.2.0
- 
-setenv OMP_NUM_THREADS 1
  
 # Set the executable of the STATE code
  
