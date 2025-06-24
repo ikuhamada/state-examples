@@ -24,4 +24,4 @@ OUTPUT_FILE=nfout_scf_ldapw91
  
 # Run!
 
-mpirun -np $NSLOTS ./STATE < ${INPUT_FILE} > ${OUTPUT_FILE}
+mpirun ./STATE < ${INPUT_FILE} > ${OUTPUT_FILE}

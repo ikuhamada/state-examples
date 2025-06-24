@@ -27,5 +27,5 @@ do
 INPUT_FILE=nfinp_scf_${ALAT}
 OUTPUT_FILE=nfout_scf_${ALAT}
 # launch STATE
-mpirun -np $NSLOTS ./STATE < ${INPUT_FILE} > ${OUTPUT_FILE}
+mpirun ./STATE < ${INPUT_FILE} > ${OUTPUT_FILE}
 done
