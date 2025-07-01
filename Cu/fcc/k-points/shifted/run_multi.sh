@@ -14,7 +14,7 @@ ln -fs ${HOME}/STATE/src/state-5.6.17/src/STATE .
 
 # Set the pseudopotential data
 
-ln -fs ../../../gncpp/pot.Cu_pbe1
+ln -fs ../../../../gncpp/pot.Cu_pbe1
 
 # Set a set of k-point meshes
 
@@ -37,6 +37,7 @@ NSPG   225
 GMAX    6.00
 GMAXP  20.00
 KPOINT_MESH  ${M}  ${M}  ${M}
+KPOINT_SHIFT ON    ON    ON
 MIX_ALPHA 0.3
 SMEARING  MP
 WIDTH  0.0020
