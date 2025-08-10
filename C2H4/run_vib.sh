@@ -14,6 +14,7 @@ module load oneapi_mpi/2023.0.0
 # Set this variable to use with OpenAPI and IntelMPI
 
 export FI_PROVIDER=psm3
+export MKL_NUM_THREADS=1
 
 # Set the STATE executable 
 
