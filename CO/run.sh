@@ -3,6 +3,7 @@
 #SBATCH -p  cmdinteractive
 #SBATCH -N  1
 #SBATCH -n  4
+#SBATCH -t 00:30:00
 
 # Load the modules
 

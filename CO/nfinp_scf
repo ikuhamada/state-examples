@@ -12,6 +12,7 @@ WIDTH     0.0010
 EDELTA    1.D-10
 NEG       8
 CELL      6.00  4.00  4.00  90.00  90.00  90.00
+CPUMAX    1700
 &ATOMIC_SPECIES
  C  12.011  pot.C_pbe1
  O  15.999  pot.O_pbe1
